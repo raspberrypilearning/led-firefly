@@ -10,15 +10,17 @@ Light the tiny LED that sits on the top of your Raspberry Pi Pico.
 </div>
 
 --- task ---
+
 Look at your Raspberry Pi Pico and find the small LED next to the USB connector. 
 
 ![A photo of the Raspberry Pi Pico with the LED highlighted](images/pico-led.jpg){:width="200px"}
 
 --- /task ---
 
-In the last step you installed the **picozero** library. This library allows you to program electronics components that are attached to a Raspberry Pi Pico. At the top of your code, you will need to import the items that you need from the **picozero** library. You will then enter some code to switch on the LED. 
+In the last step you installed the **picozero** library. This library allows you to program electronics components that are attached to a Raspberry Pi Pico. At the top of your code, you will need to import the items that you need from the **picozero** library.
 
 --- task ---
+
 Type the following code into the main editor pane in Thonny:
 
 --- code ---
@@ -55,9 +57,10 @@ Name your file 'firefly.py'.
 
 + Check that the small LED on the Raspberry Pi Pico turns on. 
 
-![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on.jpg)
+![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on.jpg){:width="200px"}
 
 **Debug:** 
+
 If you don't see a green play button (it is faded):
 + check that your Raspberry Pi Pico is connected to your computer
 
@@ -72,7 +75,7 @@ If you have fixed all of the errors in your code and the light doesn't come on:
 
 --- task ---
 
-Add code to the end of your script to sleep for one second and then turn the LED off. 
+Import `sleep` to allow you to pause your code. Add code to the end of your script to sleep for one second and then turn the LED off. 
 
 --- code ---
 ---
@@ -93,6 +96,7 @@ pico_led.off()
 --- /task ---
 
 --- task ---
+
 **Test:** Click the green flag. Thonny will save the file on your Raspberry Pi Pico and then run the new code. 
 
 Check that the LED turns on and then goes off again. Run your code as many times as you like. 
