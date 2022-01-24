@@ -97,7 +97,7 @@ pico_led.off()
 
 --- task ---
 
-**Test:** Click the green flag. Thonny will save the file on your Raspberry Pi Pico and then run the new code. 
+**Test:** Click the green play button. Thonny will save the file on your Raspberry Pi Pico and then run the new code. 
 
 Check that the LED turns on and then goes off again. Run your code as many times as you like. 
 
@@ -105,7 +105,7 @@ Check that the LED turns on and then goes off again. Run your code as many times
 
 **Debug:**
 
-If Thonny says "'sleep' isn't defined":
+If Thonny says `sleep isn't defined`:
 + Add the `from time import sleep` line. 
 
 --- /task ---
