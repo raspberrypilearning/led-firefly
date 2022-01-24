@@ -26,7 +26,7 @@ To complete this project you will need:
 **Software**
 + Thonny - this project can be completed using the Thonny Python editor which can be installed on a Linux, Windows or Mac computer.
 
-[[[thonny-install]]]
+
 
 <mark>add an ingredient that deals with changing the environment colours</mark>
 
