@@ -105,7 +105,7 @@ Check that the LED turns on and then goes off again. Run your code as many times
 
 **Debug:**
 
-If Thonny says `sleep isn't defined`:
+If Thonny says **sleep isn't defined**:
 + Add the `from time import sleep` line. 
 
 --- /task ---
