@@ -57,7 +57,7 @@ Name your file 'firefly.py'.
 
 + Check that the small LED on the Raspberry Pi Pico turns on. 
 
-![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on.jpg){:width="200px"}
+![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on.jpg){:width="300px"}
 
 **Debug:** 
 
