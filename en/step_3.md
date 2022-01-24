@@ -5,7 +5,7 @@
 Light the tiny LED that sits on the top of your Raspberry Pi Pico.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![A Raspberry Pi Pico with the on board LED switching on and then off.](images/led-on-off.gif){:width="300px"}
 </div>
 </div>
 
