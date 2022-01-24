@@ -12,7 +12,7 @@ Light the tiny LED that sits on the top of your Raspberry Pi Pico.
 --- task ---
 Look at your Raspberry Pi Pico and find the small LED next to the USB connector. 
 
-![A photo of the Raspberry Pi Pico with the LED highlighted](images/pico-led.jpg)
+![A photo of the Raspberry Pi Pico with the LED highlighted](images/pico-led.jpg){:width="200px"}
 
 --- /task ---
 
