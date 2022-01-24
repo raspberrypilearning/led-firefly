@@ -7,11 +7,12 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: Step title
+  - title: Set up MicroPython
+  - title: Light the Pico LED
     completion: engaged
-  - title: Step title
+  - title: Light an LED
     completion: internal
+  - title: Make it blink
   - title: Reflection
     knowledge_quiz:
       path: quiz1
