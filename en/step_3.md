@@ -16,7 +16,7 @@ Look at your Raspberry Pi Pico and find the small LED next to the USB connector.
 
 --- /task ---
 
-The **picozero** library allows you to program electronics components that are attached to a Raspberry Pi Pico. At the top of your code, you will need to import the items that you need from the **picozero** library. You will then enter some code to switch on the LED. 
+In the last step you installed the **picozero** library. This library allows you to program electronics components that are attached to a Raspberry Pi Pico. At the top of your code, you will need to import the items that you need from the **picozero** library. You will then enter some code to switch on the LED. 
 
 --- task ---
 Type the following code into the main editor pane in Thonny:
@@ -49,11 +49,13 @@ Name your file 'firefly.py'.
 
 --- task ---
 
-**Test:** Click the Play button (green triangle) to run your code on the Pico. 
+**Test:** Thonny has a green play button with a small white triangle inside it. Pressing this button allows you to run your code. 
 
-Check that the small LED on the Raspberry Pi Pico turns on. 
++ Press the play button.  
 
-![desc](images/path)
++ Check that the small LED on the Raspberry Pi Pico turns on. 
+
+![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on.jpg)
 
 **Debug:** 
 If you don't see a green play button (it is faded):
@@ -94,6 +96,8 @@ pico_led.off()
 **Test:** Click the green flag. Thonny will save the file on your Raspberry Pi Pico and then run the new code. 
 
 Check that the LED turns on and then goes off again. Run your code as many times as you like. 
+
+![A Raspberry Pi Pico with the on board LED switching on and then off.](images/led-on-off.gif){:width="300px"}
 
 **Debug:**
 
