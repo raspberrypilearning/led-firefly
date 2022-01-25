@@ -62,7 +62,10 @@ Name your file 'firefly.py'.
 **Debug:** 
 
 If you don't see a green play button (it is faded):
-+ check that your Raspberry Pi Pico is connected to your computer
++ click the red 'STOP' button
++ check that your Raspberry Pi Pico is connected to your computer with a USB cable
++ click on 'MicroPython (Raspberry Pi Pico)' at the bottom right of Thonny to reconnect
++ unplug your USB cable and then plug it back in
 
 If Thonny is saying that there is an error in your code:
 + check your code very carefully and make sure it matches the example.
