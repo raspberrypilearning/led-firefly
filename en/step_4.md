@@ -99,7 +99,7 @@ If your LED firefly does not light up:
 --- task ---
 **Optional:** Cut some wings out of sticky tape and stick them to your LED. Invisible tape works well. 
 
-![LED firefly with sticky tape wings](images/firefly-wings.png)
+![LED firefly with sticky tape wings](images/firefly-wings.jpg)
 --- /task ---
 
 --- save ---
