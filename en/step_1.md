@@ -2,6 +2,8 @@
 
 Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular pattern, just like fireflies in nature. Press a button to switch to the next pattern. 
 
+**Warning**: This project uses blinking lights. <mark>Add detailed warning text.</mark>
+
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with<span style="color: #0faeb0">electronics components</span> (such as buttons and lights).It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>.
 </p>

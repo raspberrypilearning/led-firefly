@@ -45,7 +45,7 @@ Choose 'File->Save As'. Thonny will ask whether you want to save the file on **T
 
 Name your file 'firefly.py'.
 
-![A screenshot of a window with two options. The user can either select 'This computer' or 'MicroPython' device.](images/save-on-device.png)
+![A screenshot of a window with two options. The user can either select 'This computer' or 'Raspberry Pi Pico' device.](images/save-on-device.png)
 
 --- /task ---
 
