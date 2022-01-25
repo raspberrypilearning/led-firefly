@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+Connect an LED and a resistor to your Raspberry Pi Pico using jumper wires. Add a button to switch it on and off.
 </div>
 <div>
 Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
@@ -11,7 +11,11 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 --- task ---
 
-Another step of tasks to complete.
+Attach an LED to a resistor and two socket-socket jumper wires.  
+
+[[[led-resistor-electrical-tape]]]
+
+[[[led-resistor-heatshrink]]]
 
 --- /task ---
 
