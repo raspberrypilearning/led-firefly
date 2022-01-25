@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Connect an LED and a resistor to your Raspberry Pi Pico using jumper wires. Add a button to switch it on and off.
+Connect and light an LED and a resistor to your Raspberry Pi Pico using jumper wires. 
 </div>
 <div>
 Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
