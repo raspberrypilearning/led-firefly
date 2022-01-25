@@ -20,12 +20,14 @@ To complete this project you will need:
 
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
-+ One yellow LED with a resistor attached to jumper wires with a socket connector
-+ One sheet of paper, red if you have it
-+ Kitchen foil 
-+ Sticky tape or duct tape
-+ 2 x pin-socket jumper wires
-+ Optionally, a blue LED and more jumper wires
++ 1 x yellow LED 
++ 1 x <mark>value<mark> resistor
++ 1 x pin-socket jumper wire
++ 3 x socket-socket jumper wire
+ 
++ Optional: Sticky tape, invisible tape works best
+
+You can prepare your LED <mark> make this a link </mark> in advance by attaching it to a resistor and jumper wires before starting the project. 
 
 **Software**
 
