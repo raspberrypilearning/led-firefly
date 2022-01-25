@@ -5,7 +5,7 @@
 Now you will make your firefly blink on and off like a real firefly. 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif){:width="300px"}
 </div>
 </div>
 
