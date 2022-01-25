@@ -15,7 +15,7 @@ Attach an LED to a resistor and two socket-socket jumper wires.
 
 [[[led-resistor-electrical-tape]]]
 
-[[[led-resistor-heatshrink]]]
+[led-resistor-heatshrink]
 
 --- /task ---
 
