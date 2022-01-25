@@ -10,7 +10,7 @@ steps:
   - title: Set up MicroPython
   - title: Light the Pico LED
     completion: engaged
-  - title: Light an LED
+  - title: Light an external LED
     completion: internal
   - title: Make it blink
   - title: Reflection
