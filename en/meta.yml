@@ -13,6 +13,7 @@ steps:
   - title: Light an external LED
     completion: internal
   - title: Make it blink
+  - title: Add a switch
   - title: Reflection
     knowledge_quiz:
       path: quiz1
