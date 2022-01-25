@@ -9,6 +9,7 @@ A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device
 </p>
 
 You will:
+
 + Explore a microcontroller and use one to make an embedded device
 + Connect electronics components to the Raspberry Pi Pico
 + Program the Pico to interact with electronics components using MicroPython and Thonny
@@ -16,6 +17,7 @@ You will:
 To complete this project you will need:
 
 **Hardware**
+
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
 + One yellow LED with a resistor attached to jumper wires with a socket connector
@@ -26,6 +28,7 @@ To complete this project you will need:
 + Optionally, a blue LED and more jumper wires
 
 **Software**
+
 + Thonny - this project can be completed using the Thonny Python editor which can be installed on a Linux, Windows or Mac computer.
 
 [[[thonny-install]]]
