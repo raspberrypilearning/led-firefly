@@ -16,7 +16,7 @@ To complete this project you will need:
 **Hardware**
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
-+ One red LED with a resistor attached to jumper wires with a socket connector
++ One yellow LED with a resistor attached to jumper wires with a socket connector
 + One sheet of paper, red if you have it
 + Kitchen foil 
 + Sticky tape or duct tape
