@@ -11,15 +11,16 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 --- task ---
 
+Change your code to make the firefly blink on and off in a `while True` loop. The timings represent the light patterns of a real firefly. 
 
---- /task ---
+Make sure that the code on lines 11-14 are indented. 
 
---- task ---
+**Tip:** In Thonny you can indent code by going to the beginning of the line and tapping the tab key, this will insert four spaces. Thonny will automatically indent code based on the previous line.
 
 --- code ---
 ---
 language: python
-filename: 
+filename: firefly.py
 line_numbers: true
 line_number_start: 8
 line_highlights: 9-14
@@ -30,8 +31,21 @@ while True:
     firefly.on()
     sleep(0.5)
     firefly.off()
-    sleep(2.3)
+    sleep(2.5)
 --- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code to see the firefly slowly blink on and off. 
+
+![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif)
+
+**Debug:**
+
++ Fix any errors in your code including indentation. 
++ Check that none of the connections to your LED Firefly have come lose. 
 
 --- /task ---
 
