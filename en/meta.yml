@@ -10,9 +10,9 @@ steps:
   - title: Set up MicroPython
   - title: Light the Pico LED
     completion: engaged
-  - title: Light an external LED
+  - title: Light your firefly
     completion: internal
-  - title: Make it blink
+  - title: Make your firefly blink
   - title: Add a switch
   - title: Reflection
     knowledge_quiz:

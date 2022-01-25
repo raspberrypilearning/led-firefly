@@ -1,4 +1,4 @@
-## Light an external LED
+## Light your firefly
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -16,6 +16,8 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 --- task ---
 
 Make sure that you have an LED connected to a resistor and two socket-socket jumper wires.  
+
+Fireflies are usually yellow, orange or green but you can choose any colour you like.
 
 [[[led-resistor-electrical-tape]]]
 
@@ -40,15 +42,21 @@ Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You w
 
 ![A diagram of the Raspberry Pi Pico with a yellow LED connected to GND and to GP14 through a resistor.](images/pico_led_14_bb.png)
  
-Connect the jumper wire that is attached to the positive leg of the LED (the one with the resistor) to pin **GP14**. Push it until the black plastic meets the base of the header and that it is secure. 
+Connect the jumper wire that is attached to the positive leg of the LED (the one with the resistor) to pin **GP13**. Push it until the black plastic meets the base of the header and that it is secure. 
 
 --- /task ---
-
---- task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 A <span style="color: #0faeb0">firefly</span> is a kind of beetle, also called a glowworm or lightning bug, which flashes using bioluminescence to identify themselves to other members of the same species. Different species flash in different patterns. 
 </p>
+
+--- task ---
+
+In the last step you used `pico_led` to light the LED on the Raspberry Pi Pico. If you want to add your own LEDs then you need to `import` LED from picozero. 
+
+Add `LED` to the end of the import list on **line 1**. Next, set your firefly LED to **GP13** and enter the code to switch it on. 
+
+Enter the code to light your firefly: 
 
 --- code ---
 ---
@@ -65,9 +73,8 @@ pico_led.on()
 sleep(1)
 pico_led.off()
 
-firefly = LED(14)
+firefly = LED(13)
 firefly.on()
-
 --- /code ---
 
 --- /task ---
@@ -75,9 +82,24 @@ firefly.on()
 --- task ---
 **Test** Run your code and your LED firefly should light up. 
 
+![Yellow LED attached to GP13 and lit up.](images/firefly-on.jpg)
+
 **Debug**:
 
-+ Check that your LED has the negative (shorter, flat) side attached to GND and the positive (longer )
+If your code isn't running:
++ Fix any errors in your code. The LED on the Raspberry Pi Pico will flash if your code runs successfully.
+
+If your LED firefly does not light up:
++ Check that your LED has the negative (shorter, flat) side attached to GND and the positive (longer, with resistor) side attached to GP13
++ Make sure that all joints are making a good connection. 
++ Try a different LED.
+
+--- /task ---
+
+--- task ---
+**Optional:** Cut some wings out of sticky tape and stick them to your LED. Invisible tape works well. 
+
+![LED firefly with sticky tape wings](images/firefly-wings.png)
 --- /task ---
 
 --- save ---
