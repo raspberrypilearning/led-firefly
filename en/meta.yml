@@ -1,6 +1,6 @@
-title: explore-project-template
+title: LED Firefly
 hero_image: images/banner.png
-description: explore-project-template description
+description: Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular pattern, just like fireflies in nature. 
 version: 4
 listed: false
 copyedit: false
