@@ -26,11 +26,11 @@ Make sure that you have an LED connected to a resistor and two socket-socket jum
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 A <span style="color: #0faeb0">resistor</span> controls the current that flows through a circuit. This protects the LED from burning out and will make it last longer. </p>
 
-A Raspberry Pi Pico has 40 pins on its board. Pins allow you to connect external components to the Raspberry Pi Pico.  
+A Raspberry Pi Pico has **40 pins** on its board. **Pins** allow you to connect external components to the Raspberry Pi Pico.  
 
 --- task ---
 
-Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You will notice that there are labels for each pin on the underneath side of the Raspberry Pi Pico. 
+Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You will notice that there are labels for each pin on the **underneath** side of the Raspberry Pi Pico. 
 
 ![Photo of the Raspberry Pi Pico from underneath with GP 13 highlighted](images/gp13-pico.png)
 
