@@ -22,7 +22,7 @@ You could upgrade your project by:
 title: Completed project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
+You can view the [completed project here](https://rpf.io/p/en/led-firefly-get){:target="_blank"}.
 
 --- /collapse ---
 
