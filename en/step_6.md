@@ -35,6 +35,10 @@ Connect one jumper wire to **GP18** and the other to **GND**. It doesn't matter 
 
 --- task ---
 
+To add switches, you need to `import` Switch from picozero. 
+
+Add `, Switch` to the end of the import list on **line 1**. Next, set your `switch` to **GP18**.
+
 --- code ---
 ---
 language: python
@@ -43,7 +47,7 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 1, 9
 ---
-from picozero import pico_led, LED, Button
+from picozero import pico_led, LED, Switch
 from time import sleep
 
 pico_led.on()
@@ -51,13 +55,17 @@ sleep(1)
 pico_led.off()
 
 firefly = LED(13)
-switch = Button(18)
+switch = Switch(18)
 
 --- /code ---
 
 --- /task ---
 
+When you connect the two jumper wires together this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed. You can used `is_closed` on your `switch` to check if the switch is closed (the jumpers are connected).
+
 --- task ---
+
+Now add code to check if your switch `is_closed` (connected) and only blink the firefly if it is closed.
 
 --- code ---
 ---
@@ -67,10 +75,10 @@ line_numbers: true
 line_number_start: 9
 line_highlights: 12-19
 ---
-switch = Button(18)
+switch = Switch(18)
 
 while True:
-    if switch.value == True:
+    if switch.is_closed:
         firefly.on()
         sleep(0.5)
         firefly.off()
@@ -80,6 +88,38 @@ while True:
         sleep(0.1)
 --- /code ---
 
+--- /task ---
+
+--- task ---
+
+**Test:** Make sure the jumper wires are **not** connected. Run your code.
+
+--- collapse ---
+
+---
+title: What do you expect to happen when you run your code?
+---
+
+The jumper wires are not closed so the code in the `else` block will run. This means the firefly LED will stay off.
+
+--- /collapse ---
+
+Now connect the jumper wires together. 
+
+![The pin of one jumper wire connected to the socket of the other jumper wire.](images/connected-wires.jpg)
+
+Now the firefly should start to blink.
+
+![An animation of the LED firefly turning on when the jumper wires are connected.](images/firefly-switch.gif)
+
+Disconnect the jumper wires and the firefly should stop blinking. 
+
+--- /task ---
+
+**Note:** Disconnecting the jumper wires does not remove power from the firefly LED immediately. The firefly only turns off when the `firefly.off()` code runs. 
+
+--- task ---
+**Optional:** If you are in a group then you could try synchronising your fireflies by connecting your jumper wire switches at the same time. 
 --- /task ---
 
 --- save ---

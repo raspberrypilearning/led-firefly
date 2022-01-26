@@ -52,7 +52,7 @@ A <span style="color: #0faeb0">firefly</span> is a kind of beetle, also called a
 
 --- task ---
 
-Connect the jumper wire that is attached to the negative leg to the **GND** pin, below GP13. This completes the circuit, allowing electrical current to flow when instructed by your code.    
+Connect the jumper wire that is attached to the negative leg to the **GND** (ground), below GP13. This completes the circuit, allowing electrical current to flow when instructed by your code.    
 
 --- /task ---
 
@@ -61,7 +61,7 @@ Connect the jumper wire that is attached to the negative leg to the **GND** pin,
 
 In the last step you used `pico_led` to light the LED on the Raspberry Pi Pico. If you want to add your own LEDs then you need to `import` LED from picozero. 
 
-Add `LED` to the end of the import list on **line 1**. Next, set your firefly LED to **GP13** and enter the code to switch it on. 
+Add `, LED` to the end of the import list on **line 1**. Next, set your firefly LED to **GP13** and enter the code to switch it on. 
 
 Enter the code to light your firefly: 
 
