@@ -41,7 +41,7 @@ pico_led.on()
 
 --- task ---
 
-Choose 'File->Save As'. Thonny will ask whether you want to save the file on **This computer** or the **MicroPython device**. Choose **MicroPython device** to save your code to the Raspberry Pi Pico. 
+Choose 'File->Save As'. Thonny will ask whether you want to save the file on **This computer** or the **Raspberry Pi Pico**. Choose **Raspberry Pi Pico** to save your code to the Raspberry Pi Pico. 
 
 Name your file 'firefly.py'.
 
