@@ -61,7 +61,7 @@ switch = Switch(18)
 
 --- /task ---
 
-When you connect the two jumper wires together this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed. You can used `is_closed` on your `switch` to check if the switch is closed (the jumpers are connected).
+When you connect the two jumper wires together this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed. You can use `is_closed` on your `switch` to check if the switch is closed (the jumpers are connected).
 
 --- task ---
 
@@ -82,7 +82,7 @@ while True:
         firefly.on()
         sleep(0.5)
         firefly.off()
-        sleep(2.3)
+        sleep(2.5)
     else:
         firefly.off()
         sleep(0.1)

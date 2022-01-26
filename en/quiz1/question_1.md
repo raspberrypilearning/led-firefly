@@ -1,6 +1,6 @@
 ## Reflection
 
-Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+Wow, look what you just did! You made a firefly blink. Now its time to reflect on the skills that you have gained along the way. 
 
 Answer the three questions below to reflect on what you've learned.
 
@@ -21,25 +21,25 @@ The Raspberry Pi Pico is a small device that can be programmed to control electr
 - ( ) microprocessor
 
   --- feedback ---
-No, a Pico isn't a microprocessor - though it has one on it! A microprocessor is the chip which controls the logic on a controller or  computer - it's like the brains that does the calculations for a computer to operate.  
+Almost, a The Raspberry Pi Pico isn't a microprocessor - though it has one on it! A microprocessor is the chip which controls the logic on a controller or  computer - it's like the brains that does the calculations for a computer to operate.  
   --- /feedback ---
 
 - ( ) microcomputer
 
   --- feedback ---
-Not quite - a microcomputer is a small device that runs code and can interact with electronics components, but it uses an operating system for user interaction. The pico doesn't have an operating system.
+Not quite - a microcomputer is a small device that runs code and can interact with electronics components, but it uses an operating system for user interaction. The Raspberry Pi Pico doesn't have an operating system.
   --- /feedback ---
 
 - (x) microcontroller
 
   --- feedback ---
-Yes! The pico is a microcontroller - it runs code and interacts with electronics components, but it doesn't have an operating system.
+Yes! The Raspberry Pi Pico is a **microcontroller** - it runs code and interacts with electronics components, but it doesn't have an operating system.
   --- /feedback ---
 
 - ( ) microchip
 
   --- feedback ---
-No, a microchip is a tiny circuit made up of things called transistors that is attached to a single chip. They are very basic circuits, but lots of them together can make a processor. 
+Almost, a microchip is a tiny circuit made up of things called transistors that is attached to a single chip. They are very basic circuits, but lots of them together can make a processor. 
   --- /feedback ---
 
 --- /choices ---

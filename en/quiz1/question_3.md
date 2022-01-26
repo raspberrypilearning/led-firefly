@@ -5,56 +5,52 @@
 legend: Question 3 of 3
 ---
 
-You code an LED to blink, turn on, turn off, then toggle. What state would the LED be in after the code has run?
+In your project, you coded a firefly LED and a switch made from two jumper wires. 
+
+The code below was used to make this happen. 
+
+When you run this code on your Raspberry Pi Pico, what happens when the jumper wires are connected to close the switch?
 
 --- code ---
 ---
 language: python
-filename: main.py
+filename: firefly.py
 line_numbers: false
-line_number_start: 
-line_highlights: 
 ---
-from picozero import LED
+firefly = LED(13)
+switch = Switch(18)
 
-led = LED(15)
-
-led.blink()
-
-led.on()
-led.off()
-
-led.toggle()
-
+while True:
+    if switch.is_closed:
+        firefly.on()
+        sleep(0.5)
+        firefly.off()
+        sleep(2.5)
+    else:
+        firefly.off()
+        sleep(0.1)
 --- /code ---
 --- choices ---
 
-- (x) On
-
-
-  --- feedback ---
-Yes! Since the last thing the LED did was turn off and then 'toggle' it would turn back on.  
-  --- /feedback ---
-
-- ( ) Off
-
+- ( ) The LED firefly will blink once and then turn off until you connect the switch again.
 
   --- feedback ---
-No. 'Toggle' means 'flip the switch' or to change state from the current one. Since the light bulb was off before it toggled... what would it be now?
-  --- /feedback ---
-
-- (x) There's no way to tell
-'Toggle' means 'flip the switch' or to change state from the current one. Since the light bulb was off before it toggled... what would it be now?
-
-  --- feedback ---
+Not quite, the code to blink the LED is in a while loop that keeps checking whether the switch is closed. 
 
   --- /feedback ---
 
-- ( ) 
+- ( ) The LED firefly will remain off.
 
 
   --- feedback ---
+Try again. If the switch is closed then the `switch.is_closed` condition will be true. This will run the block of code to blink the firefly. 
+  --- /feedback ---
 
+- (x) The LED firefly will blink on and off until you disconnect the switch.
+
+
+  --- feedback ---
+Well done! Your LED firefly will continue to blink for as long as the switch is closed. 
   --- /feedback ---
 
 --- /choices ---
