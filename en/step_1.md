@@ -2,7 +2,8 @@
 
 Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular pattern, just like fireflies in nature. Connect a switch to turn it on. 
 
-**Warning**: This project uses blinking lights. <mark>Add detailed warning text.</mark>
+<span style="color: #ff3103">Warning:</span> **This project uses blinking lights.** A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights. Even people who have never had seizures may have a condition they don't know about that can cause these **photosensitive epileptic seizures**.
+**If you experience any symptoms or feel unwell: immediately stop working, turn off your computer and consult a doctor.**
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with<span style="color: #0faeb0">electronics components</span> (such as buttons and lights).It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>.
@@ -21,7 +22,7 @@ To complete this project you will need:
 + A Raspberry Pi Pico with pin headers soldered on
 + A data USB A to micro USB cable
 + 1 x yellow LED 
-+ 1 x <mark>value<mark> resistor
++ 1 x 75Ω resistor
 + 1 x pin-socket jumper wire
 + 3 x socket-socket jumper wire
  
