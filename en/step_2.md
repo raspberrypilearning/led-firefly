@@ -9,6 +9,7 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 </div>
 </div>
 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 <span style="color: #0faeb0">MicroPython</span> is a version of the Python programming language for microcontrollers. MicroPython lets you use your Python knowledge to write code to interact with electronics components.</p>
 
 If you have never used MicroPython on your Raspberry Pi Pico, you will need to add the MicroPython firmware.
