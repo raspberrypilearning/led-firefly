@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, you can upgrade your firefly project. 
+If you have time, upgrade your firefly project. 
 </div>
 <div>
 ![](images/image.png){:width="300px"}
