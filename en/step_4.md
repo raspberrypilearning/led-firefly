@@ -40,7 +40,7 @@ Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You w
 
 --- task ---
 
-![A diagram of the Raspberry Pi Pico with a yellow LED connected to GND and to GP14 through a resistor.](images/pico_led_14_bb.png)
+![A diagram of the Raspberry Pi Pico with a yellow LED connected to GND and to GP14 through a resistor.](images/pico_led_13_bb.png)
  
 Connect the jumper wire that is attached to the positive leg of the LED (the one with the resistor) to pin **GP13**. Push it until the black plastic meets the base of the header and that it is secure. 
 
