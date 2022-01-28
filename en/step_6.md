@@ -12,10 +12,10 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 The Raspberry Pi Pico can detect when an input is connected between GND and one of the GP pins.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">switch</span> is a an electrical component that can be **closed** to allow electrical current to flow and **open** to prevent electrical current from flowing.</span>.
+A <span style="color: #0faeb0">switch</span> is a an electrical component that can be **closed** to allow electrical current to flow and **open** to prevent electrical current from flowing.
 </p> 
 
-The simplest kind of switch is two jumper wires that can be connected together to close the switch and separated to open the switch. 
+The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch. 
 
 --- task ---
 
@@ -35,9 +35,9 @@ Connect one jumper wire to **GP18** and the other to **GND**. It doesn't matter 
 
 --- task ---
 
-To add switches, you need to `import` Switch from picozero. 
+To add switches, you need to `import Switch` from the picozero library. 
 
-Add `, Switch` to the end of the import list on **line 1**. Next, set your `switch` to **GP18**.
+Add `, Switch` to the end of the import list on **line 1**. Next, set your `switch` to **GP18**:
 
 --- code ---
 ---
@@ -65,7 +65,7 @@ When you connect the two jumper wires together this completes a circuit and allo
 
 --- task ---
 
-Now add code to check if your switch `is_closed` (connected) and only blink the firefly if it is closed.
+Now add code to check if your switch `is_closed` (connected) and only blink the firefly if it is closed:
 
 --- code ---
 ---
@@ -100,7 +100,7 @@ while True:
 title: What do you expect to happen when you run your code?
 ---
 
-The jumper wires are not closed so the code in the `else` block will run. This means the firefly LED will stay off.
+The jumper wires are **not** closed so the code in the `else` block will run. This means the firefly LED will stay **off**.
 
 --- /collapse ---
 
@@ -116,7 +116,7 @@ Disconnect the jumper wires and the firefly should stop blinking.
 
 --- /task ---
 
-**Note:** Disconnecting the jumper wires does not remove power from the firefly LED immediately. The firefly only turns off when the `firefly.off()` code runs. 
+**Note:** Disconnecting the jumper wires will not stop power to the firefly LED immediately. The firefly only turns off when the `firefly.off()` code runs. 
 
 --- task ---
 **Optional:** If you are in a group then you could try synchronising your fireflies by connecting your jumper wire switches at the same time. 

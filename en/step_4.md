@@ -46,10 +46,6 @@ Connect the jumper wire that is attached to the positive leg of the LED (the one
 
 --- /task ---
 
-<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">firefly</span> is a kind of beetle, also called a glowworm or lightning bug, which flashes using bioluminescence to identify themselves to other members of the same species. Different species flash in different patterns. 
-</p>
-
 --- task ---
 
 Connect the jumper wire that is attached to the negative leg to the **GND** (ground), below GP13. This completes the circuit, allowing electrical current to flow when instructed by your code.    
