@@ -6,21 +6,21 @@ Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular patt
 **If you experience any symptoms or feel unwell: immediately stop working, turn off your computer and consult a doctor.**
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with<span style="color: #0faeb0">electronics components</span> (such as buttons and lights).It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>.
+A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with<span style="color: #0faeb0"> electronics components</span> (such as buttons and lights).It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>.
 </p>
 
 You will:
 
-+ Explore a microcontroller and use one to make an embedded device
-+ Connect electronics components to the Raspberry Pi Pico
-+ Program the Pico to interact with electronics components using MicroPython and Thonny
++ Explore a **microcontroller** and use one to make an embedded device
++ Connect electronics components to the **Raspberry Pi Pico**
++ Program the **microcontroller** to interact with electronics components using MicroPython and Thonny
 
 To complete this project you will need:
 
 **Hardware**
 
 + A Raspberry Pi Pico with pin headers soldered on
-+ A data USB A to micro USB cable
++ A **data** USB A to micro USB cable
 + 1 x yellow LED 
 + 1 x 75Ω resistor
 + 1 x pin-socket jumper wire
@@ -43,15 +43,11 @@ An <span style="color: #0faeb0">embedded device</span> often contains a microcon
 
 --- no-print ---
 --- task ---
-### Try it
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+  
 This example shows an LED blinking to mimic a real firefly! Can you spot the repeating pattern in the flashes? 
-</div>
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
-</div>
-</div>
+
+![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif){:width="300px"}
+
 --- /task ---
 --- /no-print ---
 
