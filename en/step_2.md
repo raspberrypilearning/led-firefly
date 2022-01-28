@@ -4,9 +4,6 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Set up MicroPython so that you can program your Raspberry Pi Pico.
 </div>
-<div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
-</div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
@@ -16,11 +13,17 @@ If you have never used MicroPython on your Raspberry Pi Pico, you will need to a
 
 [[[add-micropython-firmware]]] 
 
-If you are not sure whether you have the firmware installed or you cannot connect, click on the list in the bottom right of your Thonny window. A popup menu will appear listing the available interpreters. [A popup menu showing an option saying configure interpreter](images/no-pico-interpreter.png) If you cannot see the Pico in the list, you will need to reconnect your Raspberry Pi Pico while holding the BOOTSEL button to mount it as a storage volume and reinstall the firmware.
 
-<mark>add in about pressing the bootsel button etc.</mark>
+### Debug
 
-<mark>add in about using a data usb cable</mark>
+**If you are not sure whether you have the firmware installed or you cannot connect to your Pico:** click on the list in the bottom right of your Thonny window. A popup menu will appear listing the available interpreters. 
+
+[A popup menu showing an option saying configure interpreter](images/no-pico-interpreter.png) 
+
+If you cannot see the Pico in the list, you will need to reconnect your Raspberry Pi Pico while holding the BOOTSEL button to mount it as a storage volume and reinstall the firmware by following the instructions above.
+
+**If you still cannot connect to your Raspberry Pi Pico**, you may be using the wrong kind of microUSB cable. Your current microUSB cable may be damaged, or designed only to carry power to devices and cannot transfer data. Try swapping your cable if nothing else has worked. If your Pico still won't connect after trying all these things, it may *itself* be damaged and unable to connect. 
+
 
 --- task ---
 
