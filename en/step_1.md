@@ -28,6 +28,8 @@ To complete this project you will need:
  
 + Optional: Sticky tape, invisible tape works best
 
+[[[pin-socket-jumper-wires]]]
+
 You can prepare your LED <mark> make this a link </mark> in advance by attaching it to a resistor and jumper wires before starting the project. 
 
 **Software**
