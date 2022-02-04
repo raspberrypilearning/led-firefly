@@ -21,6 +21,12 @@ In the last step you installed the **picozero** library. This library allows you
 
 --- task ---
 
+Create a new file in Thonny by clicking File > New in the top menu bar. An empty workspace should open.
+
+--- /task ---
+
+--- task ---
+
 Type the following code into the main editor pane in Thonny:
 
 --- code ---

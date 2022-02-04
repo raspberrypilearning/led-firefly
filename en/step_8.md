@@ -5,7 +5,7 @@
 If you have time, upgrade your firefly project. 
 </div>
 <div>
-![](images/image.png){:width="300px"}
+![Animated gif showing an LED firefly set inside a glass jar](images/firefly-jar.gif){:width="300px"}
 </div>
 </div>
 
