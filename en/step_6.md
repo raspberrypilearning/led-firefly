@@ -17,6 +17,8 @@ A <span style="color: #0faeb0">switch</span> is a an electrical component that c
 
 The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch. 
 
+[[[pin-socket-jumper-wires]]]
+
 --- task ---
 
 Find one pin-socket jumper wire and one socket-socket jumper wire - the colours do not matter. 
