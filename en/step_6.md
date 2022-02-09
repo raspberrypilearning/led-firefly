@@ -17,6 +17,8 @@ A <span style="color: #0faeb0">switch</span> is a an electrical component that c
 
 The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch. 
 
+[[[pin-socket-jumper-wires]]]
+
 --- task ---
 
 Find one pin-socket jumper wire and one socket-socket jumper wire - the colours do not matter. 
@@ -29,7 +31,7 @@ Find one pin-socket jumper wire and one socket-socket jumper wire - the colours 
 
 Connect one jumper wire to **GP18** and the other to **GND**. It doesn't matter which jumper wire you connect to which pin. 
 
-![Two jumper wires are attached to the GP18 and the GND pins of the Raspberry Pi Pico.](images/switch-wires.jpg)
+![Two jumper wires are attached to the GP18 and the GND pins of the Raspberry Pi Pico.](images/switch-wiring-diagram.png)
 
 --- /task ---
 

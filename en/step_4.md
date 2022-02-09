@@ -83,6 +83,7 @@ firefly.on()
 --- /task ---
 
 --- task ---
+
 **Test** Run your code and your LED firefly should light up. 
 
 ![Yellow LED attached to GP13 and lit up.](images/firefly-on.jpg)
