@@ -147,6 +147,8 @@ In the window that appears, navigate to your chosen folder.
 
 --- /collapse ---
 
+**Note:** Any changes you make to your code from now will need to be **saved to the Raspberry Pi Pico** to have an effect when run.
+
 --- /task ---
 
 
