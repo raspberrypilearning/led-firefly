@@ -1,0 +1,25 @@
+title: LED Firefly
+hero_image: images/banner.png
+description: Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular pattern, just like fireflies in nature. 
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: Introduction
+  - title: Set up MicroPython
+  - title: Light the Pico LED
+    completion: engaged
+  - title: Light your firefly
+    completion: internal
+  - title: Make your firefly blink
+  - title: Add a switch
+  - title: Reflection
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: external
+  - title: Upgrade your project
+  - title: What next?
