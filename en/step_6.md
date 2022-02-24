@@ -5,7 +5,7 @@
 It's useful to be able to control when your LED firefly starts blinking and to be able to turn it off. 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/firefly-switch.png){:width="300px"}
 </div>
 </div>
 
