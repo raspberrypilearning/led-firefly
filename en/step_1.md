@@ -32,7 +32,7 @@ This example shows an LED blinking to mimic a real firefly! Can you spot the rep
 
 --- task ---
 
-This example shows an LED blinking to mimic a real firefly! Can you spot the repeating pattern in the flashes? 
+This example shows an LED firefly. Your LED will blink to mimic a real firefly! 
 
 ![An LED with tape stuck to it to form wings. There ae two jumper wires connected to the LED, one with a resister held in place by electrical tape.](images/showcase_static.png)
 
