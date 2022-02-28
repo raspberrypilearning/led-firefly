@@ -14,7 +14,7 @@ The Raspberry Pi Pico is a low cost microcontroller that can be used by beginner
 </div>
 </div>
 
-
+<br/>
 You will:
 
 + Meet the Raspberry Pi Pico **microcontroller** 
