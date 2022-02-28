@@ -5,16 +5,22 @@ Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular patt
 [[[flashing-light-warning]]]
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with<span style="color: #0faeb0"> electronics components</span> (such as buttons and lights). It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>.
-</p>
-
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with<span style="color: #0faeb0"> electronics components</span> (such as buttons and lights). It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>. 
 The Raspberry Pi Pico is a low cost microcontroller that can be used by beginners and can also be used by experts to develop electronic products. 
+</div>
+<div>
+![A drawing of a hand holding a Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
+</div>
+</div>
+</p>
 
 You will:
 
-+ Explore a **microcontroller** and use one to make an embedded device
-+ Connect electronics components to the **Raspberry Pi Pico**
-+ Program the microcontroller to interact with electronics components using **MicroPython** and Thonny
++ Meet the Raspberry Pi Pico **microcontroller** 
++ Connect an LED and a switch made from jumper wires to the pins on a **Raspberry Pi Pico** 
++ Program the Raspberry Pi Pico using **MicroPython** and Thonny
 
 --- no-print ---
 
@@ -49,8 +55,8 @@ To complete this project you will need:
 
 + A Raspberry Pi Pico with pin headers soldered on
 + A **data** USB A to micro USB cable
-+ 1 x yellow LED 
-+ 1 x 75Ω resistor
++ 1 x yellow LED (or any colour you prefer)
++ 1 x 100Ω resistor (any resistor from 75Ω-220Ω will work)
 + 1 x pin-socket jumper wire
 + 3 x socket-socket jumper wire
  
