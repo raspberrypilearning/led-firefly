@@ -100,6 +100,9 @@ If your LED firefly does not light up:
 
 --- /task ---
 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+An <span style="color: #0faeb0">embedded device</span> often contains a microcontroller and is designed for a specific task. You might have used one in a games controller, microwave oven, mood light, electronic game or toy, pedometer, voice controlled home assistant, medical device or electronic calculator. Can you think of embedded devices that you use?</p> 
+
 --- task ---
 **Optional:** Cut some wings out of sticky tape and stick them to your LED. Invisible tape works well. 
 
