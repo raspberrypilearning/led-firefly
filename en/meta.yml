@@ -7,8 +7,8 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Set up MicroPython
-  - title: Light the Pico LED
+  - title: Set up your Raspberry Pi Pico
+  - title: Light the Raspberry Pi Pico LED
     completion: engaged
   - title: Light your firefly
   - title: Make your firefly blink

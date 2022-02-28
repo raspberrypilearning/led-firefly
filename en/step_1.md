@@ -60,7 +60,7 @@ To complete this project you will need:
 
 [[[pin-socket-jumper-wires]]]
 
-You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico/1){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project. 
+You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project. 
 
 **Software**
 

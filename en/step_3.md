@@ -1,4 +1,4 @@
-## Light the Pico LED
+## Light the Raspberry Pi Pico LED
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -47,11 +47,11 @@ pico_led.on()
 
 --- task ---
 
-Choose 'File->Save As'. Thonny will ask whether you want to save the file on **This computer** or the **Raspberry Pi Pico**. Choose **Raspberry Pi Pico** to save your code to the Raspberry Pi Pico. 
+Choose 'File->Save As'. Thonny will ask whether you want to save the file on **This computer** or the **Raspberry Pi Pico**. Choose **This computer** to save your code to your computer.  
 
-Name your file 'firefly.py'.
+Choose a location on your computer such as your 'Documents' folder. Name your file 'firefly.py'.
 
-![A screenshot of a window with two options. The user can either select 'This computer' or 'Raspberry Pi Pico' device.](images/save-on-device.png)
+![A screenshot of a window with two options. The user can either select 'This computer' or 'Raspberry Pi Pico' device. 'This computer' is highlighted.](images/save-on-computer.png)
 
 --- /task ---
 
