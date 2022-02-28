@@ -4,17 +4,16 @@ Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular patt
 
 [[[flashing-light-warning]]]
 
-<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<div style="display: flex; flex-wrap: wrap">
+<div style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;display: flex; flex-wrap: wrap'>
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with<span style="color: #0faeb0"> electronics components</span> (such as buttons and lights). It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>. 
-The Raspberry Pi Pico is a low cost microcontroller that can be used by beginners and can also be used by experts to develop electronic products. 
+A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with <span style="color: #0faeb0"> electronics components</span> (such as buttons and lights). It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>. 
+The Raspberry Pi Pico is a low cost microcontroller that can be used by beginners and can also be used by experts to develop electronic products.
 </div>
 <div>
 ![A drawing of a hand holding a Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
 </div>
 </div>
-</p>
+
 
 You will:
 
@@ -45,9 +44,6 @@ This example shows an LED firefly. Your LED will blink to mimic a real firefly!
 --- /task ---
 
 --- /print-only ---
-
-<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-An <span style="color: #0faeb0">embedded device</span> often contains a microcontroller and is designed for a specific task. You might have used one in a games controller, microwave oven, mood light, electronic game or toy, pedometer, voice controlled home assistant, medical device or electronic calculator. Can you think of embedded devices that you use?</p> 
 
 To complete this project you will need:
 
