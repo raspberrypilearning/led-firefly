@@ -5,7 +5,7 @@
 It's useful to be able to control when your LED firefly starts blinking and to be able to turn it off. 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![](images/firefly-switch.png){:width="300px"}
 </div>
 </div>
 
@@ -119,6 +119,38 @@ Disconnect the jumper wires and the firefly should stop blinking.
 --- /task ---
 
 **Note:** Disconnecting the jumper wires will not stop power to the firefly LED immediately. The firefly only turns off when the `firefly.off()` code runs. 
+
+--- task ---
+
+Save your code to your computer, to make sure you have a backup in case you lose your Pico.
+
+--- collapse ---
+---
+title: Saving your program locally
+---
+
+
+In the Thonny window, click on the `File` menu and choose `Save As`.
+![Image showing the File menu with the Save as option highlighted.](images/saveas.jpg)
+
+
+A small window will pop up with two buttons labeled `This Computer` and `Rasbperry Pi Pico`: 
+![Image showing small window with two buttons labeled This Computer and Raspberry pi pico.](images/saveaspopup.jpg)
+
+**Choose** `This Computer`. 
+
+
+In the window that appears, navigate to your chosen folder. 
+![Image showing the file saving window displaying local folders](images/savewindow.jpg)
+
+**Type** in a filename and click `Save`.
+
+--- /collapse ---
+
+**Note:** Any changes you make to your code from now will need to be **saved to the Raspberry Pi Pico** to have an effect when run.
+
+--- /task ---
+
 
 --- task ---
 **Optional:** If you are in a group then you could try synchronising your fireflies by connecting your jumper wire switches at the same time. 
