@@ -29,7 +29,7 @@ Find one pin-socket jumper wire and one socket-socket jumper wire - the colours 
 
 --- task ---
 
-Connect one jumper wire to **GP18** and the other to **GND**. It doesn't matter which jumper wire you connect to which pin. 
+**Connect:** one jumper wire to **GP18** and the other to **GND**. It doesn't matter which jumper wire you connect to which pin. 
 
 ![Two jumper wires are attached to the GP18 and the GND pins of the Raspberry Pi Pico.](images/switch-wiring-diagram.png)
 

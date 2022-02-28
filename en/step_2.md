@@ -47,7 +47,7 @@ title: I don't know if firmware is installed and cannot connect to my Pico
 
 Make sure your Raspberry Pi Pico is connected to your computer with a microUSB cable. Click on the list in the bottom right of your Thonny window. A popup menu will appear listing the available interpreters. 
 
-[A popup menu showing an option saying configure interpreter](images/no-pico-interpreter.png) 
+![A popup menu showing an option saying configure interpreter](images/no-pico-interpreter.png) 
 
 If you cannot see the Pico in the list (like in the picture), you will need to reconnect your Raspberry Pi Pico while holding the BOOTSEL button to mount it as a storage volume and reinstall the firmware by following the instructions in the collapse above.
 
