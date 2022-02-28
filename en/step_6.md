@@ -2,10 +2,10 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's useful to be able to control when your LED firefly starts blinking and to be able to turn it off. 
+It's useful to be able to control when your LED firefly starts blinking and to be able to turn it off from the device. 
 </div>
 <div>
-![](images/firefly-switch.gif){:width="300px"}
+![A pin and socket end of two jumper wires are connected together. This causes the firefly to start blinking.](images/firefly-switch.gif){:width="300px"}
 </div>
 </div>
 
@@ -56,18 +56,18 @@ pico_led.on()
 sleep(1)
 pico_led.off()
 
-firefly = LED(13)
-switch = Switch(18)
+firefly = LED(13) # Use GP13
+switch = Switch(18) # Use GP18
 
 --- /code ---
 
 --- /task ---
 
-When you connect the two jumper wires together this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed. You can use `is_closed` on your `switch` to check if the switch is closed (the jumpers are connected).
+When you connect the two jumper wires together this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed. 
 
 --- task ---
 
-Now add code to check if your switch `is_closed` (connected) and only blink the firefly if it is closed:
+Add code to check `if` your switch `is_closed` (the jumpers are connected) and only blink the firefly if it is closed:
 
 --- code ---
 ---
@@ -77,24 +77,25 @@ line_numbers: true
 line_number_start: 9
 line_highlights: 12-19
 ---
-switch = Switch(18)
+switch = Switch(18) # Use GP18
 
 while True:
-    if switch.is_closed:
+    if switch.is_closed: # wires are connected
         firefly.on()
-        sleep(0.5)
+        sleep(0.5) # stay on for half a second
         firefly.off()
-        sleep(2.5)
-    else:
+        sleep(2.5) # stay on for 2.5 seconds
+    else: # wires are not connected
         firefly.off()
-        sleep(0.1)
+        sleep(0.1) # small delay
+
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected. Run your code.
+**Test:** Make sure the jumper wires are **not** connected then run your code.
 
 --- collapse ---
 
@@ -110,7 +111,7 @@ Now connect the jumper wires together.
 
 ![The pin of one jumper wire connected to the socket of the other jumper wire.](images/connected-wires.jpg)
 
-Now the firefly should start to blink.
+The firefly should start to blink.
 
 ![An animation of the LED firefly turning on when the jumper wires are connected.](images/firefly-switch.gif)
 
@@ -122,38 +123,8 @@ Disconnect the jumper wires and the firefly should stop blinking.
 
 --- task ---
 
-Save your code to your computer, to make sure you have a backup in case you lose your Pico.
-
---- collapse ---
----
-title: Saving your program locally
----
-
-
-In the Thonny window, click on the `File` menu and choose `Save As`.
-![Image showing the File menu with the Save as option highlighted.](images/saveas.jpg)
-
-
-A small window will pop up with two buttons labeled `This Computer` and `Rasbperry Pi Pico`: 
-![Image showing small window with two buttons labeled This Computer and Raspberry pi pico.](images/saveaspopup.jpg)
-
-**Choose** `This Computer`. 
-
-
-In the window that appears, navigate to your chosen folder. 
-![Image showing the file saving window displaying local folders](images/savewindow.jpg)
-
-**Type** in a filename and click `Save`.
-
---- /collapse ---
-
-**Note:** Any changes you make to your code from now will need to be **saved to the Raspberry Pi Pico** to have an effect when run.
-
---- /task ---
-
-
---- task ---
 **Optional:** If you are in a group then you could try synchronising your fireflies by connecting your jumper wire switches at the same time. 
+
 --- /task ---
 
 --- save ---
