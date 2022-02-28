@@ -1,8 +1,8 @@
-## Light the Pico LED
+## Light the Raspberry Pi Pico LED
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Light the tiny LED that sits on the top of your Raspberry Pi Pico.
+Light the tiny LED that sits on the top of your Raspberry Pi Pico. This will check that your Raspberry Pi Pico is set up correctly.
 </div>
 <div>
 ![A Raspberry Pi Pico with the on board LED switching on and then off.](images/led-on-off.gif){:width="300px"}
@@ -11,19 +11,19 @@ Light the tiny LED that sits on the top of your Raspberry Pi Pico.
 
 --- task ---
 
-Look at your Raspberry Pi Pico and find the small LED next to the USB connector. 
+**Look** at your Raspberry Pi Pico and find the small LED next to the USB connector. 
 
 ![A photo of the Raspberry Pi Pico with the LED highlighted](images/pico-led.jpg){:width="200px"}
 
 --- /task ---
 
-In the last step you installed the **picozero** library. This library allows you to program electronics components that are attached to a Raspberry Pi Pico. At the top of your code, you will need to import the items that you need from the **picozero** library.
-
 --- task ---
 
-Create a new file in Thonny by clicking File > New in the top menu bar. An empty workspace should open.
+Create a new file in Thonny by clicking 'File > New' in the top menu bar. An empty workspace should open.
 
 --- /task ---
+
+In the last step you installed the **picozero** library. This library allows you to program electronics components that are attached to a Raspberry Pi Pico. At the top of your code, you will need to import the items that you need from the **picozero** library.
 
 --- task ---
 
@@ -32,7 +32,7 @@ Type the following code into the main editor pane in Thonny:
 --- code ---
 ---
 language: python
-filename: firefly.py
+filename: 
 line_numbers: true
 line_number_start: 
 line_highlights: 
@@ -47,11 +47,11 @@ pico_led.on()
 
 --- task ---
 
-Choose 'File->Save As'. Thonny will ask whether you want to save the file on **This computer** or the **Raspberry Pi Pico**. Choose **Raspberry Pi Pico** to save your code to the Raspberry Pi Pico. 
+Choose 'File->Save As'. Thonny will ask whether you want to save the file on **This computer** or the **Raspberry Pi Pico**. Choose **This computer** to save your code to your computer.  
 
-Name your file 'firefly.py'.
+Choose a location on your computer such as your 'Documents' folder. Name your file 'firefly.py'.
 
-![A screenshot of a window with two options. The user can either select 'This computer' or 'Raspberry Pi Pico' device.](images/save-on-device.png)
+![A screenshot of a window with two options. The user can either select 'This computer' or 'Raspberry Pi Pico' device. 'This computer' is highlighted.](images/save-on-computer.png)
 
 --- /task ---
 
@@ -67,20 +67,43 @@ Name your file 'firefly.py'.
 
 **Debug:** 
 
+--- collapse ---
+
+---
+title: The play button is faded out
+---
+
 If you don't see a green play button (it is faded):
 + click the red 'STOP' button
 + check that your Raspberry Pi Pico is connected to your computer with a USB cable
 + click on 'MicroPython (Raspberry Pi Pico)' at the bottom right of Thonny to reconnect
 + unplug your USB cable and then plug it back in
 
-If Thonny is saying that there is an error in your code:
-+ check your code very carefully and make sure it matches the example.
+--- /collapse ---
 
-If you have fixed all of the errors in your code and the light doesn't come on:
-+ try a different USB cable, making sure that it is a **data** USB cable.
-+ as a last resort, try another Raspberry Pi Pico (if you have a spare)
+--- collapse ---
+
+---
+title: Thonny says that there is an error in my code
+---
+
+Check your code very carefully and make sure it matches the example.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: There are no errors in my code but the light doesn't come on
+---
+
+Try a different USB cable, making sure that it is a **data** USB cable. As a last resort, try another Raspberry Pi Pico (if you have a spare).
+
+--- /collapse ---
 
 --- /task ---
+
+The LED will stay on until you write code to turn it off or you unplug the Raspberry Pi Pico.
 
 --- task ---
 
@@ -89,7 +112,7 @@ Import `sleep` to allow you to pause your code. Add code to the end of your scri
 --- code ---
 ---
 language: python
-filename: 
+filename: firefly.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 2,5-6
@@ -108,14 +131,23 @@ pico_led.off()
 
 **Test:** Click the green play button. Thonny will save the file on your Raspberry Pi Pico and then run the new code. 
 
-Check that the LED turns on and then goes off again. Run your code as many times as you like. 
+Check that the LED turns on and then goes off again. The LED will only light for one second so make sure you are watching.
+
+Run your code as many times as you like. 
 
 ![A Raspberry Pi Pico with the on board LED switching on and then off.](images/led-on-off.gif){:width="300px"}
 
 **Debug:**
 
-If Thonny says **sleep isn't defined**:
-+ Add the `from time import sleep` line. 
+--- collapse ---
+
+---
+title: Thonny says sleep isn't defined
+---
+
+Add the `from time import sleep` line. 
+
+--- /collapse ---
 
 --- /task ---
 

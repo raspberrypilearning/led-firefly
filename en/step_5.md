@@ -15,7 +15,7 @@ A <span style="color: #0faeb0">firefly</span> is a kind of beetle, also called a
 
 --- task ---
 
-Change your code to make the firefly blink on and off in a `while True` loop. The timings represent the light patterns of a real firefly. 
+Change your code to make the firefly blink on and off in a `while True:` loop. The timings represent the light patterns of a real firefly. 
 
 Make sure that the code on lines 11-14 are indented. 
 
@@ -29,7 +29,7 @@ line_numbers: true
 line_number_start: 8
 line_highlights: 9-14
 ---
-firefly = LED(13)
+firefly = LED(13) # Use GP13
 
 while True:
     firefly.on()
@@ -49,7 +49,7 @@ while True:
 **Debug:**
 
 + Fix any errors in your code including indentation. 
-+ Check that none of the connections to your LED Firefly have come lose. 
++ Check that none of the connections to your LED firefly have come loose. 
 
 --- /task ---
 
