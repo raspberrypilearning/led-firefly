@@ -10,7 +10,7 @@ Now you will make your firefly blink on and off like a real firefly.
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">firefly</span> is a kind of beetle, also called a glowworm or lightning bug, which flashes using bioluminescence to identify themselves to other members of the same species. Different species flash in different patterns. 
+A <span style="color: #0faeb0">firefly</span> is a kind of beetle, also called a glow worm or lightning bug, which flashes using bioluminescence to identify themselves to other members of the same species. Different species flash in different patterns. 
 </p>
 
 --- task ---

@@ -5,7 +5,7 @@
 Connect and light an LED and a resistor to your Raspberry Pi Pico using jumper wires. 
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/firefly-on.jpg){:width="300px"}
+![](images/firefly-on.jpg){:width="300px"}
 </div>
 </div>
 
