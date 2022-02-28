@@ -78,13 +78,13 @@ firefly = LED(13) # Use GP13
 firefly.on()
 --- /code ---
 
---- /task ---
-
 **Tip:** To import multiple items, separate them with commas ','.
+
+--- /task ---
 
 --- task ---
 
-**Test** Run your code and your LED firefly should light up. 
+**Test:** Run your code to see your LED firefly light up. 
 
 ![Yellow LED attached to GP13 and lit up.](images/firefly-on.jpg)
 
