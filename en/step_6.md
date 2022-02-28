@@ -12,7 +12,7 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 The Raspberry Pi Pico can detect when an input is connected between GND and one of the GP pins.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">switch</span> is a an electrical component that can be **closed** to allow electrical current to flow and **open** to prevent electrical current from flowing.
+A <span style="color: #0faeb0">switch</span> is a an electrical component that can be **closed** to allow electrical current to flow and **open** to prevent electrical current from flowing. A <span style="color: #0faeb0">button</span> is also a kind of switch that makes a connection when it is **pressed**.
 </p> 
 
 The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch. 

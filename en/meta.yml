@@ -11,9 +11,9 @@ steps:
   - title: Light the Pico LED
     completion: engaged
   - title: Light your firefly
-    completion: internal
   - title: Make your firefly blink
   - title: Add a switch
+    completion: internal
   - title: Reflection
     knowledge_quiz:
       path: quiz1
