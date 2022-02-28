@@ -5,7 +5,7 @@
 It's useful to be able to control when your LED firefly starts blinking and to be able to turn it off. 
 </div>
 <div>
-![](images/firefly-switch.png){:width="300px"}
+![](images/firefly-switch.gif){:width="300px"}
 </div>
 </div>
 
