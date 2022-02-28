@@ -1,18 +1,14 @@
 ## Introduction
 
-Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular pattern, just like fireflies in nature. Connect a switch to turn it on. 
+Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular pattern, just like fireflies in nature. Connect a switch to control the light. 
 
 [[[flashing-light-warning]]]
-Use a Raspberry Pi Pico microcontroller to make an LED firefly that flashes in a particular pattern, just like fireflies in nature. Connect a switch to control the light. 
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with<span style="color: #0faeb0"> electronics components</span> (such as buttons and lights). It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>.
 </p>
 
 The Raspberry Pi Pico is a low cost microcontroller that can be used by beginners and can also be used by experts to develop electronic products. 
-<span style="color: #ff3103">Warning:</span> **This project uses blinking lights.** A very small percentage of people may experience a seizure when exposed to certain visual images, including flashing lights. Even people who have never had seizures may have a condition they don't know about that can cause these **photosensitive epileptic seizures**. 
-
-**If you experience any symptoms or feel unwell: immediately stop working and consult a doctor.**
 
 You will:
 
