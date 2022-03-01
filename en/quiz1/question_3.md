@@ -7,9 +7,7 @@ legend: Question 3 of 3
 
 In your project, you coded a firefly LED and a switch made from two jumper wires. 
 
-The code below was used to make this happen. 
-
-When you run this code on your Raspberry Pi Pico, what happens when the jumper wires are connected to close the switch?
+What happens when the jumper wires are connected to close the switch?
 
 --- code ---
 ---

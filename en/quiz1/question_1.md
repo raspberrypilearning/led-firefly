@@ -1,12 +1,10 @@
 ## Reflection
 
-Wow, look what you just did! You made a firefly blink. Now its time to reflect on the skills that you have gained along the way. 
+Well done. You programmed a Raspberry Pi Pico to make an LED flash like a firefly in nature. Now its time to reflect on the skills that you have gained along the way. 
 
 Answer the three questions below to reflect on what you've learned.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
-
-Have fun!
+After each question, press 'Check my answer'. You will be guided towards the correct answer. You can do this activity as many times as you want to.
 
 --- question ---
 
