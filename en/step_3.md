@@ -9,6 +9,10 @@ Light the tiny LED that sits on the top of your Raspberry Pi Pico. This will che
 </div>
 </div>
 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+<span style="color: #0faeb0">LED</span> stands for light emitting diode. It uses electroluminescence, which is where a material lights up when an electrical current passes through it. An LED has two legs, a long one and a short one and must be connected the right way around. The long leg is positive (+) leg and the short one is the negative (-). Another way to check if a leg is positive or negative is to use your finger to find the flat side of the LED bulb. The flat side is on the same side as the negative leg.
+</p>
+
 --- task ---
 
 Look at your Raspberry Pi Pico and find the small LED next to the USB connector. 
@@ -64,6 +68,10 @@ Choose a location on your computer such as your 'Documents' folder. Name your fi
 + Check that the small LED on the Raspberry Pi Pico turns on. 
 
 ![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on.jpg){:width="300px"}
+
+--- /task ---
+
+--- task ---
 
 **Debug:** 
 
