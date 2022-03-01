@@ -11,7 +11,7 @@ Connect your Raspberry Pi Pico and set up MicroPython.
 
 --- task ---
 
-Connect the small end of your USB cable to the Raspberry Pi Pico.
+**Connect:** the small end of your USB cable to the Raspberry Pi Pico.
 
 ![An image of a Raspberry Pi Pico connected to the small end of a USB cable.](images/pico-top-plug.png)
 
@@ -19,9 +19,11 @@ Connect the small end of your USB cable to the Raspberry Pi Pico.
 
 --- task ---
 
-Attach the other end to your computer, laptop or Raspberry Pi.
+**Connect:** the other end to your computer, laptop or Raspberry Pi.
 
 ![An image of a Raspberry Pi Pico connected to a laptop with a USB cable.](images/plug-in-pico.png)
+
+![An image of a Raspberry Pi Pico connected to a laptop with a USB cable.](images/plug-in-pico.webp)
 
 --- /task ---
 
