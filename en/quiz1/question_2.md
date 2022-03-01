@@ -9,7 +9,7 @@ In your project, you connected an LED to the Raspberry Pi Pico. LEDs have to be 
 
 The **short leg connected to the flat side of your LED** is ...
 
-![An LED.](images/path)
+![An LED with a long leg and a short leg. The long leg is positive and the short leg is negative.](images/pos-neg.png){:width="200px"}
 
 --- choices ---
 
