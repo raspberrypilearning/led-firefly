@@ -5,13 +5,9 @@
 Use jumper wires to connect an LED with a resistor to your Raspberry Pi Pico and write code to light it. 
 </div>
 <div>
-![](images/firefly-on.jpg){:width="300px"}
+![The Raspberry Pi Pico with two conneted jumper wires linking to a yellow LED.](images/firefly-on.jpg){:width="300px"}
 </div>
 </div>
-
-<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">LED</span> stands for light emitting diode. It uses electroluminescence, which is where a material lights up when an electrical current passes through it. An LED has two legs, a long one and a short one and must be connected the right way around. The long leg is positive (+) leg and the short one is the negative (-). Another way to check if a leg is positive or negative is to use your finger to find the flat side of the LED bulb. The flat side is on the same side as the negative leg.
-</p>
 
 --- task ---
 

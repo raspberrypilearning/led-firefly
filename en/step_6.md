@@ -93,6 +93,34 @@ while True:
 
 --- /task ---
 
+--- no-print ---
+
+--- task ---
+
+**Test:** Make sure the jumper wires are **not** connected then run your code.
+
+--- collapse ---
+
+---
+title: What do you expect to happen when you run your code?
+---
+
+The jumper wires are **not** closed so the code in the `else` block will run. This means the firefly LED will stay **off**.
+
+--- /collapse ---
+
+Now connect the jumper wires together. The firefly should start to blink.
+
+![An animation of the LED firefly turning on when the jumper wires are connected.](images/firefly-switch.gif)
+
+Disconnect the jumper wires and the firefly should stop blinking. 
+
+--- /task ---
+
+--- /no-print ---
+
+--- print-only ---
+
 --- task ---
 
 **Test:** Make sure the jumper wires are **not** connected then run your code.
@@ -113,11 +141,11 @@ Now connect the jumper wires together.
 
 The firefly should start to blink.
 
-![An animation of the LED firefly turning on when the jumper wires are connected.](images/firefly-switch.gif)
-
 Disconnect the jumper wires and the firefly should stop blinking. 
 
 --- /task ---
+
+--- /print-only ---
 
 **Note:** Disconnecting the jumper wires will not stop power to the firefly LED immediately. The firefly only turns off when the `firefly.off()` code runs. 
 
