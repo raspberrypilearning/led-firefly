@@ -4,7 +4,7 @@ Well done. You programmed a Raspberry Pi Pico to make an LED flash like a firefl
 
 Answer the three questions below to reflect on what you've learned.
 
-After each question, press 'Check my answer'. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+You will be guided towards the correct answer. You can do this activity as many times as you want to.
 
 --- question ---
 
