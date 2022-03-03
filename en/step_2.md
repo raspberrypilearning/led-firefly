@@ -51,6 +51,19 @@ If you have never used MicroPython on your Raspberry Pi Pico, then Thonny will p
 **Debug:** 
 
 --- collapse ---
+---
+title: There was an error installing the firmware
+---
+If you see an error message during install then:
++ disconnect your Raspberry Pi Pico
++ reconnect your Raspberry Pi Pico
++ try installing the firmware again (you might need to press the stop button first)
+
+![A screenshot of an error message showing that the firmware cannot install correctly.](images/pico-firmware-error.PNG)
+
+--- /collapse ---
+
+--- collapse ---
 
 ---
 title: I don't know if firmware is installed and cannot connect to my Pico
