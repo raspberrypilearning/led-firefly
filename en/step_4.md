@@ -45,8 +45,6 @@ Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You w
 
 ![A diagram of the Raspberry Pi Pico with a yellow LED connected to GND and to GP14 through a resistor.](images/pico_led_13_bb.png)
 
-![A diagram of the Raspberry Pi Pico with a yellow LED connected to GND and to GP14 through a resistor.](images/firefly-wiring.webp)
-
 --- /task ---
 
 --- task ---
