@@ -20,15 +20,6 @@ You could upgrade your project by:
 --- /task ---
 
 --- collapse ---
----
-title: LED firefly certificate
----
-
-Well done! You have completed the LED firefly project. Here is a [certificate](https://drive.google.com/file/d/1L41GMQmwD_6WyXmCZ3pUPDzhLynr_VVi/view?usp=sharing){:target="_blank"} to celebrate your new skills. Download a copy then open it to add your name.
-
---- /collapse ---
-
---- collapse ---
 
 ---
 title: Completed project
