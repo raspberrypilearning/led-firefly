@@ -23,8 +23,6 @@ Connect your Raspberry Pi Pico and set up MicroPython.
 
 ![An image of a Raspberry Pi Pico connected to a laptop with a USB cable.](images/plug-in-pico.png)
 
-![An image of a Raspberry Pi Pico connected to a laptop with a USB cable.](images/plug-in-pico.webp)
-
 --- /task ---
 
 
