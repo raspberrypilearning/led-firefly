@@ -74,7 +74,7 @@ firefly = LED(13) # Use GP13
 firefly.on()
 --- /code ---
 
-**Tip:** To import multiple items, separate them with commas ','.
+**Tip:** To import multiple items, separate them with commas `,`.
 
 --- /task ---
 
