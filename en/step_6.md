@@ -154,5 +154,3 @@ Disconnect the jumper wires and the firefly should stop blinking.
 **Optional:** If you are in a group, then you could try synchronising your fireflies by connecting your jumper wire switches at the same time. 
 
 --- /task ---
-
---- save ---

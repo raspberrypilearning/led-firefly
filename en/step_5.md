@@ -52,5 +52,3 @@ while True:
 + Check that none of the connections to your LED firefly have come loose 
 
 --- /task ---
-
---- save ---

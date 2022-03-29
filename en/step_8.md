@@ -28,5 +28,3 @@ title: Completed project
 You can view the [completed project here](https://rpf.io/p/en/led-firefly-get){:target="_blank"}.
 
 --- /collapse ---
-
---- save ---

@@ -120,5 +120,3 @@ An <span style="color: #0faeb0">embedded device</span> often contains a microcon
 ![LED firefly with sticky tape wings.](images/firefly-wings.jpg)
 
 --- /task ---
-
---- save ---
