@@ -5,7 +5,7 @@
 In this step, you will use jumper wires to connect an LED with a resistor to your Raspberry Pi Pico and write code to light it. 
 </div>
 <div>
-![The Raspberry Pi Pico with two conneted jumper wires linking to a yellow LED.](images/firefly-on.jpg){:width="300px"}
+![The Raspberry Pi Pico with two connected jumper wires linking to a yellow LED.](images/firefly-on.jpg){:width="300px"}
 </div>
 </div>
 
@@ -41,7 +41,7 @@ Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You w
  
 **Connect** the jumper wire that is attached to the positive leg of the LED (the one with the resistor) to pin **GP13**. Push it until the black plastic meets the base of the header. 
 
-**Connect** the jumper wire that is attached to the negative leg to the **GND** (ground), below GP13. This completes the circuit, allowing electrical current to flow when instructed by your code.
+**Connect** the jumper wire that is attached to the negative leg to the **GND** (ground), below **GP13**. This completes the circuit, allowing electrical current to flow when instructed by your code.
 
 ![A diagram of the Raspberry Pi Pico with a yellow LED connected to GND and to GP13 through a resistor.](images/pico_led_13_bb.png)
 
@@ -49,7 +49,7 @@ Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You w
 
 --- task ---
 
-In the last step, you used `pico_led` to light the LED on the Raspberry Pi Pico. To add your own LEDs, you need to `import` `LED` from picozero. 
+In the last step, you used `pico_led` to light the LED on the Raspberry Pi Pico. To add your own LEDs, you need to `import` `LED` from `picozero`. 
 
 Add `, LED` to the end of the import list on **line 1**. Next, set your firefly LED to **GP13** and enter the code to switch it on. 
 
@@ -102,7 +102,7 @@ title: My LED firefly doesn't light up
 ---
 
 If your LED firefly does not light up:
-+ Check that your LED has the negative (shorter, flat) side attached to GND and the positive (longer, with resistor) side attached to GP13
++ Check that your LED has the negative (shorter, flat) side attached to **GND** and the positive (longer, with resistor) side attached to **GP13**
 + Make sure that all joints make a good connection 
 + Try a different LED
 
@@ -111,7 +111,7 @@ If your LED firefly does not light up:
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-An <span style="color: #0faeb0">embedded device</span> often contains a microcontroller and is designed for a specific task. You might have used one in a games controller, microwave oven, mood light, electronic game or toy, pedometer, voice-controlled home assistant, medical device, or electronic calculator. Can you think of embedded devices that you use?</p> 
+<span style="color: #0faeb0">Embedded devices</span> often contain a microcontroller and are designed for a specific task. You might have used one in a games controller, microwave oven, mood light, electronic game or toy, pedometer, voice-controlled home assistant, medical device, or electronic calculator. Can you think of embedded devices that you use?</p> 
 
 --- task ---
 
