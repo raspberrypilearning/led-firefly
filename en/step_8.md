@@ -10,7 +10,7 @@ If you have time, upgrade your firefly project. You could use your project as a 
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Being in nature</span> is a great way to increase positive feelings and benefit your health. When it isn't possible to get outdoors, you can find ways to bring nature to you by keeping a houseplant or simulating your own firefly!</p>
+<span style="color: #0faeb0">Being in nature</span> is a great way to increase positive feelings and benefit your health. When it isn't possible to get outdoors, you can find ways to bring nature to you; for example, by keeping a houseplant or simulating your own firefly!</p>
 
 --- task ---
 You could upgrade your project by:
