@@ -27,7 +27,7 @@ Create a new file in Thonny by clicking **File** > **New** in the top menu bar. 
 
 --- /task ---
 
-In the last step, you installed the **picozero** library. This library allows you to program electronics components that are attached to a Raspberry Pi Pico. At the top of your code, you will need to import the items that you need from the **picozero** library.
+In the last step, you installed the `picozero` library. This library allows you to program electronics components that are attached to a Raspberry Pi Pico. At the top of your code, you will need to import the items that you need from the `picozero` library.
 
 --- task ---
 
