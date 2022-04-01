@@ -9,10 +9,10 @@ It's useful to be able to control when your LED firefly starts blinking and to b
 </div>
 </div>
 
-The Raspberry Pi Pico can detect when an input is connected between GND and one of the GP pins.
+The Raspberry Pi Pico can detect when an input is connected between **GND** and one of the GP pins.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">switch</span> is an electrical component that can be **closed** to allow electrical current to flow and **open** to prevent electrical current from flowing. A <span style="color: #0faeb0">button</span> is also a kind of switch that makes a connection when it is **pressed**.
+A <span style="color: #0faeb0">switch</span> is an electrical component that can be **closed** to allow electrical current to flow and **opened** to prevent electrical current from flowing. A <span style="color: #0faeb0">button</span> is also a kind of switch that makes a connection when it is **pressed**.
 </p> 
 
 The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch. 
@@ -37,7 +37,7 @@ Find one pin–socket jumper wire and one socket–socket jumper wire — the co
 
 --- task ---
 
-To add switches, you need to `import Switch` from the picozero library. 
+To add switches, you need to `import Switch` from the `picozero` library. 
 
 Add `, Switch` to the end of the import list on **line 1**. Next, set your `switch` to **GP18**:
 
@@ -84,7 +84,7 @@ while True:
         firefly.on()
         sleep(0.5) # Stay on for half a second
         firefly.off()
-        sleep(2.5) # Stay on for 2.5 seconds
+        sleep(2.5) # Stay off for 2.5 seconds
     else: # Wires are not connected
         firefly.off()
         sleep(0.1) # Small delay

@@ -52,7 +52,7 @@ If you have never used MicroPython on your Raspberry Pi Pico, then Thonny will p
 ---
 title: There was an error installing the firmware
 ---
-If you see an error message during install then:
+If you see an error message during the install then:
 + Disconnect your Raspberry Pi Pico
 + Reconnect your Raspberry Pi Pico
 + Try to install the firmware again (you might need to press the stop button first)
@@ -64,10 +64,10 @@ If you see an error message during install then:
 --- collapse ---
 
 ---
-title: I don't know if firmware is installed and cannot connect to my Pico
+title: I don't know if the firmware is installed and cannot connect to my Pico
 ---
 
-Make sure your Raspberry Pi Pico is connected to your computer with a micro-USB cable. Click on the list in the bottom-right corner of your Thonny window. A pop-up menu will appear, which lists the available interpreters. 
+Make sure your Raspberry Pi Pico is connected to your computer with a micro USB cable. Click on the list in the bottom-right corner of your Thonny window. A pop-up menu will appear, which lists the available interpreters. 
 
 ![A pop-up menu that shows an option saying configure interpreter.](images/no-pico-interpreter.png) 
 
@@ -81,7 +81,7 @@ If you cannot see the Pico in the list (like in the picture), you will need to r
 title: Firmware is installed but I still cannot connect to my Pico
 ---
 
-You may be using the wrong kind of micro-USB cable. Your current micro-USB cable may be damaged, or designed only to carry power to devices and cannot transfer data. Try swapping your cable if nothing else has worked. 
+You may be using the wrong kind of micro USB cable. Your current micro USB cable may be damaged, or designed only to carry power to devices and cannot transfer data. Try swapping your cable if nothing else has worked. 
 
 If your Pico still won't connect after trying all these things, it may **itself** be damaged and unable to connect. 
 
