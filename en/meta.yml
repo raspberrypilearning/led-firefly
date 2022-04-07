@@ -15,11 +15,11 @@ steps:
   - title: Add a switch
     completion: internal
   - title: Reflection
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-    completion: external
   - title: Upgrade your project
   - title: What next?
