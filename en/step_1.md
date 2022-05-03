@@ -49,13 +49,15 @@ To complete this project you will need:
 
 **Hardware**
 
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+
 + A Raspberry Pi Pico with pin headers soldered on
 + A **data** USB A to micro USB cable
 + 1× yellow LED (or any colour you prefer)
 + 1× 100Ω resistor (any resistor from 75Ω to 220Ω will work)
 + 1× pin–socket jumper wire
 + 3× socket–socket jumper wire
- 
+You can purchase all the compone 
 + Optional: Sticky tape, invisible tape works best
 
 [[[pin-socket-jumper-wires]]]
