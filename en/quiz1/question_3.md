@@ -1,6 +1,5 @@
 
 --- question ---
-
 ---
 legend: Question 3 of 3
 ---
@@ -33,6 +32,7 @@ while True:
 - ( ) The LED firefly will blink once and then turn off until you connect the switch again.
 
   --- feedback ---
+  
 Not quite, the code to blink the LED is in a while loop that keeps checking whether the switch is closed. 
 
   --- /feedback ---
@@ -41,14 +41,18 @@ Not quite, the code to blink the LED is in a while loop that keeps checking whet
 
 
   --- feedback ---
+  
 Try again. If the switch is closed then the `switch.is_closed` condition will be true. This will run the block of code to blink the firefly. 
+
   --- /feedback ---
 
 - (x) The LED firefly will blink on and off until you disconnect the switch.
 
 
   --- feedback ---
+  
 Well done! Your LED firefly will continue to blink for as long as the switch is closed. 
+
   --- /feedback ---
 
 --- /choices ---
