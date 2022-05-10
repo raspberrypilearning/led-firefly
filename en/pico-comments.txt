@@ -1,0 +1,15 @@
+Use GP13
+
+Use GP18
+
+Wires are connected
+
+Stay on for half a second
+
+Stay off for 2.5 seconds
+
+Wires are not connected
+
+Small delay
+
+This is a comment
