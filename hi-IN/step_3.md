@@ -73,7 +73,6 @@ Choose a location on your computer such as your 'Documents' folder. Name your fi
 **Debug:**
 
 --- collapse ---
-
 ---
 title: The play button is faded out
 ---
@@ -87,7 +86,6 @@ If you don't see a green play button (it is faded):
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Thonny says that there is an error in my code
 ---
@@ -97,7 +95,6 @@ Check your code very carefully and make sure it matches the example.
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: There are no errors in my code but the light doesn't come on
 ---
@@ -138,7 +135,6 @@ Run your code as many times as you like.
 **Debug:**
 
 --- collapse ---
-
 ---
 title: Thonny says sleep isn't defined
 ---
