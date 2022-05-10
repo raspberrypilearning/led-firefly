@@ -13,3 +13,9 @@ Wires are not connected
 Small delay
 
 This is a comment
+
+Turn the LED on the Pico board on and off
+
+Switch is connected
+
+Switch is not connected
