@@ -57,7 +57,6 @@ You can purchase all the required hardware for this project and the other projec
 + 1× 100Ω resistor (any resistor from 75Ω to 220Ω will work)
 + 1× pin–socket jumper wire
 + 3× socket–socket jumper wire
-You can purchase all the compone 
 + Optional: Sticky tape, invisible tape works best
 
 [[[pin-socket-jumper-wires]]]
