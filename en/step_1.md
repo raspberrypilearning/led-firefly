@@ -39,7 +39,7 @@ This example shows an LED blinking to mimic a real firefly! Can you spot the rep
 
 This example shows an LED firefly. Your LED will blink to mimic a real firefly! 
 
-![An LED with tape stuck to it to form wings. There ae two jumper wires connected to the LED, one with a resister held in place by electrical tape.](images/showcase_static.png)
+![An LED with tape stuck to it to form wings. There are two jumper wires connected to the LED, one with a resister held in place by electrical tape.](images/showcase_static.png)
 
 --- /task ---
 
