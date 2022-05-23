@@ -39,7 +39,7 @@ This example shows an LED blinking to mimic a real firefly! Can you spot the rep
 
 This example shows an LED firefly. Your LED will blink to mimic a real firefly!
 
-![An LED with tape stuck to it to form wings. There ae two jumper wires connected to the LED, one with a resister held in place by electrical tape.](images/showcase_static.png)
+![An LED with tape stuck to it to form wings. There are two jumper wires connected to the LED, one with a resister held in place by electrical tape.](images/showcase_static.png)
 
 --- /task ---
 
@@ -56,7 +56,7 @@ You can purchase all the required hardware for this project and the other projec
 + 1× yellow LED (or any colour you prefer)
 + 1× 100Ω resistor (any resistor from 75Ω to 220Ω will work)
 + 1× pin–socket jumper wire
-+ 3× socket–socket jumper wire You can purchase all the compone
++ 3× socket–socket jumper wire
 + Optional: Sticky tape, invisible tape works best
 
 [[[pin-socket-jumper-wires]]]
