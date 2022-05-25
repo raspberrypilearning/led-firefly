@@ -1,21 +1,21 @@
-Use GP13
+Gebruik GP13
 
-Use GP18
+Gebruik GP18
 
-Wires are connected
+Draden zijn aangesloten
 
-Stay on for half a second
+Blijf een halve seconde aan
 
-Stay off for 2.5 seconds
+Blijf 2.5 seconden uit
 
-Wires are not connected
+Draden zijn niet aangesloten
 
-Small delay
+Kleine vertraging
 
-This is a comment
+Dit is een opmerking
 
-Turn the LED on the Pico board on and off
+Schakel de LED op het Pico-bord in en uit
 
-Switch is connected
+Schakelaar is aangesloten
 
-Switch is not connected
+Schakelaar is niet aangesloten
