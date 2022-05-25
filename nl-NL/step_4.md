@@ -1,25 +1,25 @@
-## Light your firefly
+## Steek je vuurvlieg aan
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will use jumper wires to connect an LED with a resistor to your Raspberry Pi Pico and write code to light it. 
+In deze stap gebruik je jumperdraden om een LED met een weerstand aan te sluiten op je Raspberry Pi Pico en code te schrijven om het te verlichten. 
 </div>
 <div>
-![The Raspberry Pi Pico with two connected jumper wires linking to a yellow LED.](images/firefly-on.jpg){:width="300px"}
+![De Raspberry Pi Pico met twee aangesloten jumperdraden die verbinden met een gele LED.](Images/firefly-on.jpg){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Make sure that you have an LED connected to a resistor and two socket–socket jumper wires. The colour of the jumper wires does not matter, they all do the same thing.
+Zorg ervoor dat er een LED is aangesloten op een weerstand en twee pin-pin jumperdraden. De kleur van de jumperdraden maakt niet uit, ze doen allemaal hetzelfde.
 
-Fireflies are usually yellow, orange, or green but you can choose any colour you like.
+Vuurvliegjes zijn meestal geel, oranje of groen, maar je kunt elke gewenste kleur kiezen.
 
-![An LED connected to jumper wires with a resistor on the long, positive leg.](images/led-resistor.jpeg)
+![Een LED die is aangesloten op jumperdraden met een weerstand op het lange, positieve been.](images/led-resistor.jpeg)
 
-A **resistor** controls the current that flows through a circuit. This protects the LED from burning out and will make it last longer.
+Een **weerstand** regelt de stroom die door een circuit loopt. Dit beschermt de LED tegen doorbranden en zorgt ervoor dat deze langer meegaat.
 
-If your LED does not have jumper wires and a resistor attached, then you can add them:
+Als je LED geen jumperdraden en een weerstand heeft, dan kun je ze toevoegen:
 
 [[[led-resistor-electrical-tape]]]
 
@@ -27,33 +27,33 @@ If your LED does not have jumper wires and a resistor attached, then you can add
 
 --- /task ---
 
-A Raspberry Pi Pico has **40 pins** on its board. **Pins** allow you to connect external components to the Raspberry Pi Pico.
+Een Raspberry Pi Pico heeft **40 pinnen** op zijn bord. **Pinnen** stellen je in staat om externe componenten aan te sluiten op de Raspberry Pi Pico.
 
 --- task ---
 
-Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You will notice that there are labels for each pin on the **underneath** side of the Raspberry Pi Pico.
+Bekijk je Raspberry Pi Pico goed en zoek de pin met het label **GP13**. Je zult zien dat er labels zijn voor elke pin aan de **onderkant** kant van de Raspberry Pi Pico.
 
-![Photo of the Raspberry Pi Pico from underneath with GP13 highlighted.](images/gp13-pico.png)
+![Foto van de Raspberry Pi Pico van onderen met GP13 gemarkeerd.](images/gp13-pico.png)
 
 --- /task ---
 
 --- task ---
 
-**Connect** the jumper wire that is attached to the positive leg of the LED (the one with the resistor) to pin **GP13**. Push it until the black plastic meets the base of the header.
+**Sluit de jumperdraad aan** die is bevestigd aan de positieve poot van de LED (die met de weerstand) om **GP13** vast te zetten. Druk erop totdat het zwarte plastic de onderkant van de kop raakt.
 
-**Connect** the jumper wire that is attached to the negative leg to the **GND** (ground), below **GP13**. This completes the circuit, allowing electrical current to flow when instructed by your code.
+**Verbind** de jumperdraad die is bevestigd aan de negatieve poot met de **GND** (aarde), onder **GP13**. Dit voltooit het circuit, waardoor elektrische stroom kan stromen wanneer dit wordt aangegeven door de code.
 
-![A diagram of the Raspberry Pi Pico with a yellow LED connected to GND and to GP13 through a resistor.](images/pico_led_13_bb.png)
+![Een diagram van de Raspberry Pi Pico met een gele LED die is aangesloten op GND en op GP13 via een weerstand.](images/pico_led_13_bb.png)
 
 --- /task ---
 
 --- task ---
 
-In the last step, you used `pico_led` to light the LED on the Raspberry Pi Pico. To add your own LEDs, you need to `import` `LED` from `picozero`.
+In de laatste stap heb je `pico_led` gebruikt om de LED op de Raspberry Pi Pico te laten branden. Om je eigen LED's toe te voegen, moet je `LED` `importeren` van `picozero`.
 
-Add `, LED` to the end of the import list on **line 1**. Next, set your firefly LED to **GP13** and enter the code to switch it on.
+Voeg `, LED` toe aan het einde van de importlijst op **regel 1**. Stel vervolgens je vuurvlieg-LED in op **GP13** en voer de code in om deze in te schakelen.
 
-Enter the code to light your firefly:
+Voer de code in om je vuurvlieg te verlichten:
 
 --- code ---
 ---
@@ -66,37 +66,37 @@ pico_led.on() sleep(1) pico_led.off()
 
 firefly = LED(13) # Use GP13 firefly.on() --- /code ---
 
-**Tip:** To import multiple items, separate them with commas `,`.
+**Tip:** om meerdere items te importeren, scheid ze dan met komma's `,`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see your LED firefly light up.
+**Test:** Voer je code uit om te zien dat de LED-vuurvlieg gaat branden.
 
-![Yellow LED attached to GP13 and lit up.](images/firefly-on.jpg)
+![De gele LED is aangesloten op de GP13 en brandt.](images/firefly-on.jpg)
 
-**Debug**:
+**Fouten oplossen**:
 
 --- collapse ---
 ---
-title: My code isn't running
+title: Mijn code wordt niet uitgevoerd
 ---
 
-If your code isn't running:
-+ Fix any errors in your code. The LED on the Raspberry Pi Pico will flash if your code runs successfully.
+Als je code niet wordt uitgevoerd:
++ Los eventuele fouten in de code op. De LED op de Raspberry Pi Pico zal knipperen als je code succesvol wordt uitgevoerd.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My LED firefly doesn't light up
+title: Mijn LED-vuurvlieg brandt niet
 ---
 
-If your LED firefly does not light up:
-+ Check that your LED has the negative (shorter, flat) side attached to **GND** and the positive (longer, with resistor) side attached to **GP13**
-+ Make sure that all joints make a good connection
-+ Try a different LED
+Als je LED-vuurvlieg niet oplicht:
++ Controleer of de negatieve (kortere, vlakke) zijde van de LED is bevestigd aan **GND** en de positieve (langere, met weerstand) zijde is bevestigd aan **GP13**
++ Zorg ervoor dat alle verbindingen goed contact maken
++ Probeer een andere LED
 
 --- /collapse ---
 
@@ -104,8 +104,8 @@ If your LED firefly does not light up:
 
 --- task ---
 
-**Optional:** Cut some wings out of folded over sticky tape and stick them to your LED. Invisible tape works well.
+**Optioneel:** Snijd enkele vleugels uit omgevouwen plakband en plak ze aan je LED. Onzichtbare tape werkt goed.
 
-![LED firefly with sticky tape wings.](images/firefly-wings.jpg)
+![LED-vuurvlieg met plakbandvleugels.](images/firefly-wings.jpg)
 
 --- /task ---
