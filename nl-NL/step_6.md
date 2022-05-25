@@ -1,45 +1,45 @@
-## Add a switch
+## Voeg een schakelaar toe
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's useful to be able to control when your LED firefly starts blinking and to be able to turn it off from the device. 
+Het is handig om te kunnen bepalen wanneer de LED-vuurvlieg begint te knipperen en om deze uit te kunnen schakelen vanaf het apparaat. 
 </div>
 <div>
-![The pin and socket ends of two jumper wires are connected together. This causes the firefly to start blinking.](images/firefly-switch.gif){:width="300px"}
+![De pin- en bus-uiteinden van twee jumperdraden zijn met elkaar verbonden. Dit zorgt ervoor dat de vuurvlieg begint te knipperen.](images/firefly-switch.gif){:width="300px"}
 </div>
 </div>
 
-The Raspberry Pi Pico can detect when an input is connected between **GND** and one of the GP pins.
+De Raspberry Pi Pico kan detecteren wanneer een ingang is aangesloten tussen **GND** en een van de GP-pinnen.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">switch</span> is an electrical component that can be **closed** to allow electrical current to flow and **opened** to prevent electrical current from flowing. A <span style="color: #0faeb0">button</span> is also a kind of switch that makes a connection when it is **pressed**.
+Een <span style="color: #0faeb0">schakelaar</span> is een elektrische component die **gesloten** kan worden om elektrische stroom te laten stromen en **geopend** om te voorkomen dat elektrische stroom stroomt. Een <span style="color: #0faeb0">knop</span> is ook een soort schakelaar die een verbinding maakt wanneer deze **wordt ingedrukt**.
 </p>
 
-The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch.
+De eenvoudigste soort schakelaar bestaat uit twee jumperdraden die met elkaar kunnen worden verbonden om de schakelaar te sluiten, of gescheiden om de schakelaar te openen.
 
 [[[pin-socket-jumper-wires]]]
 
 --- task ---
 
-Find one pin–socket jumper wire and one socket–socket jumper wire — the colours do not matter.
+Zoek een jumperdraad met een pin-bus en een bus-bus jumperdraad - de kleuren doen er niet toe.
 
-![One pin–socket and one socket–socket jumper wire.](images/jumper-wires.jpg)
-
---- /task ---
-
---- task ---
-
-**Connect** one jumper wire to **GP18** and the other to **GND**. It doesn't matter which jumper wire you connect to which pin.
-
-![Two jumper wires are attached to the GP18 and the GND pins of the Raspberry Pi Pico.](images/switch-wiring-diagram.png)
+![Een pin-bus en een bus-bus jumperdraad.](images/jumper-wires.jpg)
 
 --- /task ---
 
 --- task ---
 
-To add switches, you need to `import Switch` from the `picozero` library.
+**Sluit een jumperdraad aan** op **GP18** en de andere op **GND**. Het maakt niet uit welke jumperdraad je verbindt met welke pin.
 
-Add `, Switch` to the end of the import list on **line 1**. Next, set your `switch` to **GP18**:
+![Er zijn twee jumperdraden aangesloten op de GP18 en de GND-pinnen van de Raspberry Pi Pico.](images/switch-wiring-diagram.png)
+
+--- /task ---
+
+--- task ---
+
+Om schakelaars toe te voegen, moet je `import Switch` uit de `picozero` bibliotheek importeren.
+
+Voeg `, Switch` toe aan het einde van de importlijst op **regel 1**. Zet vervolgens de `schakelaar` op **GP18**:
 
 --- code ---
 ---
@@ -56,11 +56,11 @@ firefly = LED(13) # Use GP13 switch = Switch(18) # Use GP18
 
 --- /task ---
 
-When you connect the two jumper wires together, this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed.
+Wanneer je de twee jumperdraden met elkaar verbindt, wordt een circuit voltooid en kan de Raspberry Pi Pico detecteren dat de schakelaar gesloten is.
 
 --- task ---
 
-Add code to check `if` your switch `is_closed` (the jumpers are connected) and only blink the firefly if it is closed:
+Voeg code toe om te controleren `of` je schakelaar `is_closed` (de draden zijn aangesloten) en de vuurvlieg alleen knippert als deze gesloten is:
 
 --- code ---
 ---
@@ -79,23 +79,23 @@ while True: if switch.is_closed: # Wires are connected firefly.on() sleep(0.5) #
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected, then run your code.
+**Test:** Zorg ervoor dat de jumperdraden **niet** zijn aangesloten en voer vervolgens de code uit.
 
 --- collapse ---
 
 ---
-title: What do you expect to happen when you run your code?
+title: Wat verwacht je dat er gebeurt als je je code uitvoert?
 ---
 
-The jumper wires are **not** closed, so the code in the `else` block will run. This means the firefly LED will stay **off**.
+De jumperdraden zijn **niet** gesloten, dus de code in het `else` blok zal worden uitgevoerd. Dit betekent dat de vuurvlieg-LED **uit** blijft.
 
 --- /collapse ---
 
-Now connect the jumper wires together. The firefly should start to blink.
+Verbind nu de jumperdraden met elkaar. De vuurvlieg zou moeten beginnen te knipperen.
 
-![An animation of the LED firefly turning on when the jumper wires are connected.](images/firefly-switch.gif)
+![Een animatie van de brandende LED-vuurvlieg wanneer de jumperdraden zijn aangesloten.](images/firefly-switch.gif)
 
-Disconnect the jumper wires and the firefly should stop blinking.
+Koppel de jumperdraden los en de vuurvlieg zou moeten stoppen met knipperen.
 
 --- /task ---
 
@@ -105,34 +105,34 @@ Disconnect the jumper wires and the firefly should stop blinking.
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected, then run your code.
+**Test:** Zorg ervoor dat de jumperdraden **niet** zijn aangesloten en voer vervolgens de code uit.
 
 --- collapse ---
 
 ---
-title: What do you expect to happen when you run your code?
+title: Wat verwacht je dat er zal gebeuren als je je code uitvoert?
 ---
 
-The jumper wires are **not** closed so the code in the `else` block will run. This means the firefly LED will stay **off**.
+De jumperdraden zijn **niet** gesloten, dus de code in het `else` blok zal worden uitgevoerd. Dit betekent dat de vuurvlieg-LED **uit** blijft.
 
 --- /collapse ---
 
-Now connect the jumper wires together.
+Verbind nu de jumperdraden met elkaar.
 
-![The pin of one jumper wire connected to the socket of the other jumper wire.](images/connected-wires.jpg)
+![De pin van een jumperdraad die is aangesloten op de aansluiting van de andere jumperdraad.](images/connected-wires.jpg)
 
-The firefly should start to blink.
+De vuurvlieg zou moeten beginnen te knipperen.
 
-Disconnect the jumper wires and the firefly should stop blinking.
+Koppel de jumperdraden los en de vuurvlieg zou moeten stoppen met knipperen.
 
 --- /task ---
 
 --- /print-only ---
 
-**Note:** Disconnecting the jumper wires will not stop power to the firefly LED immediately. The firefly only turns off when the `firefly.off()` code runs.
+**Opmerking:** het loskoppelen van de jumperdraden zal de voeding naar de vuurvlieg-LED niet onmiddellijk stoppen. De vuurvlieg wordt alleen uitgeschakeld wanneer de `firefly.off()` code wordt uitgevoerd.
 
 --- task ---
 
-**Optional:** If you are in a group, then you could try synchronising your fireflies by connecting your jumper wire switches at the same time.
+**Optioneel:** als je in een groep zit, kun je proberen je vuurvliegjes te synchroniseren door de schakelaars van de jumperdraden tegelijkertijd aan te sluiten.
 
 --- /task ---
