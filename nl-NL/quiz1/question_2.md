@@ -1,46 +1,46 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-In your project, you connected an LED to the Raspberry Pi Pico. LEDs have to be connected the right way around.
+In je project heb je een LED verbonden met de Raspberry Pi Pico. LED's moeten op de juiste manier worden aangesloten.
 
-The **short leg connected to the flat side of your LED** is ...
+Het **korte been dat is aangesloten op de platte kant van je LED** is ...
 
-![An LED with a long leg and a short leg. The long leg is positive and the short leg is negative.](images/pos-neg.png){:width="200px"}
+![Een LED met een lang been en een kort been. Het lange been is positief en het korte been is negatief.](images/pos-neg.png){:width="200px"}
 
 --- choices ---
 
-- ( )  Positive and connects to a GP pin
+- ( ) positief en aangesloten op een GP-pin
 
   --- feedback ---
 
-Try again, while the positive side should be connected to a GP pin, the flat side of the LED is the negative side. (Remember this because the sign for negative is flat: - )
+Probeer het opnieuw, terwijl de positieve kant moet worden aangesloten op een GP-pin, is de platte kant van de LED de negatieve kant. (Vergeet dit niet omdat het teken voor negatief vlak is: - )
 
   --- /feedback ---
 
-- (x)  Negative and connects to a ground (GND) pin
+- (x) Negatief en aangesloten op een aardingspin (GND)
 
   --- feedback ---
 
-Yes! The flat side of an LED is the negative side, which should be connected to a ground (GND) pin.
+Ja! De platte kant van een LED is de negatieve kant, die moet worden aangesloten op een aardingspin (GND).
 
   --- /feedback ---
 
-- ( ) Negative and connects to a GP pin
+- ( ) negatief en aangesloten op een GP-pin
 
   --- feedback ---
 
-Try again, while the flat side of the LED is the negative side, it should not be connected to a GP pin.
+Probeer het opnieuw, hoewel de platte kant van de LED de negatieve kant is, mag deze niet worden aangesloten op een GP-pin.
 
   --- /feedback ---
 
-- ( ) Positive and connects to a ground (GND) pin
+- ( ) Positief en aangesloten op een aardingspin (GND)
 
   --- feedback ---
 
-Try again, the flat side of the LED is the negative side. (Remember this because the sign for negative is flat: -) The negative side of an LED should be connected to the ground (GND) pin.
+Probeer het opnieuw, de platte kant van de LED is de negatieve kant. (Vergeet dit niet omdat het teken voor negatief vlak is: -) de negatieve kant van een LED moet worden aangesloten op de aardingspin (GND).
 
   --- /feedback ---
 
