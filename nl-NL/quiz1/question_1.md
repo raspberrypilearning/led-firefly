@@ -1,17 +1,17 @@
-## Reflection
+## Wat nu?
 
-Well done. You programmed a Raspberry Pi Pico to make an LED flash like a firefly in nature. Now it's time to reflect on the skills that you have gained along the way.
+Goed gedaan. Je hebt een Raspberry Pi Pico geprogrammeerd om een LED te laten knipperen als een vuurvlieg in de natuur. Nu is het tijd om na te denken over de vaardigheden die je onderweg hebt opgedaan.
 
-Answer the three questions below to reflect on what you've learnt.
+Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-The Raspberry Pi Pico is a small device that can be programmed to control electronics components. The Raspberry Pi Pico is a:
+De Raspberry Pi Pico is een klein apparaat dat kan worden geprogrammeerd om elektronische componenten te besturen. De Raspberry Pi Pico is een:
 
 --- choices ---
 
@@ -19,7 +19,7 @@ The Raspberry Pi Pico is a small device that can be programmed to control electr
 
   --- feedback ---
 
-Almost, a The Raspberry Pi Pico isn't a microprocessor — although it has one on it! A microprocessor is the chip that controls the logic on a controller or computer — it's like the brains that does the calculations for a computer to operate.
+Bijna, een Raspberry Pi Pico is geen microprocessor - hoewel het er wel een heeft! Een microprocessor is de chip die de logica op een controller of computer bestuurt — het is als de hersenen die de berekeningen doen voor een computer om te werken.
 
   --- /feedback ---
 
@@ -27,7 +27,7 @@ Almost, a The Raspberry Pi Pico isn't a microprocessor — although it has one o
 
   --- feedback ---
 
-Not quite. A microcomputer is a small device that runs code and can interact with electronics components, but it uses an operating system for user interaction. The Raspberry Pi Pico doesn't have an operating system.
+Niet helemaal. Een microcomputer is een klein apparaat dat code uitvoert en kan communiceren met elektronische componenten, maar het gebruikt een besturingssysteem voor gebruikersinteractie. De Raspberry Pi Pico heeft geen besturingssysteem.
 
   --- /feedback ---
 
@@ -35,7 +35,7 @@ Not quite. A microcomputer is a small device that runs code and can interact wit
 
   --- feedback ---
 
-Yes! The Raspberry Pi Pico is a **microcontroller** — it runs code and interacts with electronics components, but it doesn't have an operating system.
+Ja! De Raspberry Pi Pico is een **microcontroller** — het voert code uit en werkt met elektronische componenten, maar het heeft geen besturingssysteem.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Yes! The Raspberry Pi Pico is a **microcontroller** — it runs code and interac
 
   --- feedback ---
 
-Almost, a microchip is a tiny circuit made up of things called transistors that is attached to a single chip. They are very basic circuits, but lots of them together can make a processor.
+Bijna, een microchip is een klein circuit dat bestaat uit dingen die transistors worden genoemd die op een enkele chip zijn aangesloten. Het zijn zeer eenvoudige circuits, maar veel van hen kunnen samen een processor maken.
 
   --- /feedback ---
 
