@@ -18,16 +18,16 @@ De Raspberry Pi Pico is een goedkope microcontroller die door beginners kan word
 Je gaat:
 
 + Kennismaken met de Raspberry Pi Pico **microcontroller**
-+ Connect an LED and a switch made from jumper wires to the pins on a **Raspberry Pi Pico**
-+ Program the Raspberry Pi Pico using **MicroPython** and Thonny
++ Een LED en een schakelaar van jumper draden aansluiten op de pinnen op een **Raspberry Pi Pico**
++ De Raspberry Pi Pico programmeren met **MicroPython** en Thonny
 
 --- no-print ---
 
 --- task ---
 
-This example shows an LED blinking to mimic a real firefly! Can you spot the repeating pattern in the flashes?
+In dit voorbeeld knippert een LED om een echte vuurvlieg na te bootsen! Kun je het herhalende patroon in de flitsen zien?
 
-![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif){:width="300px"}
+![Een animatie van de vuurvlieg-LED die aan en uit knippert.](images/firefly-blink.gif){:width="300px"}
 
 --- /task ---
 
@@ -37,35 +37,35 @@ This example shows an LED blinking to mimic a real firefly! Can you spot the rep
 
 --- task ---
 
-This example shows an LED firefly. Your LED will blink to mimic a real firefly!
+Dit voorbeeld toont een LED-vuurvlieg. Je LED knippert om een echte vuurvlieg na te bootsen!
 
-![An LED with tape stuck to it to form wings. There are two jumper wires connected to the LED, one with a resister held in place by electrical tape.](images/showcase_static.png)
+![Een LED met plakband om vleugels te vormen. Er zijn twee jumperdraden verbonden met de LED, één met een weerstand die op zijn plaats wordt gehouden door elektrische tape.](images/showcase_static.png)
 
 --- /task ---
 
 --- /print-only ---
 
-To complete this project you will need:
+Om dit project te voltooien heb je het volgende nodig:
 
 **Hardware**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webstore.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A **data** USB A to micro USB cable
-+ 1× yellow LED (or any colour you prefer)
-+ 1× 100Ω resistor (any resistor from 75Ω to 220Ω will work)
-+ 1× pin–socket jumper wire
-+ 3× socket–socket jumper wire
-+ Optional: Sticky tape, invisible tape works best
++ Een Raspberry Pi Pico met daarop gesoldeerde pinkoppen
++ Een **data** USB A naar micro USB-kabel
++ 1× gele LED (of elke gewenste kleur)
++ 1× 100Ω (ohm) weerstand (elke weerstand van 75Ω tot 220Ω werkt)
++ 1× jumper draad met pin-bus aansluiting
++ 3 x bus-bus jumperdraden
++ Optioneel: Plakband, onzichtbare tape werkt het beste
 
 [[[pin-socket-jumper-wires]]]
 
-You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project.
+Je kunt [je LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} van tevoren voorbereiden door deze aan te sluiten op een weerstand en startdraden te bevestigen voordat je met het project begint.
 
 **Software**
 
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer
++ Thonny – dit project kan worden voltooid met de Thonny Python editor, die kan worden geïnstalleerd op een Linux-, Windows- of Mac-computer
 
 [[[thonny-install]]]
 
