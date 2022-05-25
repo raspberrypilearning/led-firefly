@@ -1,15 +1,15 @@
-## What next?
+## Wat nu?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Party popper](https://projects.raspberrypi.org/en/projects/party-popper) project. In this project, you will make a reusable party popper that rewards you with a light and sound display when it is pulled.
+Als je het [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) pad volgt, kun je naar het [Confetti kanon](https://projects.raspberrypi.org/en/projects/party-popper) project gaan. In dit project maak je een herbruikbaar confettikanon dat je beloont met licht en geluids wanneer er aan wordt getrokken.
 
 --- print-only ---
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.jpg)
+![Er wordt een klein stukje folie uit de kanon-schakelaar getrokken en een LED licht op en er wordt een geluid afgespeeld.](images/full-popper-test.jpg)
 
 --- /print-only ---
 
 --- no-print ---
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
+![Er wordt een klein stukje folie uit de kanon-schakelaar getrokken en een LED licht op en er wordt een geluid afgespeeld.](images/full-popper-test.gif)
 
 --- /no-print ---
