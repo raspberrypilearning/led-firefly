@@ -1,23 +1,23 @@
-## Introduction
+## Inleiding
 
-In this project, you will use a Raspberry Pi Pico to make an LED firefly that flashes in a particular pattern, just like fireflies in nature, and connect a switch to control the light.
+In dit project gebruik je een Raspberry Pi Pico om een LED-vuurvlieg te maken die in een bepaald patroon knippert, net zoals vuurvliegen in de natuur, en sluit je een schakelaar aan om het licht te besturen.
 
 [[[flashing-light-warning]]]
 
 <div style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;display: flex; flex-wrap: wrap'>
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with <span style="color: #0faeb0"> electronics components</span> (such as buttons and lights). It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>. 
-The Raspberry Pi Pico is a low-cost microcontroller that can be used by beginners and can also be used by experts to develop electronic products.
+Een <span style="color: #0faeb0">microcontroller</span> is een klein computerapparaat dat code kan uitvoeren en kan communiceren met <span style="color: #0faeb0"> elektronische onderdelen</span> (zoals knoppen en lampjes). Het is meestal ontworpen om een enkele taak te voltooien en heeft geen <span style="color: #0faeb0">besturingssysteem</span>. 
+De Raspberry Pi Pico is een goedkope microcontroller die door beginners kan worden gebruikt en ook door experts kan worden gebruikt om elektronische producten te ontwikkelen.
 </div>
 <div>
-![A drawing of a hand holding a Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
+![Een tekening van een hand met een Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
 </div>
 </div>
 
 <br/>
-You will:
+Je gaat:
 
-+ Meet the Raspberry Pi Pico **microcontroller**
++ Kennismaken met de Raspberry Pi Pico **microcontroller**
 + Connect an LED and a switch made from jumper wires to the pins on a **Raspberry Pi Pico**
 + Program the Raspberry Pi Pico using **MicroPython** and Thonny
 
