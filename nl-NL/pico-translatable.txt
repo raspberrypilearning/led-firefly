@@ -1,11 +1,11 @@
-Hello World!
+Hallo wereld!
 
-firefly
+vuurvlieg
 
-switch
+schakelaar
 
 unclosed_string
 
-The answer is
+Het antwoord is
 
-blah, blah
+bla, bla
