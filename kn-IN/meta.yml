@@ -5,7 +5,7 @@ description: Use a Raspberry Pi Pico to make an LED firefly that flashes in a pa
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
     title: Introduction
@@ -13,22 +13,25 @@ steps:
     title: Set up your Raspberry Pi Pico
   - 
     title: Light the Raspberry Pi Pico LED
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Light your firefly
   - 
     title: Make your firefly blink
   - 
     title: Add a switch
-    completion: internal
+    completion:
+      - internal
   - 
     title: Reflection
-    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Upgrade your project
   - 
