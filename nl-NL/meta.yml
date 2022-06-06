@@ -5,7 +5,7 @@ description: Gebruik een Raspberry Pi Pico om een LED-vuurvlieg te maken die in 
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
     title: Inleiding
@@ -13,22 +13,25 @@ steps:
     title: Stel je Raspberry Pi Pico in
   - 
     title: Steek de Raspberry Pi Pico LED aan
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Steek je vuurvlieg aan
   - 
     title: Laat je vuurvlieg knipperen
   - 
     title: Voeg een schakelaar toe
-    completion: internal
+    completion:
+      - internal
   - 
     title: Reflectie
-    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Verbeter je project
   - 
