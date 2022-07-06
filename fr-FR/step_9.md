@@ -1,15 +1,15 @@
-## What next?
+## Et ensuite ?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Party popper](https://projects.raspberrypi.org/en/projects/party-popper) project. In this project, you will make a reusable party popper that rewards you with a light and sound display when it is pulled.
+Si tu suis le parcours [Introduction au Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro), tu peux passer au projet [Bombe de fête](https://projects.raspberrypi.org/en/projects/party-popper). Dans ce projet, tu fabriqueras une bombe de table réutilisable qui te récompensera avec un affichage lumineux et sonore lorsqu'il sera tiré.
 
 --- print-only ---
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.jpg)
+![Un petit morceau de papier d'aluminium est retiré de l'interrupteur à pression et une LED s'allume et un son est émis.](images/full-popper-test.jpg)
 
 --- /print-only ---
 
 --- no-print ---
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
+![Un petit morceau de papier d'aluminium est retiré de l'interrupteur à pression et une LED s'allume et un son est émis.](images/full-popper-test.gif)
 
 --- /no-print ---
