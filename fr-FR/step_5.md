@@ -1,25 +1,25 @@
-## Make your firefly blink
+## Faire clignoter ta luciole
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will make your firefly blink on and off, like a real firefly. 
+Maintenant, tu vas faire clignoter ta luciole, comme une vraie luciole. 
 </div>
 <div>
-![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif){:width="300px"}
+![Une animation de la LED luciole qui clignote.](images/firefly-blink.gif){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">firefly</span> is a kind of beetle, also called a glow worm or lightning bug. They use bioluminescence to flash to identify themselves to other members of the same species. Different species flash in different patterns. 
+Une <span style="color: #0faeb0">luciole</span> est une sorte de coléoptère, également appelé ver luisant ou insecte lumineux. Elles utilisent la bioluminescence pour clignoter et s'identifier aux autres membres de la même espèce. Différentes espèces clignotent dans différents modèles. 
 </p>
 
 --- task ---
 
-Change your code to make the firefly blink on and off in a `while True:` loop. The timings represent the light patterns of a real firefly.
+Modifie ton code pour faire clignoter la luciole dans une boucle `while True:`. Les minutages représentent les motifs lumineux d'une vraie luciole.
 
-Make sure that the code on lines 11–14 are indented.
+Assure-toi que le code des lignes 11 à 14 est indenté.
 
-**Tip:** In Thonny you can indent code by going to the beginning of the line and tapping the <kbd>Tab</kbd> key — this will insert four spaces. Thonny will automatically indent code based on the previous line when your press <kbd>Enter</kbd> while typing.
+**Astuce :** Dans Thonny, tu peux indenter le code en allant au début de la ligne et en appuyant sur la touche <kbd>Tab</kbd> — cela insérera quatre espaces. Thonny indentera automatiquement le code en fonction de la ligne précédente lorsque tu appuies sur <kbd>Entrée</kbd> lors de la saisie.
 
 --- code ---
 ---
@@ -34,13 +34,13 @@ while True: firefly.on() sleep(0.5) firefly.off() sleep(2.5) --- /code ---
 
 --- task ---
 
-**Test:** Run your code to see the firefly slowly blink on and off.
+**Test :** Exécute ton code pour voir la luciole clignoter lentement.
 
-![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif)
+![Une animation de la LED luciole clignotante allumée et éteinte.](images/firefly-blink.gif)
 
-**Debug:**
+**Déboguer :**
 
-+ Fix any errors in your code, including indentation
-+ Check that none of the connections to your LED firefly have come loose
++ Corrige toutes les erreurs dans ton code, y compris l'indentation
++ Vérifie qu'aucune des connexions à ta luciole LED ne s'est desserrée
 
 --- /task ---
