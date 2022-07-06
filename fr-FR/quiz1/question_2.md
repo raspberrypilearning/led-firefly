@@ -1,46 +1,46 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Question 2 sur 3
 ---
 
-In your project, you connected an LED to the Raspberry Pi Pico. LEDs have to be connected the right way around.
+Dans ton projet, tu as connecté une LED au Raspberry Pi Pico. Les LED doivent être connectées dans le bon sens.
 
-The **short leg connected to the flat side of your LED** is ...
+La **patte courte reliée au côté plat de ta LED** est ...
 
-![An LED with a long leg and a short leg. The long leg is positive and the short leg is negative.](images/pos-neg.png){:width="200px"}
+![Une LED avec une patte longue et une patte courte. La patte longue est positive et la patte courte est négative.](images/pos-neg.png){:width="200px"}
 
 --- choices ---
 
-- ( )  Positive and connects to a GP pin
+- ( ) Positive et se connecte à une broche GP
 
   --- feedback ---
 
-Try again, while the positive side should be connected to a GP pin, the flat side of the LED is the negative side. (Remember this because the sign for negative is flat: - )
+Réessaie, alors que le côté positif doit être connecté à une broche GP, le côté plat de la LED est le côté négatif. (Souviens-toi de ceci car le signe du négatif est plat : - )
 
   --- /feedback ---
 
-- (x)  Negative and connects to a ground (GND) pin
+- (x) Négative et se connecte à une broche de masse (GND)
 
   --- feedback ---
 
-Yes! The flat side of an LED is the negative side, which should be connected to a ground (GND) pin.
+Oui ! Le côté plat d'une LED est le côté négatif, qui doit être connecté à une broche de masse (GND).
 
   --- /feedback ---
 
-- ( ) Negative and connects to a GP pin
+- ( ) Négative et se connecte à une broche GP
 
   --- feedback ---
 
-Try again, while the flat side of the LED is the negative side, it should not be connected to a GP pin.
+Réessaie, alors que le côté plat de la LED est le côté négatif, il ne doit pas être connecté à une broche GP.
 
   --- /feedback ---
 
-- ( ) Positive and connects to a ground (GND) pin
+- ( ) Positive et se connecte à une broche de masse (GND)
 
   --- feedback ---
 
-Try again, the flat side of the LED is the negative side. (Remember this because the sign for negative is flat: -) The negative side of an LED should be connected to the ground (GND) pin.
+Réessaie, le côté plat de la LED est le côté négatif. (Souviens-toi de ceci car le signe du négatif est plat : -) Le côté négatif d'une LED doit être connecté à la broche de masse (GND).
 
   --- /feedback ---
 
