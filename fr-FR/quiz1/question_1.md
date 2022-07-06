@@ -1,49 +1,49 @@
-## Reflection
+## Réflexion
 
-Well done. You programmed a Raspberry Pi Pico to make an LED flash like a firefly in nature. Now it's time to reflect on the skills that you have gained along the way.
+Bien joué. Tu as programmé un Raspberry Pi Pico pour faire clignoter une LED comme une luciole dans la nature. Il est maintenant temps de réfléchir aux compétences que tu as acquises en cours de route.
 
-Answer the three questions below to reflect on what you've learnt.
+Réponds aux trois questions ci-dessous pour réfléchir à ce que tu as appris.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Question 1 sur 3
 ---
 
-The Raspberry Pi Pico is a small device that can be programmed to control electronics components. The Raspberry Pi Pico is a:
+Le Raspberry Pi Pico est un petit appareil qui peut être programmé pour contrôler des composants électroniques. Le Raspberry Pi Pico est un :
 
 --- choices ---
 
-- ( ) microprocessor
+- ( ) microprocesseur
 
   --- feedback ---
 
-Almost, a The Raspberry Pi Pico isn't a microprocessor — although it has one on it! A microprocessor is the chip that controls the logic on a controller or computer — it's like the brains that does the calculations for a computer to operate.
+Presque, un Raspberry Pi Pico n'est pas un microprocesseur - bien qu'il en ait un ! Un microprocesseur est la puce qui contrôle la logique d'un contrôleur ou d'un ordinateur - c'est comme le cerveau qui fait les calculs pour qu'un ordinateur fonctionne.
 
   --- /feedback ---
 
-- ( ) microcomputer
+- ( ) micro-ordinateur
 
   --- feedback ---
 
-Not quite. A microcomputer is a small device that runs code and can interact with electronics components, but it uses an operating system for user interaction. The Raspberry Pi Pico doesn't have an operating system.
+Pas tout à fait. Un micro-ordinateur est un petit appareil qui exécute du code et peut interagir avec des composants électroniques, mais il utilise un système d'exploitation pour l'interaction avec l'utilisateur. Le Raspberry Pi Pico n'a pas de système d'exploitation.
 
   --- /feedback ---
 
-- (x) microcontroller
+- (x) microcontrôleur
 
   --- feedback ---
 
-Yes! The Raspberry Pi Pico is a **microcontroller** — it runs code and interacts with electronics components, but it doesn't have an operating system.
+Oui ! Le Raspberry Pi Pico est un **microcontrôleur** — il exécute du code et interagit avec des composants électroniques, mais il n'a pas de système d'exploitation.
 
   --- /feedback ---
 
-- ( ) microchip
+- ( ) micropuce
 
   --- feedback ---
 
-Almost, a microchip is a tiny circuit made up of things called transistors that is attached to a single chip. They are very basic circuits, but lots of them together can make a processor.
+Presque, une micropuce est un petit circuit composé de choses appelées transistors qui est attaché à une seule puce. Ce sont des circuits très basiques, mais beaucoup d'entre eux ensemble peuvent constituer un processeur.
 
   --- /feedback ---
 
