@@ -1,33 +1,33 @@
 ## Introduction
 
-In this project, you will use a Raspberry Pi Pico to make an LED firefly that flashes in a particular pattern, just like fireflies in nature, and connect a switch to control the light.
+Dans ce projet, tu utiliseras un Raspberry Pi Pico pour créer une luciole LED qui clignote selon un motif particulier, tout comme les lucioles dans la nature, et tu connecteras un interrupteur pour contrôler la lumière.
 
 [[[flashing-light-warning]]]
 
 <div style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;display: flex; flex-wrap: wrap'>
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with <span style="color: #0faeb0"> electronics components</span> (such as buttons and lights). It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>. 
-The Raspberry Pi Pico is a low-cost microcontroller that can be used by beginners and can also be used by experts to develop electronic products.
+Un <span style="color: #0faeb0">microcontrôleur</span> est un petit dispositif informatique qui peut exécuter du code et interagir avec des <span style="color: #0faeb0">composants électroniques</span> (tels que des boutons et des voyants). Il est généralement conçu pour effectuer une seule tâche et n'a pas de <span style="color: #0faeb0">système d'exploitation</span>. 
+Le Raspberry Pi Pico est un microcontrôleur à faible coût qui peut être utilisé par les débutants et peut également être utilisé par des experts pour développer des produits électroniques.
 </div>
 <div>
-![A drawing of a hand holding a Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
+![Un dessin d'une main tenant un Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
 </div>
 </div>
 
 <br/>
-You will:
+Tu vas :
 
-+ Meet the Raspberry Pi Pico **microcontroller**
-+ Connect an LED and a switch made from jumper wires to the pins on a **Raspberry Pi Pico**
-+ Program the Raspberry Pi Pico using **MicroPython** and Thonny
++ Découvrir le **microcontrôleur** Raspberry Pi Pico
++ Connecter une LED et un interrupteur constitué de fils de liaison aux broches d'un **Raspberry Pi Pico**
++ Programmer le Raspberry Pi Pico en utilisant **MicroPython** et Thonny
 
 --- no-print ---
 
 --- task ---
 
-This example shows an LED blinking to mimic a real firefly! Can you spot the repeating pattern in the flashes?
+Cet exemple montre une LED qui clignote pour imiter une vraie luciole ! Peux-tu repérer le motif répétitif dans les clignotements ?
 
-![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif){:width="300px"}
+![Une animation de la LED luciole clignotante allumée et éteinte.](images/firefly-blink.gif){:width="300px"}
 
 --- /task ---
 
@@ -37,35 +37,35 @@ This example shows an LED blinking to mimic a real firefly! Can you spot the rep
 
 --- task ---
 
-This example shows an LED firefly. Your LED will blink to mimic a real firefly!
+Cet exemple montre une luciole LED. Ta LED clignotera pour imiter une vraie luciole !
 
-![An LED with tape stuck to it to form wings. There are two jumper wires connected to the LED, one with a resister held in place by electrical tape.](images/showcase_static.png)
+![Une LED avec du ruban adhésif collé dessus pour former des ailes. Il y a deux fils de liaison connectés à la LED, l'un avec une résistance maintenue en place par du ruban électrique.](images/showcase_static.png)
 
 --- /task ---
 
 --- /print-only ---
 
-To complete this project you will need:
+Pour mener à bien ce projet, tu auras besoin de :
 
-**Hardware**
+**Matériel informatique**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Tu peux acheter tout le matériel requis pour ce projet et les autres projets du parcours à partir de la [boutique en ligne Pimoroni.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A **data** USB A to micro USB cable
-+ 1× yellow LED (or any colour you prefer)
-+ 1× 100Ω resistor (any resistor from 75Ω to 220Ω will work)
-+ 1× pin–socket jumper wire
-+ 3× socket–socket jumper wire
-+ Optional: Sticky tape, invisible tape works best
++ Un Raspberry Pi Pico avec des broches soudées dessus
++ Un câble de **données** USB A vers micro USB
++ 1 × LED jaune (ou n'importe quelle couleur que tu préfères)
++ 1 × résistance 100Ω (toute résistance de 75Ω à 220Ω fonctionnera)
++ 1 × fil de liaison broche-prise
++ 3 x fils de liaison prise-prise
++ Facultatif : ruban adhésif, le ruban invisible fonctionne mieux
 
 [[[pin-socket-jumper-wires]]]
 
-You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project.
+Tu peux [préparer ta LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} à l'avance en l'attachant à une résistance et à des fils de liaison avant de démarrer le projet.
 
-**Software**
+**Logiciel**
 
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer
++ Thonny : ce projet peut être réalisé à l'aide de l'éditeur Thonny Python, qui peut être installé sur un ordinateur Linux, Windows ou Mac
 
 [[[thonny-install]]]
 
