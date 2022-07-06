@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Question 3 sur 3
 ---
 
-In your project, you coded a firefly LED and a switch made from two jumper wires.
+Dans ton projet, tu as codé une LED luciole et un interrupteur constitué de deux fils.
 
-What happens when the jumper wires are connected to close the switch?
+Que se passe-t-il lorsque les fils sont connectés pour fermer l'interrupteur ?
 
 --- code ---
 ---
@@ -17,29 +17,29 @@ firefly = LED(13) switch = Switch(18)
 
 while True: if switch.is_closed: firefly.on() sleep(0.5) firefly.off() sleep(2.5) else: firefly.off() sleep(0.1) --- /code --- --- choices ---
 
-- ( ) The LED firefly will blink once and then turn off until you connect the switch again.
+- ( ) La luciole LED clignotera une fois puis s'éteindra jusqu'à ce que tu reconnectes l'interrupteur.
 
   --- feedback ---
 
-Not quite, the code to blink the LED is in a while loop that keeps checking whether the switch is closed.
+Pas tout à fait, le code pour faire clignoter la LED est dans une boucle while qui vérifie en permanence si l'interrupteur est fermé.
 
   --- /feedback ---
 
-- ( ) The LED firefly will remain off.
+- ( ) La luciole LED restera éteinte.
 
 
   --- feedback ---
 
-Try again. If the switch is closed then the `switch.is_closed` condition will be true. This will run the block of code to blink the firefly.
+Réessaie. Si l'interrupteur est fermé, la condition `switch.is_closed` sera vraie. Cela exécutera le bloc de code pour faire clignoter la luciole.
 
   --- /feedback ---
 
-- (x) The LED firefly will blink on and off until you disconnect the switch.
+- (x) La luciole LED clignotera jusqu'à ce que tu déconnectes l'interrupteur.
 
 
   --- feedback ---
 
-Well done! Your LED firefly will continue to blink for as long as the switch is closed.
+Bien joué ! Ta luciole LED continuera à clignoter tant que l'interrupteur est fermé.
 
   --- /feedback ---
 
