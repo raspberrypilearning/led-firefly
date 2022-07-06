@@ -1,11 +1,11 @@
-Hello World!
+Bonjour le monde !
 
-firefly
+luciole
 
-switch
+interrupteur
 
-unclosed_string
+chaîne_non fermée
 
-The answer is
+La réponse est
 
-blah, blah
+bla, bla
