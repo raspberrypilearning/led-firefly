@@ -1,37 +1,37 @@
-## Light the Raspberry Pi Pico LED
+## Allumer la LED Raspberry Pi Pico
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will light the tiny LED that sits on the top of your Raspberry Pi Pico. This will check that your Raspberry Pi Pico is set up correctly.
+Dans cette étape, tu allumeras la petite LED qui se trouve sur le dessus de ton Raspberry Pi Pico. Cela vérifiera que ton Raspberry Pi Pico est correctement configuré.
 </div>
 <div>
-![A Raspberry Pi Pico with the onboard LED switching on and then off.](images/led-on-off.gif){:width="300px"}
+![Un Raspberry Pi Pico avec la LED intégrée qui s'allume puis s'éteint.](images/led-on-off.gif){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">LED</span> stands for light-emitting diode. It uses electroluminescence, which is where a material lights up when an electrical current passes through it. An LED has two legs — a long one and a short one — and must be connected the right way around. The long leg is positive (+) and the short one is the negative (-). Another way to check if a leg is positive or negative is to use your finger to find the flat side of the LED bulb. The flat side is on the same side as the negative leg.
+<span style="color: #0faeb0">LED</span> signifie diode électroluminescente. Elle utilise l'électroluminescence, c'est-à-dire qu'un matériau s'illumine lorsqu'un courant électrique le traverse. Une LED a deux pattes : une longue et une courte, et doit être connectée dans le bon sens. La plus longue patte est le pôle positif (+) et la plus courte est le pôle négatif (-). Une autre façon de vérifier si une patte est positive ou négative consiste à utiliser ton doigt pour trouver le côté plat de l'ampoule LED. Le côté plat est du même côté que la patte négative.
 </p>
 
 --- task ---
 
-Look at your Raspberry Pi Pico and find the small LED next to the USB connector.
+Regarde ton Raspberry Pi Pico et trouve la petite LED à côté du connecteur USB.
 
-![A photo of the Raspberry Pi Pico with the LED highlighted.](images/pico-led.jpg){:width="200px"}
+![Une photo du Raspberry Pi Pico avec la LED en surbrillance.](images/pico-led.jpg){:width="200px"}
 
 --- /task ---
 
 --- task ---
 
-Create a new file in Thonny by clicking **File** > **New** in the top menu bar. An empty workspace will open.
+Crée un nouveau fichier dans Thonny en cliquant sur **Fichier** > **Nouveau** dans la barre de menu supérieure. Un espace de travail vide s'ouvrira.
 
 --- /task ---
 
-In the last step, you installed the `picozero` library. This library allows you to program electronics components that are attached to a Raspberry Pi Pico. At the top of your code, you will need to import the items that you need from the `picozero` library.
+Dans la dernière étape, tu as installé la bibliothèque `picozero`. Cette bibliothèque te permet de programmer des composants électroniques qui sont attachés à un Raspberry Pi Pico. En haut de ton code, tu devras importer les éléments dont tu as besoin à partir de la bibliothèque `picozero`.
 
 --- task ---
 
-Type the following code into the main editor pane in Thonny:
+Tape le code suivant dans le volet principal de l'éditeur dans Thonny :
 
 --- code ---
 ---
@@ -48,68 +48,68 @@ pico_led.on()
 
 --- task ---
 
-Choose **File**->**Save As**. Thonny will ask whether you want to save the file on **This computer** or the **Raspberry Pi Pico**. Choose **This computer** to save your code to your computer.
+Choisis **Fichier**->**Enregistrer sous**. Thonny te demandera si tu souhaites enregistrer le fichier sur **Cet ordinateur** ou sur le **Raspberry Pi Pico**. Choisis **Cet ordinateur** pour enregistrer ton code sur ton ordinateur.
 
-Choose a location on your computer such as your 'Documents' folder. Name your file `firefly.py`.
+Choisis un emplacement sur ton ordinateur tel que ton dossier « Documents ». Nomme ton fichier `luciole.py`.
 
-![A screenshot of a window with two options. The user can either select 'This computer' or 'Raspberry Pi Pico' device. 'This computer' is highlighted.](images/save-on-computer.png)
-
---- /task ---
-
---- task ---
-
-**Test:** Thonny has a green play button with a small white triangle inside it. Pressing this button allows you to run your code.
-
-+ Press the play button
-
-+ Check that the small LED on the Raspberry Pi Pico turns on
-
-![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on.jpg){:width="300px"}
+![Une capture d'écran d'une fenêtre avec deux options. L'utilisateur peut sélectionner l'appareil "Cet ordinateur" ou "Raspberry Pi Pico". "Cet ordinateur" est mis en surbrillance.](images/save-on-computer.png)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Test :** Thonny a un bouton de lecture vert avec un petit triangle blanc à l'intérieur. Appuyer sur ce bouton te permet d'exécuter ton code.
+
++ Appuie sur le bouton de lecture
+
++ Vérifie que la petite LED du Raspberry Pi Pico s'allume
+
+![Un Raspberry Pi Pico avec la LED intégrée allumée.](images/led-on.jpg){:width="300px"}
+
+--- /task ---
+
+--- task ---
+
+**Déboguer:**
 
 --- collapse ---
 ---
-title: The play button is faded out
+title: Le bouton exécuter est masqué
 ---
 
-If you don't see a green play button (it is faded):
-+ Click the red **STOP** button
-+ Check that your Raspberry Pi Pico is connected to your computer with a USB cable
-+ Click on **MicroPython (Raspberry Pi Pico)** at the bottom-right corner of Thonny to reconnect
-+ Unplug your USB cable and then plug it back in
+Si tu ne vois pas de bouton exécuter en vert (il est grisé) :
++ Clique sur le bouton rouge **STOP**
++ Vérifie que ton Raspberry Pi Pico est connecté à ton ordinateur avec un câble USB
++ Clique sur **MicroPython (Raspberry Pi Pico)** dans le coin inférieur droit de Thonny pour te reconnecter
++ Débranche ton câble USB puis rebranche-le
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Thonny says that there is an error in my code
+title: Thonny dit qu'il y a une erreur dans mon code
 ---
 
-Check your code very carefully and make sure it matches the example.
+Vérifie très attentivement ton code et assure-toi qu'il correspond à l'exemple.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: There are no errors in my code but the light doesn't come on
+title: Il n'y a pas d'erreur dans mon code mais le voyant ne s'allume pas
 ---
 
-Try a different USB cable, making sure that it is a **data** USB cable. As a last resort, try another Raspberry Pi Pico (if you have a spare).
+Essaie un autre câble USB, en t'assurant qu'il s'agit d'un câble USB de **données**. En dernier recours, essaie un autre Raspberry Pi Pico (si tu en as un de rechange).
 
 --- /collapse ---
 
 --- /task ---
 
-The LED will stay on until you write code to turn it off or you unplug the Raspberry Pi Pico.
+La LED restera allumée jusqu'à ce que tu écrives un code pour l'éteindre ou que tu débranches le Raspberry Pi Pico.
 
 --- task ---
 
-Import `sleep` to allow you to pause your code. Add code to the end of your script to sleep for one second and then turn the LED off.
+Importe `sleep` pour te permettre de mettre ton code en pause. Ajoute du code à la fin de ton script pour mettre en veille pendant une seconde, puis éteindre la LED.
 
 --- code ---
 ---
@@ -124,22 +124,22 @@ pico_led.on() sleep(1) pico_led.off() --- /code ---
 
 --- task ---
 
-**Test:** Click the green **play** button. Thonny will save the file on your Raspberry Pi Pico and then run the new code.
+**Test :** Clique sur le bouton vert **exécuter**. Thonny enregistrera le fichier sur ton Raspberry Pi Pico puis exécutera le nouveau code.
 
-Check that the LED turns on and then goes off again. The LED will only light for one second so make sure you are watching.
+Vérifie que la LED s'allume puis s'éteint à nouveau. La LED ne s'allume que pendant une seconde, alors assure-toi de bien regarder.
 
-Run your code as many times as you like.
+Exécute ton code autant de fois que tu le souhaites.
 
-![A Raspberry Pi Pico with the onboard LED switching on and then off.](images/led-on-off.gif){:width="300px"}
+![Un Raspberry Pi Pico avec la LED intégrée qui s'allume puis s'éteint.](images/led-on-off.gif){:width="300px"}
 
-**Debug:**
+**Déboguer :**
 
 --- collapse ---
 ---
-title: Thonny says sleep isn't defined
+title: Thonny dit que le sleep n'est pas défini
 ---
 
-Add the `from time import sleep` line.
+Ajoute la ligne `from time import sleep`.
 
 --- /collapse ---
 
