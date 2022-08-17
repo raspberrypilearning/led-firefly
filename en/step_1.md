@@ -51,7 +51,7 @@ To complete this project you will need:
 
 You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik wbe store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
 
 + A Raspberry Pi Pico with pin headers soldered on
 + A **data** USB A to micro USB cable
