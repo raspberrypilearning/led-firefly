@@ -1,4 +1,4 @@
-## Wat nu?
+## Reflectie
 
 Goed gedaan. Je hebt een Raspberry Pi Pico geprogrammeerd om een LED te laten knipperen als een vuurvlieg in de natuur. Nu is het tijd om na te denken over de vaardigheden die je onderweg hebt opgedaan.
 
