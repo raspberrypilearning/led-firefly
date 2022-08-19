@@ -47,7 +47,7 @@ Probeer het nog eens. Als de schakelaar gesloten is dan zal de `schakelaar.is_cl
 
   --- /feedback ---
 
-- ( ) de LED-vuurvlieg knippert aan en uit totdat je de schakelaar loskoppelt.
+- (x) de LED-vuurvlieg knippert aan en uit totdat je de schakelaar loskoppelt.
 
 
   --- feedback ---
