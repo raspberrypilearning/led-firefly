@@ -1,33 +1,33 @@
-## Introduction
+## المقدمة
 
-In this project, you will use a Raspberry Pi Pico to make an LED firefly that flashes in a particular pattern, just like fireflies in nature, and connect a switch to control the light.
+في هذا المشروع ، ستستخدم Raspberry Pi Pico لصنع يراعة LED تومض بنمط معين ، تمامًا مثل اليراعات في الطبيعة ، وتوصيل مفتاح للتحكم في الضوء.
 
 [[[flashing-light-warning]]]
 
 <div style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;display: flex; flex-wrap: wrap'>
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A <span style="color: #0faeb0">microcontroller</span> is a tiny computing device that can run code and interact with <span style="color: #0faeb0"> electronics components</span> (such as buttons and lights). It is usually designed to complete a single task, and doesn't have an <span style="color: #0faeb0">operating system</span>. 
-The Raspberry Pi Pico is a low-cost microcontroller that can be used by beginners and can also be used by experts to develop electronic products.
+المتحكم الدقيق <span style="color: #0faeb0">microcontroller</span> هو جهاز حوسبة صغير يمكنه تشغيل التعليمات البرمجية والتفاعل مع <span style="color: #0faeb0">المكونات الإلكترونية</span> (مثل الأزرار والأضواء). عادة ما يتم تصميمه لإكمال مهمة واحدة ، ولا يحتوي على <span style="color: #0faeb0">نظام تشغيل</span>. 
+Raspberry Pi Pico هو متحكم دقيق منخفض التكلفة يمكن استخدامه من قبل المبتدئين ويمكن استخدامه أيضا من قبل الخبراء لتطوير المنتجات الإلكترونية.
 </div>
 <div>
-![A drawing of a hand holding a Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
+! [رسم يد تحمل Raspberry Pi Pico.] (images / pico-hand.png) {: width = "300px"}
 </div>
 </div>
 
 <br/>
-You will:
+سوف تقوم بمايلي:
 
-+ Meet the Raspberry Pi Pico **microcontroller**
-+ Connect an LED and a switch made from jumper wires to the pins on a **Raspberry Pi Pico**
-+ Program the Raspberry Pi Pico using **MicroPython** and Thonny
++ تعرف على "المتحكم الدقيق" Raspberry Pi Pico **microcontroller**
++ قم بتوصيل LED ومفتاح مصنوع من أسلاك التوصيل إلى المنافذ الموجودة في **Raspberry Pi Pico**
++ قم ببرمجة Raspberry Pi Pico باستخدام **MicroPython** و Thonny
 
 --- no-print ---
 
 --- task ---
 
-This example shows an LED blinking to mimic a real firefly! Can you spot the repeating pattern in the flashes?
+يوضح هذا المثال وميض LED لتقليد يراعة حقيقية! هل يمكنك تحديد النمط المتكرر في الومضات؟
 
-![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif){:width="300px"}
+![رسم متحرك ل LED يراعة يومض "يشتعل وينطفئ"](images/firefly-blink.gif){:width="300px"}
 
 --- /task ---
 
@@ -37,27 +37,29 @@ This example shows an LED blinking to mimic a real firefly! Can you spot the rep
 
 --- task ---
 
-This example shows an LED firefly. Your LED will blink to mimic a real firefly!
+يوضح هذا المثال يراعة LED. سوف يومض LED الخاص بك لتقليد اليراعة الحقيقية!
 
-![An LED with tape stuck to it to form wings. There are two jumper wires connected to the LED, one with a resister held in place by electrical tape.](images/showcase_static.png)
+![مصباح LED مع شريط لاصق ملتصق به لتشكيل أجنحة. يوجد سلكان موصلان متصلان بمصباح LED ، أحدهما مزود بمقاومة مثبتة في مكانها بواسطة شريط كهربائي.](images/showcase_static.png)
 
 --- /task ---
 
 --- /print-only ---
 
-To complete this project you will need:
+لإتمام هذا المشروع ، ستحتاج إلى:
 
-**Hardware**
+**الأجهزة**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+يمكنك شراء كافة الأجهزة المطلوبة لهذا المشروع والمشاريع الأخرى في هذا المسار من متجر [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A **data** USB A to micro USB cable
-+ 1× yellow LED (or any colour you prefer)
-+ 1× 100Ω resistor (any resistor from 75Ω to 220Ω will work)
-+ 1× pin–socket jumper wire
-+ 3× socket–socket jumper wire
-+ Optional: Sticky tape, invisible tape works best
+If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+
++ Raspberry Pi Pico مع رؤوس توصيل ملحومة عليه
++ كابل **data** USB A الى micro USB
++ 1× LED أصفر (أو أي لون تفضله)
++ 1× 100Ω مقاومة (أي مقاومة من 75Ω إلى 220Ω سوف تعمل)
++ 1 × سلك توصيل دبوس - مقبس
++ 3 × سلك توصيل مقبس - مقبس
++ اختياري: شريط لاصق، الشريط غير المرئي يعمل بشكل أفضل
 
 [[[pin-socket-jumper-wires]]]
 
@@ -65,7 +67,7 @@ You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduc
 
 **Software**
 
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer
++ Thonny - يمكن إكمال هذا المشروع باستخدام محرر Thonny Python، والذي يمكن تثبيته على أنظمة Linux, Windows أو Mac
 
 [[[thonny-install]]]
 
