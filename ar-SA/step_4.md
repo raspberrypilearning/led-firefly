@@ -1,25 +1,25 @@
-## Light your firefly
+## أشعل اليراعة الخاص بك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will use jumper wires to connect an LED with a resistor to your Raspberry Pi Pico and write code to light it. 
+في هذه الخطوة، ستستخدم أسلاك التوصيل لتوصيل مصباح LED بمقاوم وربطها مع جهاز Raspberry Pi Pico الخاص بك وكتابة تعليمات برمجية لإضاءته. 
 </div>
 <div>
-![The Raspberry Pi Pico with two connected jumper wires linking to a yellow LED.](images/firefly-on.jpg){:width="300px"}
+! [Raspberry Pi Pico بسلكين توصيل متصلين بمصباح LED أصفر.] (images / firefly-on.jpg) {: width = "300px"}
 </div>
 </div>
 
 --- task ---
 
-Make sure that you have an LED connected to a resistor and two socket–socket jumper wires. The colour of the jumper wires does not matter, they all do the same thing.
+تأكد من أن لديك مصباح LED متصل بمقاومة وسلكي توصيل مقبس-مقبس. لا يهم لون الاسلاك، فجميعهم يفعلون الشيء نفسه.
 
-Fireflies are usually yellow, orange, or green but you can choose any colour you like.
+عادة ما تكون اليراعات صفراء أو برتقالية أو خضراء ولكن يمكنك اختيار أي لون تريده.
 
-![An LED connected to jumper wires with a resistor on the long, positive leg.](images/led-resistor.jpeg)
+![مصباح LED متصل بأسلاك توصيل بمقاوم على الساق الطويلة الموجبة.](images/led-resistor.jpeg)
 
-A **resistor** controls the current that flows through a circuit. This protects the LED from burning out and will make it last longer.
+تتحكم **المقاومة** في التيار الذي يتدفق عبر الدائرة. هذا يحمي مصباح LED من الاحتراق وسيجعله يدوم لفترة أطول.
 
-If your LED does not have jumper wires and a resistor attached, then you can add them:
+إذا لم يكن مصباح LED الخاص بك يحتوي على أسلاك توصيل ومقاومة متصلة، فيمكنك إضافتها:
 
 [[[led-resistor-electrical-tape]]]
 
@@ -27,33 +27,33 @@ If your LED does not have jumper wires and a resistor attached, then you can add
 
 --- /task ---
 
-A Raspberry Pi Pico has **40 pins** on its board. **Pins** allow you to connect external components to the Raspberry Pi Pico.
+يحتوي Raspberry Pi Pico على **40 دبوسًا** على لوحه. تسمح لك **الدبابيس** بتوصيل المكونات الخارجية بـ Raspberry Pi Pico.
 
 --- task ---
 
-Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You will notice that there are labels for each pin on the **underneath** side of the Raspberry Pi Pico.
+استكشف Raspberry Pi Pico وابحث عن الدبوس المسمى **GP13**. ستلاحظ وجود عناوين لكل دبوس موجودة بالجهة **السفلى** من Raspberry Pi Pico.
 
-![Photo of the Raspberry Pi Pico from underneath with GP13 highlighted.](images/gp13-pico.png)
+![صورة لـ Raspberry Pi Pico من الأسفل مع إبراز GP13.](images/gp13-pico.png)
 
 --- /task ---
 
 --- task ---
 
-**Connect** the jumper wire that is attached to the positive leg of the LED (the one with the resistor) to pin **GP13**. Push it until the black plastic meets the base of the header.
+**اربط** سلك التوصيل المتصل بالساق الموجبة من مصباح LED (السلك الذي يحتوي على المقاومة) بالدبوس **GP13**. ادفعه حتى يلتقي البلاستيك الأسود بقاعدة الرأس.
 
-**Connect** the jumper wire that is attached to the negative leg to the **GND** (ground), below **GP13**. This completes the circuit, allowing electrical current to flow when instructed by your code.
+**اربط** سلك التوصيل المتصل بالساق السالبة بـ **GND** (أرضي) ، اسفل من **GP13**. هذا يكمل الدائرة، مما يسمح للتيار الكهربائي بالتدفق عندما تطلب منه التعليمات البرمجية الخاصة بك.
 
-![A diagram of the Raspberry Pi Pico with a yellow LED connected to GND and to GP13 through a resistor.](images/pico_led_13_bb.png)
+![رسم تخطيطي لـ Raspberry Pi Pico بمصباح LED أصفر متصل بـ GND و GP13 من خلال المقاوم.](images/pico_led_13_bb.png)
 
 --- /task ---
 
 --- task ---
 
-In the last step, you used `pico_led` to light the LED on the Raspberry Pi Pico. To add your own LEDs, you need to `import` `LED` from `picozero`.
+في الخطوة الأخيرة ، استخدمت `pico_led` لإضاءة مصباح LED على Raspberry Pi Pico. لإضافة مصابيح LED الخاصة بك ، تحتاج إلى `استيراد` `LED` من `picozero`.
 
-Add `, LED` to the end of the import list on **line 1**. Next, set your firefly LED to **GP13** and enter the code to switch it on.
+أضف `، LED` إلى نهاية قائمة الاستيراد في **سطر 1**. بعد ذلك ، اضبط مصباح اليراعة على **GP13** وأدخل التعليمات البرمجية لتشغيله.
 
-Enter the code to light your firefly:
+أدخل التعليمات البرمجية لإضاءة اليراع الخاص بك:
 
 --- code ---
 ---
@@ -66,37 +66,37 @@ pico_led.on() sleep(1) pico_led.off()
 
 firefly = LED(13) # Use GP13 firefly.on() --- /code ---
 
-**Tip:** To import multiple items, separate them with commas `,`.
+**نصيحة:** لاستيراد عدة عناصر ، افصل بينها بفاصلات`,`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see your LED firefly light up.
+**الاختبار:** قم بتشغيل التعليمات البرمجية الخاصة بك لترى مصباح LED الخاص بك يضيء.
 
-![Yellow LED attached to GP13 and lit up.](images/firefly-on.jpg)
+![مصباح LED أصفر متصل بـ GP13 ومضاء.](images/firefly-on.jpg)
 
-**Debug**:
+**تصحيح**:
 
 --- collapse ---
 ---
-title: My code isn't running
+title: التعليمات البرمجية الخاصة بي لا تعمل
 ---
 
-If your code isn't running:
-+ Fix any errors in your code. The LED on the Raspberry Pi Pico will flash if your code runs successfully.
+إذا كانت التعليمات البرمجية الخاصة بك لا تعمل:
++ أصلح أي أخطاء في التعليمات البرمجية الخاصة بك. سيومض مؤشر LED الموجود على Raspberry Pi Pico إذا تم تشغيل التعليمات البرمجية الخاصة بك بنجاح.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My LED firefly doesn't light up
+title: مصباح اليراعة الخاص بي لا يضيء
 ---
 
-If your LED firefly does not light up:
-+ Check that your LED has the negative (shorter, flat) side attached to **GND** and the positive (longer, with resistor) side attached to **GP13**
-+ Make sure that all joints make a good connection
-+ Try a different LED
+إذا لم يضيء مصباح LED الخاص بك:
++ تحقق من أن الجانب السالب لمصباح LED الخاص بك (الأقصر ، المسطح) متصل بـ **GND** والجانب الموجب (الأطول ، مع المقاوم) متصل بـ **GP13**
++ تأكد من أن جميع المفاصل متصلة بشكل جيد
++ جرب مصباح LED مختلف
 
 --- /collapse ---
 
@@ -104,8 +104,8 @@ If your LED firefly does not light up:
 
 --- task ---
 
-**Optional:** Cut some wings out of folded over sticky tape and stick them to your LED. Invisible tape works well.
+**اختياري:** قص بعض الأجنحة مطوية فوق شريط لاصق وألصقها بمؤشر LED. الشريط غير المرئي يعمل بشكل جيد.
 
-![LED firefly with sticky tape wings.](images/firefly-wings.jpg)
+![مصباح LED اليراعة مع أجنحة الشريط اللاصق.](images/firefly-wings.jpg)
 
 --- /task ---
