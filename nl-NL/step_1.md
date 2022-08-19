@@ -51,6 +51,8 @@ Om dit project te voltooien heb je het volgende nodig:
 
 Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webstore.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
+If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+
 + Een Raspberry Pi Pico met daarop gesoldeerde pinkoppen
 + Een **data** USB A naar micro USB-kabel
 + 1× gele LED (of elke gewenste kleur)
@@ -61,7 +63,7 @@ Je kunt alle benodigde hardware voor dit project en de andere projecten in dit p
 
 [[[pin-socket-jumper-wires]]]
 
-Je kunt [je LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} van tevoren voorbereiden door deze aan te sluiten op een weerstand en startdraden te bevestigen voordat je met het project begint.
+You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project.
 
 **Software**
 
