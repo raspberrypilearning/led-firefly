@@ -1,21 +1,21 @@
-Use GP13
+استخدام منفذ GP13
 
-Use GP18
+استخدام منفذ GP18
 
-Wires are connected
+الأسلاك متصلة
 
-Stay on for half a second
+يبقى مشتعلا لمدة نصف ثانية
 
-Stay off for 2.5 seconds
+يبقى منطفئ لمدة 2،5 ثانية
 
-Wires are not connected
+الأسلاك غير متصلة
 
-Small delay
+تأخير بسيط
 
 This is a comment
 
-Turn the LED on the Pico board on and off
+قم بتشغيل و إطفاء LED على لوحة Pico
 
-Switch is connected
+المفتاح متصل
 
-Switch is not connected
+المفتاح غير متصل
