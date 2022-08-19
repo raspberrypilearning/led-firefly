@@ -1,0 +1,29 @@
+---
+title: LED-vuurvlieg
+hero_image: images/banner.png
+description: Gebruik een Raspberry Pi Pico om een LED-vuurvlieg te maken die in een bepaald patroon knippert, net zoals vuurvliegen in de natuur
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-03-26'
+steps:
+  - title: Inleiding
+  - title: Stel je Raspberry Pi Pico in
+  - title: Steek de Raspberry Pi Pico LED aan
+    completion:
+      - engaged
+  - title: Steek je vuurvlieg aan
+  - title: Laat je vuurvlieg knipperen
+  - title: Voeg een schakelaar toe
+    completion:
+      - internal
+  - title: Reflectie
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Verbeter je project
+  - title: Wat kun je verder nog doen?
