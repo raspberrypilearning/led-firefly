@@ -1,46 +1,46 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: السؤال 2 من 3
 ---
 
-In your project, you connected an LED to the Raspberry Pi Pico. LEDs have to be connected the right way around.
+في مشروعك ، قمت بتوصيل مصباح LED ب Raspberry Pi Pico. يجب توصيل مصابيح LED بالطريقة الصحيحة.
 
-The **short leg connected to the flat side of your LED** is ...
+الساق القصيرة ** المتصلة بالجهة المسطحة من LED** هي ...
 
-![An LED with a long leg and a short leg. The long leg is positive and the short leg is negative.](images/pos-neg.png){:width="200px"}
+![LED بساق طويلة وساق قصيرة. الساق الطويلة موجبة والساق القصيرة سالبة.](images/pos-neg.png){:width="200px"}
 
 --- choices ---
 
-- ( )  Positive and connects to a GP pin
+- () الموجبة وتتصل بدبوس GP
 
   --- feedback ---
 
-Try again, while the positive side should be connected to a GP pin, the flat side of the LED is the negative side. (Remember this because the sign for negative is flat: - )
+حاول مجددا ، بينما يجب توصيل الجهة الموجبة بدبوس GP، فإن الجهة المسطحة من LED هي الجهة السالبة. (تذكر هذا لأن علامة السالب مسطحة: - )
 
   --- /feedback ---
 
-- (x)  Negative and connects to a ground (GND) pin
+- (x) سالب ويتصل بدبوس الأرضي (GND)
 
   --- feedback ---
 
-Yes! The flat side of an LED is the negative side, which should be connected to a ground (GND) pin.
+نعم! الجهة المسطحة من LED هي الجهة السالبة ، والتي يجب توصيلها بدبوس الأرضي (GND).
 
   --- /feedback ---
 
-- ( ) Negative and connects to a GP pin
+- () سالبة وتتصل بدبوس GP
 
   --- feedback ---
 
-Try again, while the flat side of the LED is the negative side, it should not be connected to a GP pin.
+حاول مرة أخرى ، في حين أن الجهة المسطحة من LED هي الجهة السالبة ، فلا ينبغي توصيلها بدبوس GP.
 
   --- /feedback ---
 
-- ( ) Positive and connects to a ground (GND) pin
+- ( ) موجبة وتتصل بدبوس الأرضي (GND)
 
   --- feedback ---
 
-Try again, the flat side of the LED is the negative side. (Remember this because the sign for negative is flat: -) The negative side of an LED should be connected to the ground (GND) pin.
+حاول مجددا ، الجهة المسطحة من LED هي الجهة السالبة. (تذكر هذا لأن علامة السالب مسطحة: -) يجب توصيل الجهة السالبة من مصباح LED بدبوس الأرضي (GND).
 
   --- /feedback ---
 
