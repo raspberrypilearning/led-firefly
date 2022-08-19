@@ -1,127 +1,127 @@
-## Set up your Raspberry Pi Pico
+## قم بإعداد Raspberry Pi Pico الخاص بك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Connect your Raspberry Pi Pico and set up MicroPython.
+قم بتوصيل Raspberry Pi Pico وإعداد MicroPython.
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">MicroPython</span> is a version of the Python programming language for microcontrollers, such as your Raspberry Pi Pico. MicroPython lets you use your Python knowledge to write code to interact with electronics components.</p>
+<span style="color: #0faeb0">MicroPython</span> هي نسخة من لغة برمجة Python الخاصة بوحدات التحكم الدقيقة ، مثل Raspberry Pi Pico الخاص بك. يتيح لك MicroPython استخدام معرفتك ب Python لكتابة التعليمات البرمجية للتفاعل مع المكونات الإلكترونية.</p>
 
 --- task ---
 
-**Connect** the small end of your USB cable to the Raspberry Pi Pico.
+**اربط** الطرف الصغير من كابل USB الخاص بك إلى Raspberry Pi Pico.
 
-![An image of a Raspberry Pi Pico connected to the small end of a USB cable.](images/pico-top-plug.png)
+![صورة لجهاز Raspberry Pi Pico متصل بالطرف الصغير لكابل USB.](images/pico-top-plug.png)
 
 --- /task ---
 
 --- task ---
 
-**Connect** the other end to your computer, laptop, or Raspberry Pi.
+**اربط** الطرف الآخر بجهاز الكمبيوتر أو الكمبيوتر المحمول أو Raspberry Pi.
 
-![An image of a Raspberry Pi Pico connected to a laptop with a USB cable.](images/plug-in-pico.png)
+![صورة لجهاز Raspberry Pi Pico متصل بحاسوب محمول بواسطة كابل USB.](images/plug-in-pico.png)
 
 --- /task ---
 
 
 --- task ---
 
-Open the Thonny editor.
+افتح محرر Thonny.
 
 --- /task ---
 
 --- task ---
 
-Look at the text in the bottom-right corner of the Thonny editor. It will show you the version of Python that is being used.
+انظر إلى النص في الزاوية السفلية اليمنى من محرر Thonny. سيظهر لك إصدار Python المستخدم.
 
-If it does not say "MicroPython (Raspberry Pi Pico)", then click on the text and select "MicroPython (Raspberry Pi Pico)".
+إذا لم يقل "MicroPython (Raspberry Pi Pico)" ، فانقر فوق النص وحدد "MicroPython (Raspberry Pi Pico)".
 
-If you have never used MicroPython on your Raspberry Pi Pico, then Thonny will prompt you to add the MicroPython firmware. Click **Install**.
+إذا لم يسبق لك استخدام MicroPython على Raspberry Pico ، فسيطالبك Thonny بإضافة البرنامج الثابت MicroPython. أنقر على **Install**.
 
-![MicroPython installation window with the Install button highlighted.](images/thonny-install-micropython-pico.png)
+![نافذة تثبيت MicroPython مع تمييز زر التثبيت.](images/thonny-install-micropython-pico.png)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**التصحيح:**
 
 --- collapse ---
 ---
-title: There was an error installing the firmware
+title: حدث خطأ أثناء تثبيت البرنامج
 ---
 
-If you see an error message during the install then:
-+ Disconnect your Raspberry Pi Pico
-+ Reconnect your Raspberry Pi Pico
-+ Try to install the firmware again (you might need to press the stop button first)
+إذا ظهرت لك رسالة خطأ أثناء التثبيت ، فقم بما يلي:
++ افصل Raspberry Pi Pico الخاص بك
++ أعد توصيل Raspberry Pi Pico الخاص بك
++ حاول تثبيت البرنامج الثابت مرة أخرى (قد تحتاج إلى الضغط على زر الإيقاف أولا)
 
-![A screenshot of an error message showing that the firmware cannot install correctly.](images/pico-firmware-error.PNG)
+![لقطة شاشة لرسالة خطأ توضح عدم إمكانية تثبيت البرنامج الثابت بشكل صحيح.](images/pico-firmware-error.PNG)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I don't know if the firmware is installed and cannot connect to my Pico
+title: لا أعرف ما إذا كان البرنامج مثبتا ولا يمكن الاتصال ب Pico الخاص بي
 ---
 
-Make sure your Raspberry Pi Pico is connected to your computer with a micro USB cable. Click on the list in the bottom-right corner of your Thonny window. A pop-up menu will appear, which lists the available interpreters.
+تأكد من توصيل Raspberry Pi Pico بالحاسوب باستخدام كبل micro USB. انقر على القائمة الموجودة في الزاوية السفلية اليمنى من نافذة Thonny الخاصة بك. ستظهر قائمة منبثقة تسرد مترجمي اللغة البرمجية المتاحين.
 
-![A pop-up menu that shows an option saying configure interpreter.](images/no-pico-interpreter.png)
+![قائمة منبثقة تعرض خيارا يقول إعداد المترجم الفوري.](images/no-pico-interpreter.png)
 
-If you cannot see the Pico in the list (like in the picture), you will need to reconnect your Raspberry Pi Pico while holding the BOOTSEL button to mount it as a storage volume, and reinstall the firmware by following the instructions in the section above.
+إذا لم تتمكن من رؤية Pico في القائمة (كما هو الحال في الصورة) ، فستحتاج إلى إعادة توصيل Raspberry Pi Pico أثناء الضغط على زر BOOTSEL لتثبيته كوحدة تخزين ، وإعادة تثبيت البرنامج باتباع الإرشادات الواردة في القسم أعلاه.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Firmware is installed but I still cannot connect to my Pico
+title: تم تثبيت البرنامج ولكن ما زلت لا أستطيع الاتصال بجهاز Pico الخاص بي
 ---
 
-You may be using the wrong kind of micro USB cable. Your current micro USB cable may be damaged, or designed only to carry power to devices and cannot transfer data. Try swapping your cable if nothing else has worked.
+ربما تستخدم نوعًا خاطئًا من كبل micro USB. قد يكون كبل micro USB الحالي تالفا أو مصمما فقط لنقل الطاقة إلى الأجهزة ولا يمكنه نقل البيانات. حاول تبديل الكابل إذا لم ينجح أي شيء آخر.
 
-If your Pico still won't connect after trying all these things, it may **itself** be damaged and unable to connect.
+إذا كان جهاز Pico الخاص بك لا يزال غير متصل بعد تجربة كل هذه الأشياء ، فقد يكون **الجهاز نفسه** تالفًا وغير قادر على الاتصال.
 
 --- /collapse ---
 
-You can find further information in the [Raspberry Pi Pico Guide](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"}.
+يمكنك العثور على مزيد من المعلومات في [دليل استخدام Raspberry Pi](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){: target = "_ blank"}.
 
 --- /task ---
 
-`picozero` is a MicroPython library for beginners to the Raspberry Pi Pico.
+`picozero` هي مكتبة MicroPython للمبتدئين في Raspberry Pi Pico.
 
 --- task ---
 
-To complete the projects in this path, you will need to install the `picozero` library as a Thonny package.
+لإكمال المشاريع في هذا المسار ، ستحتاج إلى تثبيت مكتبة `picozero` كحزمة لمحرر Thonny.
 
-In Thonny, choose **Tools** > **Manage packages**.
+في محرر Thonny، اختر **Tools** > **Manage packages**.
 
-![The Thonny Tools menu with Manage packages highlighted.](images/thonny-manage-packages.jpg)
-
---- /task ---
-
---- task ---
-
-In the pop-up 'Manage packages for Raspberry Pi Pico' window, type `picozero` and click **Search on PyPi**.
-
-![Thonny plugins search results showing picozero.](images/thonny-packages-picozero.jpg)
+![تم تمييز قائمة أدوات محرر Thonny مع إدارة الحزم.](images/thonny-manage-packages.jpg)
 
 --- /task ---
 
 --- task ---
 
-Click on **picozero** in the search results.
+في النافذة المنبثقة 'Manage packages لـ Raspberry Pi Pico'، اكتب `picozero` وانقر فوق **Search on PyPi**.
 
-Click on **Install**.
-
-![The picozero information with 'Install' button highlighted.](images/thonny-install-package.jpg)
-
-When installation has completed, close the package window, then exit and reopen Thonny.
+![نتائج بحث إضافات Thonny تظهر picozero.](images/thonny-packages-picozero.jpg)
 
 --- /task ---
 
-If you have difficulties installing the `picozero` library in Thonny, you can download the library file and save it to your Raspberry Pi Pico.
+--- task ---
+
+انقر على **picozero** في نتائج البحث.
+
+أنقر على **Install**.
+
+![تم تمييز معلومات picozero مع زر "تثبيت".](images/thonny-install-package.jpg)
+
+عند اكتمال التثبيت، أغلق نافذة الحزمة، ثم قم بإغلاق محرر Thonny وإعادة فتحه.
+
+--- /task ---
+
+إذا واجهت صعوبات في تثبيت مكتبة `picozero` في محرر Thonny ، فيمكنك تنزيل ملف المكتبة وحفظه في Raspberry Pi Pico.
 
 [[[picozero-offline-install]]]
