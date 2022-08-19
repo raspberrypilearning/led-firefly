@@ -51,6 +51,8 @@ Pour mener à bien ce projet, tu auras besoin de :
 
 Tu peux acheter tout le matériel requis pour ce projet et les autres projets du parcours à partir de la [boutique en ligne Pimoroni.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
+If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+
 + Un Raspberry Pi Pico avec des broches soudées dessus
 + Un câble de **données** USB A vers micro USB
 + 1 × LED jaune (ou n'importe quelle couleur que tu préfères)
@@ -61,9 +63,9 @@ Tu peux acheter tout le matériel requis pour ce projet et les autres projets du
 
 [[[pin-socket-jumper-wires]]]
 
-Tu peux [préparer ta LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} à l'avance en l'attachant à une résistance et à des fils de liaison avant de démarrer le projet.
+You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project.
 
-**Logiciel**
+**Software**
 
 + Thonny : ce projet peut être réalisé à l'aide de l'éditeur Thonny Python, qui peut être installé sur un ordinateur Linux, Windows ou Mac
 
