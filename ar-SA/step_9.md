@@ -1,15 +1,15 @@
-## What next?
+## ما هي الخطوة التالية؟
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Party popper](https://projects.raspberrypi.org/en/projects/party-popper) project. In this project, you will make a reusable party popper that rewards you with a light and sound display when it is pulled.
+إذا كنت تتبع [مقدمة إلى مسار Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro)، يمكنك الانتقال إلى مشروع [مفرقعات الحفل](https://projects.raspberrypi.org/en/projects/party-popper). في هذا المشروع، ستقوم بعمل مفرقعات حفلة قابلة لإعادة الاستخدام تكافئك بعرض ضوئي وصوتي عند سحبها.
 
 --- print-only ---
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.jpg)
+![يتم سحب قطعة صغيرة من الرقائق المعدنية من مفتاح المفرقعة ويضيء مؤشر مصباح LED ويتم تشغيل الصوت.](images/full-popper-test.jpg)
 
 --- /print-only ---
 
 --- no-print ---
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
+![يتم سحب قطعة صغيرة من الرقائق المعدنية من مفتاح المفرقعات ويضيء مؤشر LED ويتم تشغيل الصوت.](images/full-popper-test.gif)
 
 --- /no-print ---
