@@ -1,45 +1,45 @@
-## Add a switch
+## أضف مفتاحًا كهربائياً
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's useful to be able to control when your LED firefly starts blinking and to be able to turn it off from the device. 
+من المفيد أن تكون قادرًا على التحكم عندما يبدأ مصباح LED الخاص بك في الوميض وأن تكون قادرًا على إيقاف تشغيله من الجهاز. 
 </div>
 <div>
-![The pin and socket ends of two jumper wires are connected together. This causes the firefly to start blinking.](images/firefly-switch.gif){:width="300px"}
+[تم توصيل طرفي دبوس ومقبس سلكين معًا. يؤدي هذا إلى بدء وميض اليراع.] (images / firefly-switch.gif) {: width = "300px"}
 </div>
 </div>
 
-The Raspberry Pi Pico can detect when an input is connected between **GND** and one of the GP pins.
+يمكن لـ Raspberry Pi Pico اكتشاف ما إذا كان الإدخال متصلاً بين **GND** وأحد دبابيس GP.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">switch</span> is an electrical component that can be **closed** to allow electrical current to flow and **opened** to prevent electrical current from flowing. A <span style="color: #0faeb0">button</span> is also a kind of switch that makes a connection when it is **pressed**.
+المفتاح <span style="color: #0faeb0"></span> هو مكون كهربائي يمكن أن يُغلق ** للسماح للتيار الكهربائي بالتدفق و ** يُفتح ** لمنع تدفق التيار الكهربائي. الزر <span style="color: #0faeb0"></span> هو أيضًا نوع من التبديل يقوم بإجراء اتصال عند الضغط عليه **.
 </p>
 
-The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch.
+إن أبسط نوع من المفاتيح هو سلكان توصيل يمكن توصيلهما معًا لإغلاق المفتاح ، أو فصلهما لفتح المفتاح.
 
 [[[pin-socket-jumper-wires]]]
 
 --- task ---
 
-Find one pin–socket jumper wire and one socket–socket jumper wire — the colours do not matter.
+ابحث عن سلك توصيل ذو دبوس- مقبس وسلك مقبس-مقبس - لا يهم الألوان.
 
-![One pin–socket and one socket–socket jumper wire.](images/jumper-wires.jpg)
-
---- /task ---
-
---- task ---
-
-**Connect** one jumper wire to **GP18** and the other to **GND**. It doesn't matter which jumper wire you connect to which pin.
-
-![Two jumper wires are attached to the GP18 and the GND pins of the Raspberry Pi Pico.](images/switch-wiring-diagram.png)
+![سلك دبوس-مقبس واحد وسلك مقبس-مقبس واحد.](images/jumper-wires.jpg)
 
 --- /task ---
 
 --- task ---
 
-To add switches, you need to `import Switch` from the `picozero` library.
+**اربط** سلك توصيل واحد بـ **GP18** والآخر بـ **GND**. لا يهم أي سلك توصيل يتم توصيله بأي دبوس.
 
-Add `, Switch` to the end of the import list on **line 1**. Next, set your `switch` to **GP18**:
+![يتم توصيل سلكين توصيل بـ GP18 ودبابيس GND الخاصة بـ Raspberry Pi Pico.](images/switch-wiring-diagram.png)
+
+--- /task ---
+
+--- task ---
+
+لإضافة مفاتيح ، تحتاج إلى استيراد `import Switch` من مكتبة `picozero`.
+
+أضف `, Switch` إلى نهاية قائمة الاستيراد في **سطر 1**. بعد ذلك ، اضبط ` switch ` إلى **GP18**:
 
 --- code ---
 ---
@@ -56,11 +56,11 @@ firefly = LED(13) # Use GP13 switch = Switch(18) # Use GP18
 
 --- /task ---
 
-When you connect the two jumper wires together, this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed.
+عندما تقوم بتوصيل سلكي التوصيل معًا ، فإن هذا يكمل الدائرة ويسمح لـ Raspberry Pi Pico باكتشاف أن المفتاح مغلق.
 
 --- task ---
 
-Add code to check `if` your switch `is_closed` (the jumpers are connected) and only blink the firefly if it is closed:
+أضف كوداً للتحقق من الرقم `إذا كان المفتاح` الخاص بك مغلقًا `(الاسلاك متصلة)` و اضيء اليراعة فقط إذا كان مغلقًا:
 
 --- code ---
 ---
@@ -79,23 +79,23 @@ while True: if switch.is_closed: # Wires are connected firefly.on() sleep(0.5) #
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected, then run your code.
+**اختبار:** تأكد من أن أسلاك التوصيل **ليست** متصلة ، ثم قم بتشغيل التعليمات البرمجية الخاصة بك.
 
 --- collapse ---
 
 ---
-title: What do you expect to happen when you run your code?
+title: ماذا تتوقع أن يحدث عند تشغيل التعليمات البرمجية الخاصة بك؟
 ---
 
-The jumper wires are **not** closed, so the code in the `else` block will run. This means the firefly LED will stay **off**.
+أسلاك التوصيل **ليست** مغلقة ، لذلك سيتم تشغيل التعليمات البرمجية الموجودة في كتلة `else`. هذا يعني أن مصباح اليراع سيبقى **مغلق**.
 
 --- /collapse ---
 
-Now connect the jumper wires together. The firefly should start to blink.
+الآن قم بتوصيل أسلاك التوصيل معًا. يجب أن تبدأ اليراع في الوميض.
 
-![An animation of the LED firefly turning on when the jumper wires are connected.](images/firefly-switch.gif)
+![رسم متحرك لمصباح LED الذي يتم تشغيله عند توصيل أسلاك التوصيل.](images/firefly-switch.gif)
 
-Disconnect the jumper wires and the firefly should stop blinking.
+افصل أسلاك التوصيل ويجب أن تتوقف اليراع عن الوميض.
 
 --- /task ---
 
@@ -105,34 +105,34 @@ Disconnect the jumper wires and the firefly should stop blinking.
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected, then run your code.
+**اختبار:** تأكد من أن أسلاك التوصيل **ليست** متصلة ، ثم قم بتشغيل التعليمات البرمجية الخاصة بك.
 
 --- collapse ---
 
 ---
-title: What do you expect to happen when you run your code?
+title: ماذا تتوقع أن يحدث عند تشغيل التعليمات البرمجية الخاصة بك؟
 ---
 
-The jumper wires are **not** closed so the code in the `else` block will run. This means the firefly LED will stay **off**.
+أسلاك التوصيل **ليست** مغلقة ، لذلك سيتم تشغيل التعليمات البرمجية الموجودة في كتلة `else`. هذا يعني أن مصباح اليراع سيبقى **مغلق**.
 
 --- /collapse ---
 
-Now connect the jumper wires together.
+الآن قم بتوصيل أسلاك التوصيل معًا.
 
-![The pin of one jumper wire connected to the socket of the other jumper wire.](images/connected-wires.jpg)
+![دبوس أحد أسلاك التوصيل متصل بمقبس سلك التوصيل الآخر.](images/connected-wires.jpg)
 
-The firefly should start to blink.
+يجب أن تبدأ اليراع في الوميض.
 
-Disconnect the jumper wires and the firefly should stop blinking.
+افصل أسلاك التوصيل ويجب أن تتوقف اليراع عن الوميض.
 
 --- /task ---
 
 --- /print-only ---
 
-**Note:** Disconnecting the jumper wires will not stop power to the firefly LED immediately. The firefly only turns off when the `firefly.off()` code runs.
+**ملحوظة:** لن يؤدي فصل أسلاك التوصيل إلى إيقاف الطاقة عن مصباح اليراع على الفور. يتم إيقاف تشغيل اليراع فقط عند تشغيل التعليمات البرمجية `firefly.off()`.
 
 --- task ---
 
-**Optional:** If you are in a group, then you could try synchronising your fireflies by connecting your jumper wire switches at the same time.
+**اختياري:** إذا كنت في مجموعة ، فيمكنك محاولة مزامنة اليراعات الخاصة بك عن طريق توصيل مفاتيح سلك التوصيل في نفس الوقت.
 
 --- /task ---
