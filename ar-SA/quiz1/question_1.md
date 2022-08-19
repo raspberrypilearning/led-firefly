@@ -1,49 +1,49 @@
-## Reflection
+## تفكير
 
-Well done. You programmed a Raspberry Pi Pico to make an LED flash like a firefly in nature. Now it's time to reflect on the skills that you have gained along the way.
+أحسنت. لقد قمت ببرمجة Raspberry Pi Pico لصنع مصباح LED يومض مثل اليراعة في الطبيعة. الآن حان الوقت للتفكير في المهارات التي اكتسبتها في هذا المسار.
 
-Answer the three questions below to reflect on what you've learnt.
+أجب عن الأسئلة الثلاثة بالاسفل للتفكير فيما تعلمته.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدد المرات التي تشاء.
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: السؤال 1 من 3
 ---
 
-The Raspberry Pi Pico is a small device that can be programmed to control electronics components. The Raspberry Pi Pico is a:
+Raspberry Pi Pico جهاز صغير يمكن برمجته للتحكم في المكونات الإلكترونية. يعتبر Raspberry Pi Pico:
 
 --- choices ---
 
-- ( ) microprocessor
+- () معالج دقيق
 
   --- feedback ---
 
-Almost, a The Raspberry Pi Pico isn't a microprocessor — although it has one on it! A microprocessor is the chip that controls the logic on a controller or computer — it's like the brains that does the calculations for a computer to operate.
+تقريبا ، لأن Raspberry Pi Pico ليس معالجا دقيقا - على الرغم من أنه يحتوي على معالج! المعالج الدقيق هو الشريحة التي تتحكم في المنطق على وحدة تحكم أو حاسوب - إنها مثل العقول التي تقوم بالحسابات لعمل الحاسوب.
 
   --- /feedback ---
 
-- ( ) microcomputer
+- () الحاسوب الدقيق
 
   --- feedback ---
 
-Not quite. A microcomputer is a small device that runs code and can interact with electronics components, but it uses an operating system for user interaction. The Raspberry Pi Pico doesn't have an operating system.
+ليس تماما. الحاسوب الدقيق هو جهاز صغير يقوم بتشغيل التعليمات البرمجية ويمكنه التفاعل مع المكونات الإلكترونية ، ولكنه يستخدم نظام تشغيل ليستطيع المستخدم التعامل معه. Raspberry Pi Pico لا يتوفر على نظام تشغيل.
 
   --- /feedback ---
 
-- (x) microcontroller
+- (x) متحكم دقيق
 
   --- feedback ---
 
-Yes! The Raspberry Pi Pico is a **microcontroller** — it runs code and interacts with electronics components, but it doesn't have an operating system.
+نعم! Raspberry Pi Pico عبارة عن متحكم دقيق **** - فهو يعمل بالتعليمات البرمجية ويتفاعل مع المكونات الإلكترونية ، ولكن ليس لديه نظام تشغيل.
 
   --- /feedback ---
 
-- ( ) microchip
+- () شريحة دقيقة "رقاقة"
 
   --- feedback ---
 
-Almost, a microchip is a tiny circuit made up of things called transistors that is attached to a single chip. They are very basic circuits, but lots of them together can make a processor.
+تقريبا ، الرقاقة الدقيقة هي دارة دقيقة تتكون من أشياء تسمى الترانزستورات و التي يتم دمجها في شريحة واحدة. إنها دوائر بسيطة للغاية ، لكن الكثير منها معا يمكن أن يصنع معالجا.
 
   --- /feedback ---
 
