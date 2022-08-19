@@ -10,7 +10,7 @@ Een <span style="color: #0faeb0">microcontroller</span> is een klein computerapp
 De Raspberry Pi Pico is een goedkope microcontroller die door beginners kan worden gebruikt en ook door experts kan worden gebruikt om elektronische producten te ontwikkelen.
 </div>
 <div>
-![Een tekening van een hand met een Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
+![Een tekening van een hand met een Raspberry Pi Pico.](images/pico-hand.jpg){:width="300px"}
 </div>
 </div>
 

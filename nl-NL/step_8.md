@@ -29,6 +29,6 @@ Je kunt je project upgraden door:
 title: Voltooid project
 ---
 
-Je kunt het [voltooide project hier](https://rpf.io/p/nl-NL/led-firefly-get){:target="_blank"} bekijken.
+Je kunt het [voltooide project hier](https://rpf.io/p/en/led-firefly-get){:target="_blank"} bekijken.
 
 --- /collapse ---

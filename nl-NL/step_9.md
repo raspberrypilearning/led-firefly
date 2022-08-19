@@ -1,4 +1,4 @@
-## Wat nu?
+## Wat kun je verder nog doen?
 
 Als je het [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/nl-NL/pathways/pico-intro) pad volgt, kun je naar het [Confetti kanon](https://projects.raspberrypi.org/nl-NL/projects/party-popper) project gaan. In dit project maak je een herbruikbaar confettikanon dat je beloont met licht en geluids wanneer er aan wordt getrokken.
 

@@ -5,7 +5,7 @@
 In deze stap gebruik je jumperdraden om een LED met een weerstand aan te sluiten op je Raspberry Pi Pico en code te schrijven om het te verlichten. 
 </div>
 <div>
-![De Raspberry Pi Pico met twee aangesloten jumperdraden die verbinden met een gele LED.](Images/firefly-on.jpg){:width="300px"}
+![De Raspberry Pi Pico met twee aangesloten jumperdraden die verbinden met een gele LED.](images/firefly-on.jpg){:width="300px"}
 </div>
 </div>
 
