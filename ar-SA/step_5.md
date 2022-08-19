@@ -1,25 +1,25 @@
-## Make your firefly blink
+## اجعل اليراعة تومض
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will make your firefly blink on and off, like a real firefly. 
+الآن ستجعل اليراعة تومض وتنطفئ، مثل اليراعة الحقيقية. 
 </div>
 <div>
-![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif){:width="300px"}
+! [رسم متحرك لمصباح اليراعة يومض ويطفأ.] (images / firefly-blink.gif) {: width = "300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">firefly</span> is a kind of beetle, also called a glow worm or lightning bug. They use bioluminescence to flash to identify themselves to other members of the same species. Different species flash in different patterns. 
+<span style="color: #0faeb0">اليراعة</span> هي نوع من انواع الخنفساء، وتسمى أيضًا دودة الوهج أو حشرة البرق. يستخدمون التلألؤ البيولوجي للوميض لتعريف أنفسهم لأعضاء آخرين من نفس النوع. الأنواع المختلفة تومض في أنماط مختلفة. 
 </p>
 
 --- task ---
 
-Change your code to make the firefly blink on and off in a `while True:` loop. The timings represent the light patterns of a real firefly.
+قم بتغيير التعليمات البرمجية الخاصة بك لجعل اليراعة تومض وتنطفيء في حلقة تكرار`while True:`. التوقيت يمثل أنماط الضوء ليراع حقيقي.
 
-Make sure that the code on lines 11–14 are indented.
+تأكد من وجود مسافة بادئة للتعليمات البرمجية الموجودة في السطور 11-14.
 
-**Tip:** In Thonny you can indent code by going to the beginning of the line and tapping the <kbd>Tab</kbd> key — this will insert four spaces. Thonny will automatically indent code based on the previous line when your press <kbd>Enter</kbd> while typing.
+**نصيحة:** في Thonny ، يمكنك وضع مسافة بادئة للتعليمات البرمجية بالانتقال إلى بداية السطر والضغط على مفتاح <kbd>Tab</kbd> من لوحة المفاتيح - سيؤدي ذلك إلى إدخال أربع مسافات. سيقوم Thonny تلقائيًا بوضع مسافة بادئة للتعليمات البرمجية بناءً على السطر السابق عند الضغط على <kbd>Enter</kbd> أثناء الكتابة.
 
 --- code ---
 ---
@@ -34,13 +34,13 @@ while True: firefly.on() sleep(0.5) firefly.off() sleep(2.5) --- /code ---
 
 --- task ---
 
-**Test:** Run your code to see the firefly slowly blink on and off.
+**الاختبار:** قم بتشغيل التعليمات البرمجية الخاصة بك لرؤية اليراع تومض ببطء وتغلق.
 
-![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif)
+![رسم متحرك لمصباح اليراع يومض ويطفأ.](images/firefly-blink.gif)
 
-**Debug:**
+**تصحيح:**
 
-+ Fix any errors in your code, including indentation
-+ Check that none of the connections to your LED firefly have come loose
++ أصلح أي أخطاء في التعليمات البرمجية الخاصة بك ، بما في ذلك المسافة البادئة
++ تأكد من عدم فك أي من الوصلات بمصابيح LED الخاصة بك
 
 --- /task ---
