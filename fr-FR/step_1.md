@@ -10,7 +10,7 @@ Un <span style="color: #0faeb0">microcontrôleur</span> est un petit dispositif 
 Le Raspberry Pi Pico est un microcontrôleur à faible coût qui peut être utilisé par les débutants et peut également être utilisé par des experts pour développer des produits électroniques.
 </div>
 <div>
-![Un dessin d'une main tenant un Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
+![Un dessin d'une main tenant un Raspberry Pi Pico.](images/pico-hand.jpg){:width="300px"}
 </div>
 </div>
 
