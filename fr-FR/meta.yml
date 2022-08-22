@@ -1,0 +1,29 @@
+---
+title: Luciole LED
+hero_image: images/banner.png
+description: Utiliser un Raspberry Pi Pico pour créer une luciole LED qui clignote selon un motif particulier, tout comme les lucioles dans la nature
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-03-26'
+steps:
+  - title: Introduction
+  - title: Configurer ton Raspberry Pi Pico
+  - title: Allumer la LED Raspberry Pi Pico
+    completion:
+      - engaged
+  - title: Allumer ta luciole
+  - title: Faire clignoter ta luciole
+  - title: Ajouter un interrupteur
+    completion:
+      - internal
+  - title: Réflexion
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Améliorer ton projet
+  - title: Et ensuite ?
