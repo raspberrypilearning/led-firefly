@@ -1,10 +1,10 @@
-## Reflection
+## Quick quiz
 
-Well done. You programmed a Raspberry Pi Pico to make an LED flash like a firefly in nature. Now it's time to reflect on the skills that you have gained along the way. 
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Answer the three questions below to reflect on what you've learnt.
+When you have answered each question, click on **Check my answer**. 
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Have fun!
 
 --- question ---
 ---
