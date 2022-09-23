@@ -1,0 +1,21 @@
+Utiliser GP13
+
+Utiliser GP18
+
+Les fils sont connectés
+
+Reste allumé une demi-seconde
+
+Reste éteint pendant 2,5 secondes
+
+Les fils ne sont pas connectés
+
+Petit délai
+
+Ceci est un commentaire
+
+Allumer et éteindre la LED sur la carte Pico
+
+L'interrupteur est connecté
+
+L'interrupteur n'est pas connecté

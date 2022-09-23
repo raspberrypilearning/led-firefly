@@ -5,14 +5,14 @@
 It's useful to be able to control when your LED firefly starts blinking and to be able to turn it off from the device. 
 </div>
 <div>
-![A pin and socket end of two jumper wires are connected together. This causes the firefly to start blinking.](images/firefly-switch.gif){:width="300px"}
+![The pin and socket ends of two jumper wires are connected together. This causes the firefly to start blinking.](images/firefly-switch.gif){:width="300px"}
 </div>
 </div>
 
-The Raspberry Pi Pico can detect when an input is connected between GND and one of the GP pins.
+The Raspberry Pi Pico can detect when an input is connected between **GND** and one of the GP pins.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">switch</span> is a an electrical component that can be **closed** to allow electrical current to flow and **open** to prevent electrical current from flowing. A <span style="color: #0faeb0">button</span> is also a kind of switch that makes a connection when it is **pressed**.
+A <span style="color: #0faeb0">switch</span> is an electrical component that can be **closed** to allow electrical current to flow and **opened** to prevent electrical current from flowing. A <span style="color: #0faeb0">button</span> is also a kind of switch that makes a connection when it is **pressed**.
 </p> 
 
 The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch. 
@@ -21,15 +21,15 @@ The simplest kind of switch is two jumper wires that can be connected together t
 
 --- task ---
 
-Find one pin-socket jumper wire and one socket-socket jumper wire - the colours do not matter. 
+Find one pin–socket jumper wire and one socket–socket jumper wire — the colours do not matter. 
 
-![One pin-socket and one socket-socket jumper wire](images/jumper-wires.jpg)
+![One pin–socket and one socket–socket jumper wire.](images/jumper-wires.jpg)
 
 --- /task ---
 
 --- task ---
 
-**Connect:** one jumper wire to **GP18** and the other to **GND**. It doesn't matter which jumper wire you connect to which pin. 
+**Connect** one jumper wire to **GP18** and the other to **GND**. It doesn't matter which jumper wire you connect to which pin. 
 
 ![Two jumper wires are attached to the GP18 and the GND pins of the Raspberry Pi Pico.](images/switch-wiring-diagram.png)
 
@@ -37,7 +37,7 @@ Find one pin-socket jumper wire and one socket-socket jumper wire - the colours 
 
 --- task ---
 
-To add switches, you need to `import Switch` from the picozero library. 
+To add switches, you need to `import Switch` from the `picozero` library. 
 
 Add `, Switch` to the end of the import list on **line 1**. Next, set your `switch` to **GP18**:
 
@@ -63,7 +63,7 @@ switch = Switch(18) # Use GP18
 
 --- /task ---
 
-When you connect the two jumper wires together this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed. 
+When you connect the two jumper wires together, this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed. 
 
 --- task ---
 
@@ -80,14 +80,14 @@ line_highlights: 12-19
 switch = Switch(18) # Use GP18
 
 while True:
-    if switch.is_closed: # wires are connected
+    if switch.is_closed: # Wires are connected
         firefly.on()
-        sleep(0.5) # stay on for half a second
+        sleep(0.5) # Stay on for half a second
         firefly.off()
-        sleep(2.5) # stay on for 2.5 seconds
-    else: # wires are not connected
+        sleep(2.5) # Stay off for 2.5 seconds
+    else: # Wires are not connected
         firefly.off()
-        sleep(0.1) # small delay
+        sleep(0.1) # Small delay
 
 --- /code ---
 
@@ -97,7 +97,7 @@ while True:
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected then run your code.
+**Test:** Make sure the jumper wires are **not** connected, then run your code.
 
 --- collapse ---
 
@@ -105,7 +105,7 @@ while True:
 title: What do you expect to happen when you run your code?
 ---
 
-The jumper wires are **not** closed so the code in the `else` block will run. This means the firefly LED will stay **off**.
+The jumper wires are **not** closed, so the code in the `else` block will run. This means the firefly LED will stay **off**.
 
 --- /collapse ---
 
@@ -123,7 +123,7 @@ Disconnect the jumper wires and the firefly should stop blinking.
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected then run your code.
+**Test:** Make sure the jumper wires are **not** connected, then run your code.
 
 --- collapse ---
 
@@ -151,8 +151,6 @@ Disconnect the jumper wires and the firefly should stop blinking.
 
 --- task ---
 
-**Optional:** If you are in a group then you could try synchronising your fireflies by connecting your jumper wire switches at the same time. 
+**Optional:** If you are in a group, then you could try synchronising your fireflies by connecting your jumper wire switches at the same time. 
 
 --- /task ---
-
---- save ---

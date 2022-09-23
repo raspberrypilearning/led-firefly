@@ -4,7 +4,7 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 --- print-only ---
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.png)
+![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.jpg)
 
 --- /print-only ---
 
