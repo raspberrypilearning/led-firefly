@@ -73,4 +73,4 @@ You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduc
 
 [[[change-theme-thonny]]]
 
-![](http://code.org/api/hour/begin_rp_ledfirefly.png
+![](http://code.org/api/hour/begin_rp_ledfirefly.png)
