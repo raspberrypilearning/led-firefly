@@ -1,10 +1,10 @@
-## Wat nu?
+## Quick quiz
 
-Goed gedaan. Je hebt een Raspberry Pi Pico geprogrammeerd om een LED te laten knipperen als een vuurvlieg in de natuur. Nu is het tijd om na te denken over de vaardigheden die je onderweg hebt opgedaan.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
+When you have answered each question, click on **Check my answer**.
 
-Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
+Have fun!
 
 --- question ---
 ---
