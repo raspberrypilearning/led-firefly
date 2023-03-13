@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Dans ce projet, tu utiliseras un Raspberry Pi Pico pour créer une luciole LED qui clignote selon un motif particulier, tout comme les lucioles dans la nature, et tu connecteras un interrupteur pour contrôler la lumière.
 
@@ -73,3 +73,4 @@ You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduc
 
 [[[change-theme-thonny]]]
 
+![](http://code.org/api/hour/begin_rp_ledfirefly.png)
