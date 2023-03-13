@@ -1,10 +1,10 @@
-## تفكير
+## Quick quiz
 
-أحسنت. لقد قمت ببرمجة Raspberry Pi Pico لصنع مصباح LED يومض مثل اليراعة في الطبيعة. الآن حان الوقت للتفكير في المهارات التي اكتسبتها في هذا المسار.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-أجب عن الأسئلة الثلاثة بالاسفل للتفكير فيما تعلمته.
+When you have answered each question, click on **Check my answer**.
 
-سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدد المرات التي تشاء.
+Have fun!
 
 --- question ---
 ---
