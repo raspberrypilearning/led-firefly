@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 In this project, you will use a Raspberry Pi Pico to make an LED firefly that flashes in a particular pattern, just like fireflies in nature, and connect a switch to control the light.
 
@@ -73,3 +73,4 @@ You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduc
 
 [[[change-theme-thonny]]]
 
+![](http://code.org/api/hour/begin_rp_ledfirefly.png)
