@@ -1,4 +1,4 @@
-## المقدمة
+## You will make
 
 في هذا المشروع ، ستستخدم Raspberry Pi Pico لصنع يراعة LED تومض بنمط معين ، تمامًا مثل اليراعات في الطبيعة ، وتوصيل مفتاح للتحكم في الضوء.
 
@@ -51,7 +51,7 @@ Raspberry Pi Pico هو متحكم دقيق منخفض التكلفة يمكن ا
 
 يمكنك شراء كافة الأجهزة المطلوبة لهذا المشروع والمشاريع الأخرى في هذا المسار من متجر [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+إذا كان لديك Raspberry Pi Pico بالفعل ، يمكنك شراء المكونات الإلكترونية التي تحتاجها لهذا المشروع والمشاريع الأخرى في المسار من [متجر الويب Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
 
 + Raspberry Pi Pico مع رؤوس توصيل ملحومة عليه
 + كابل **data** USB A الى micro USB
@@ -63,9 +63,9 @@ If you already have a Raspberry Pi Pico, you can purchase the electronic compone
 
 [[[pin-socket-jumper-wires]]]
 
-You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project.
+[يمكنك إعداد المصباح الخاص بك](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} مسبقا عن طريق توصيله بمقاومة وأسلاك توصيل قبل البدء في المشروع.
 
-**Software**
+**البرمجيات**
 
 + Thonny - يمكن إكمال هذا المشروع باستخدام محرر Thonny Python، والذي يمكن تثبيته على أنظمة Linux, Windows أو Mac
 
@@ -73,3 +73,4 @@ You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduc
 
 [[[change-theme-thonny]]]
 
+![](http://code.org/api/hour/begin_rp_ledfirefly.png)
