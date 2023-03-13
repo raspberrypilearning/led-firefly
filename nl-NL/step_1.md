@@ -1,4 +1,4 @@
-## Inleiding
+## You will make
 
 In dit project gebruik je een Raspberry Pi Pico om een LED-vuurvlieg te maken die in een bepaald patroon knippert, net zoals vuurvliegen in de natuur, en sluit je een schakelaar aan om het licht te besturen.
 
@@ -73,3 +73,4 @@ You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduc
 
 [[[change-theme-thonny]]]
 
+![](http://code.org/api/hour/begin_rp_ledfirefly.png)
