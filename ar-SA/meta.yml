@@ -10,13 +10,13 @@ copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: سوف تصنع
   - 
     title: إعداد ال Raspberry Pi Pico الخاص بك
   - 
     title: إشعال LED ال Raspberry Pi Pico
     completion:
-      - مرتبط
+      - engaged
   - 
     title: أشعل اليراعة الخاص بك
   - 
@@ -24,16 +24,16 @@ steps:
   - 
     title: إضافة مفتاحًا كهربائياً
     completion:
-      - داخلي
+      - internal
   - 
-    title: Quick quiz
+    title: اختبار سريع
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
     completion:
-      - خارجي
+      - external
   - 
     title: قم بترقية او تطوير مشروعك
   - 
