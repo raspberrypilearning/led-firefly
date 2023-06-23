@@ -49,7 +49,7 @@ Raspberry Pi Pico هو متحكم دقيق منخفض التكلفة يمكن ا
 
 **الأجهزة**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} and the [Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+يمكنك شراء كافة الأجهزة المطلوبة لهذا المشروع والمشاريع الأخرى في هذا المسار من متجر [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
 + Raspberry Pi Pico مع رؤوس توصيل ملحومة عليه
 + كابل **data** USB A الى micro USB
@@ -63,7 +63,7 @@ You can purchase all the required hardware for this project and the other projec
 
 You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project.
 
-**Software**
+**البرمجيات**
 
 + Thonny - يمكن إكمال هذا المشروع باستخدام محرر Thonny Python، والذي يمكن تثبيته على أنظمة Linux, Windows أو Mac
 
