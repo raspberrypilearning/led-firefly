@@ -1,10 +1,10 @@
 ## Quick quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+أجب على الاسئلة الثلاثة. هناك تلميحات لإرشادك إلى الإجابة الصحيحة.
 
-When you have answered each question, click on **Check my answer**.
+بعد كل سؤال ، اضغط على **إرسال**. سيتم توجيهك نحو الإجابة الصحيحة.
 
-Have fun!
+إستمتع!
 
 --- question ---
 ---
