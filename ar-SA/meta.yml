@@ -12,7 +12,7 @@ last_tested: "2021-03-26"
 steps:
   - title: سوف تصنع
   - title: إعداد ال Raspberry Pi Pico الخاص بك
-  - title: إشعال LED ال Raspberry Pi Pico
+  - title: إشعال مصباح LED الخاص ب Raspberry Pi Pico
     completion:
       - engaged
   - title: أشعل اليراعة الخاص بك

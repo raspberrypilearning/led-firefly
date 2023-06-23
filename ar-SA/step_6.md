@@ -77,17 +77,17 @@ line_numbers: true
 line_number_start: 9
 line_highlights: 12-19
 ---
-switch = Switch(18) # Use GP18
+switch = Switch(18) # استخدام منفذ GP18
 
 while True:
-    if switch.is_closed: # Wires are connected
+    if switch.is_closed: # الأسلاك متصلة
         firefly.on()
-        sleep(0.5) # Stay on for half a second
+        sleep(0.5) # يبقى مشتعلا لمدة نصف ثانية
         firefly.off()
-        sleep(2.5) # Stay off for 2.5 seconds
-    else: # Wires are not connected
+        sleep(2.5) # يبقى منطفئ لمدة 2،5 ثانية
+    else: # الأسلاك غير متصلة
         firefly.off()
-        sleep(0.1) # Small delay
+        sleep(0.1) # تأخير بسيط
 
 --- /code ---
 
