@@ -10,7 +10,7 @@
 Raspberry Pi Pico هو متحكم دقيق منخفض التكلفة يمكن استخدامه من قبل المبتدئين ويمكن استخدامه أيضا من قبل الخبراء لتطوير المنتجات الإلكترونية.
 </div>
 <div>
-![رسم يد تحمل Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
+![رسم يد تحمل Raspberry Pi Pico.](images/pico-hand.jpg){:width="300px"}
 </div>
 </div>
 
