@@ -2,15 +2,17 @@
 title: Luciole LED
 hero_image: images/banner.png
 description:
-  - Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular
-  - pattern, just like fireflies in nature
+  - Utiliser un Raspberry Pi Pico pour créer une luciole LED qui clignote dans un
+  - motif particulier, tout comme les lucioles dans la nature
+meta_title: Raspberry Pi Pico projects | LED firefly
+meta_description: A Raspberry Pi Pico project to make an LED firefly that flashes in a particular pattern, just like fireflies in nature.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Ce que tu vas faire
   - 
     title: Configurer ton Raspberry Pi Pico
   - 
@@ -26,7 +28,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
