@@ -1,4 +1,4 @@
-## Introduction
+## Ce que tu vas faire
 
 Dans ce projet, tu utiliseras un Raspberry Pi Pico pour créer une luciole LED qui clignote selon un motif particulier, tout comme les lucioles dans la nature, et tu connecteras un interrupteur pour contrôler la lumière.
 
@@ -49,9 +49,7 @@ Pour mener à bien ce projet, tu auras besoin de :
 
 **Matériel informatique**
 
-Tu peux acheter tout le matériel requis pour ce projet et les autres projets du parcours à partir de la [boutique en ligne Pimoroni.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
-
-If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+Tu peux acheter tout le matériel requis pour ce projet et les autres projets de ce parcours à partir de la boutique en ligne [Pimoroni](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} et la boutique en ligne [Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 + Un Raspberry Pi Pico avec des broches soudées dessus
 + Un câble de **données** USB A vers micro USB
@@ -65,7 +63,7 @@ If you already have a Raspberry Pi Pico, you can purchase the electronic compone
 
 You can [prepare your LED](https://projects.raspberrypi.org/fr-FR/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project.
 
-**Software**
+**Logiciel**
 
 + Thonny : ce projet peut être réalisé à l'aide de l'éditeur Thonny Python, qui peut être installé sur un ordinateur Linux, Windows ou Mac
 
@@ -73,3 +71,4 @@ You can [prepare your LED](https://projects.raspberrypi.org/fr-FR/projects/intro
 
 [[[change-theme-thonny]]]
 
+![](http://code.org/api/hour/begin_rp_ledfirefly.png)

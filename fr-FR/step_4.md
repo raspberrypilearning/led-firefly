@@ -58,7 +58,7 @@ Entre le code pour allumer ta luciole :
 --- code ---
 ---
 language: python
-filename: luciole.py
+filename: firefly.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 1,8-9

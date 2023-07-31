@@ -24,7 +24,7 @@ Assure-toi que le code des lignes 11 à 14 est indenté.
 --- code ---
 ---
 language: python
-filename: luciole.py
+filename: firefly.py
 line_numbers: true
 line_number_start: 8
 line_highlights: 9-14
