@@ -2,7 +2,7 @@
 title: ضوء اليراعة
 hero_image: images/banner.png
 description:
-  - استخدم Raspberry Pi Pico لصنع يراعة LED تومض في نمط معين ، تماما مثل اليراعات في الطبيعة
+  - Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular
   - pattern, just like fireflies in nature
 meta_title: مشاريع Raspberry Pi Pico | ضوء اليراعة
 meta_description: مشروع Raspberry Pi Pico لصنع يراعة LED تومض بنمط معين ، تمامًا مثل اليراعات في الطبيعة.
