@@ -29,6 +29,6 @@ Tu peux améliorer ton projet en :
 title: Le projet terminé
 ---
 
-Tu peux voir le [projet terminé ici](https://rpf.io/p/en/led-firefly-get){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://rpf.io/p/fr-FR/led-firefly-get){:target="_blank"}.
 
 --- /collapse ---
