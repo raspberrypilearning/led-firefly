@@ -44,7 +44,7 @@ Ajoute `, Switch` à la fin de la liste d'importation sur la **ligne 1**. Ensuit
 --- code ---
 ---
 language: python
-filename: luciole.py
+filename: firefly.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 1, 9
@@ -72,7 +72,7 @@ Ajoute du code pour vérifier `if` ton interrupteur `is_closed` (les fils sont c
 --- code ---
 ---
 language: python
-filename: luciole.py
+filename: firefly.py
 line_numbers: true
 line_number_start: 9
 line_highlights: 12-19

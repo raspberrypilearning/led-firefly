@@ -117,7 +117,7 @@ Importe `sleep` pour te permettre de mettre ton code en pause. Ajoute du code à
 --- code ---
 ---
 language: python
-filename: luciole.py
+filename: firefly.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 2,5-6

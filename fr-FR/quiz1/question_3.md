@@ -11,7 +11,7 @@ Que se passe-t-il lorsque les fils sont connectés pour fermer l'interrupteur ?
 --- code ---
 ---
 language: python 
-filename: luciole.py
+filename: firefly.py
 line_numbers: false
 ---
 luciole = LED(13) 

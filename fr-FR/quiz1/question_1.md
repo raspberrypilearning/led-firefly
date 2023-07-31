@@ -1,10 +1,10 @@
-## Réflexion
+## Questionnaire rapide
 
-Bien joué. Tu as programmé un Raspberry Pi Pico pour faire clignoter une LED comme une luciole dans la nature. Il est maintenant temps de réfléchir aux compétences que tu as acquises en cours de route.
+Réponds aux trois questions ci-dessous pour réfléchir à ce que tu as appris. Il y a des indices pour te guider vers la bonne réponse.
 
-Réponds aux trois questions ci-dessous pour réfléchir à ce que tu as appris.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
+Amuse-toi bien !
 
 --- question ---
 ---
