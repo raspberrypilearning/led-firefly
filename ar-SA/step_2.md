@@ -38,9 +38,7 @@
 
 إذا لم يقل "MicroPython (Raspberry Pi Pico)" ، فانقر فوق النص وحدد "MicroPython (Raspberry Pi Pico)".
 
-إذا لم يسبق لك استخدام MicroPython على Raspberry Pico ، فسيطالبك Thonny بإضافة البرنامج الثابت MicroPython. أنقر على **Install**.
-
-![نافذة تثبيت MicroPython مع تمييز زر التثبيت.](images/thonny-install-micropython-pico.png)
+إذا لم يسبق لك استخدام MicroPython على Raspberry Pico ، فسيطالبك Thonny بإضافة البرنامج الثابت MicroPython. Click **Install MicroPython**.
 
 --- /task ---
 
