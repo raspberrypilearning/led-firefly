@@ -1,21 +1,21 @@
-Use GP13
+Χρησιμοποίησε το GP13
 
-Use GP18
+Χρησιμοποίησε το GP18
 
-Wires are connected
+Τα καλώδια είναι συνδεδεμένα
 
-Stay on for half a second
+Μένει αναμμένο για μισό δευτερόλεπτο
 
-Stay off for 2.5 seconds
+Μένει σβηστό για 2,5 δευτερόλεπτα
 
-Wires are not connected
+Τα καλώδια δεν είναι συνδεδεμένα
 
-Small delay
+Μικρή καθυστέρηση
 
 This is a comment
 
-Turn the LED on the Pico board on and off
+Ανάβει και σβήνει το LED στην πλακέτα Pico
 
-Switch is connected
+Ο διακόπτης είναι συνδεδεμένος
 
-Switch is not connected
+Ο διακόπτης δεν είναι συνδεδεμένος
