@@ -1,34 +1,34 @@
 ---
-title: LED firefly
+title: Πυγολαμπίδα LED
 hero_image: images/banner.png
 description:
-  - Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular
-  - pattern, just like fireflies in nature
-meta_title: Raspberry Pi Pico projects | LED firefly
-meta_description: A Raspberry Pi Pico project to make an LED firefly that flashes in a particular pattern, just like fireflies in nature.
+  - Χρησιμοποίησε ένα Raspberry Pi Pico για να φτιάξεις μια πυγολαμπίδα LED που αναβοσβήνει σε ένα συγκεκριμένο
+  - μοτίβο, ακριβώς όπως οι πυγολαμπίδες στη φύση
+meta_title: Έργα Raspberry Pi Pico | Πυγολαμπίδα LED
+meta_description: Ένα έργο Raspberry Pi Pico για τη δημιουργία μιας πυγολαμπίδας LED που αναβοσβήνει σε ένα συγκεκριμένο μοτίβο, όπως ακριβώς οι πυγολαμπίδες στη φύση.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Τι θα φτιάξεις
   - 
-    title: Set up your Raspberry Pi Pico
+    title: Ρύθμισε το Raspberry Pi Pico σου
   - 
-    title: Light the Raspberry Pi Pico LED
+    title: Άναψε το LED του Raspberry Pi Pico
     completion:
       - engaged
   - 
-    title: Light your firefly
+    title: Άναψε την πυγολαμπίδα σου
   - 
-    title: Make your firefly blink
+    title: Κάνε την πυγολαμπίδα σου να αναβοσβήνει
   - 
-    title: Add a switch
+    title: Πρόσθεσε έναν διακόπτη
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Γρήγορο κουίζ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,6 +37,4 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
-  - 
-    title: What next?
+    title: Αναβάθμιση του έργου σου
