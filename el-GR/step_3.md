@@ -1,37 +1,37 @@
-## Light the Raspberry Pi Pico LED
+## Άναψε το LED του Raspberry Pi Pico
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will light the tiny LED that sits on the top of your Raspberry Pi Pico. This will check that your Raspberry Pi Pico is set up correctly.
+Σε αυτό το βήμα, θα ανάψεις το μικροσκοπικό LED που βρίσκεται στην κορυφή του Raspberry Pi Pico σου. Με αυτό θα ελέγξεις ότι το Raspberry Pi Pico έχει ρυθμιστεί σωστά.
 </div>
 <div>
-![A Raspberry Pi Pico with the onboard LED switching on and then off.](images/led-on-off.gif){:width="300px"}
+![Ένα Raspberry Pi Pico με το ενσωματωμένο LED να ανάβει και μετά να σβήνει.](images/led-on-off.gif){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">LED</span> stands for light-emitting diode. It uses electroluminescence, which is where a material lights up when an electrical current passes through it. An LED has two legs — a long one and a short one — and must be connected the right way around. The long leg is positive (+) and the short one is the negative (-). Another way to check if a leg is positive or negative is to use your finger to find the flat side of the LED bulb. The flat side is on the same side as the negative leg.
+<span style="color: #0faeb0">LED</span> σημαίνει δίοδος εκπομπής φωτός. Χρησιμοποιεί ηλεκτροφωταύγεια, που σημαίνει ότι ένα υλικό ανάβει όταν διέρχεται ηλεκτρικό ρεύμα μέσα από αυτό. Ένα LED έχει δύο πόδια — ένα μακρύ και ένα κοντό — και πρέπει να συνδεθεί με τον σωστό τρόπο. Το μακρύ πόδι είναι το θετικό (+) και το κοντό είναι το αρνητικό (-). Ένας άλλος τρόπος για να ελέγξεις εάν ένα πόδι είναι θετικό ή αρνητικό είναι να χρησιμοποιήσεις το δάχτυλό σου για να βρείτε την επίπεδη πλευρά του λαμπτήρα LED. Η επίπεδη πλευρά βρίσκεται στην ίδια πλευρά με το αρνητικό πόδι.
 </p>
 
 --- task ---
 
-Look at your Raspberry Pi Pico and find the small LED next to the USB connector.
+Κοίταξε το Raspberry Pi Pico και βρες το μικρό LED δίπλα στην υποδοχή USB.
 
-![A photo of the Raspberry Pi Pico with the LED highlighted.](images/pico-led.jpg){:width="200px"}
+![Μια φωτογραφία του Raspberry Pi Pico με τονισμένο το LED.](images/pico-led.jpg){:width="200px"}
 
 --- /task ---
 
 --- task ---
 
-Create a new file in Thonny by clicking **File** > **New** in the top menu bar. An empty workspace will open.
+Δημιούργησε ένα νέο αρχείο στο Thonny κάνοντας κλικ στο **File** > **New** στην επάνω γραμμή μενού. Θα ανοίξει ένας κενός χώρος εργασίας.
 
 --- /task ---
 
-In the last step, you installed the `picozero` library. This library allows you to program electronics components that are attached to a Raspberry Pi Pico. At the top of your code, you will need to import the items that you need from the `picozero` library.
+Στο τελευταίο βήμα, εγκατέστησες τη βιβλιοθήκη `picozero`. Αυτή η βιβλιοθήκη σου επιτρέπει να προγραμματίζεις ηλεκτρονικά εξαρτήματα που είναι συνδεδεμένα σε ένα Raspberry Pi Pico. Στην κορυφή του κώδικά σου, θα χρειαστεί να εισαγάγεις τα στοιχεία που χρειάζεσαι από τη βιβλιοθήκη `picozero`.
 
 --- task ---
 
-Type the following code into the main editor pane in Thonny:
+Πληκτρολόγησε τον ακόλουθο κώδικα στο κύριο παράθυρο επεξεργασίας στο Thonny:
 
 --- code ---
 ---
@@ -48,68 +48,68 @@ pico_led.on()
 
 --- task ---
 
-Choose **File**->**Save As**. Thonny will ask whether you want to save the file on **This computer** or the **Raspberry Pi Pico**. Choose **This computer** to save your code to your computer.
+Επίλεξε **File**->**Save As**. Το Thonny θα σε ρωτήσει εάν θέλεις να αποθηκεύσεις το αρχείο σε **Αυτόν τον υπολογιστή (This Computer)** ή στο **Raspberry Pico**. Επίλεξε **This Computer** για να αποθηκεύσεις τον κωδικά σου στον υπολογιστή σου.
 
-Choose a location on your computer such as your 'Documents' folder. Name your file `firefly.py`.
+Επίλεξε μια τοποθεσία στον υπολογιστή σου, όπως ο φάκελος "Έγγραφα". Ονόμασε το αρχείο σου `firefly.py`.
 
-![A screenshot of a window with two options. The user can either select 'This computer' or 'Raspberry Pi Pico' device. 'This computer' is highlighted.](images/save-on-computer.png)
-
---- /task ---
-
---- task ---
-
-**Test:** Thonny has a green play button with a small white triangle inside it. Pressing this button allows you to run your code.
-
-+ Press the play button
-
-+ Check that the small LED on the Raspberry Pi Pico turns on
-
-![A Raspberry Pi Pico with the onboard LED switched on.](images/led-on.jpg){:width="300px"}
+![Ένα στιγμιότυπο οθόνης ενός παραθύρου με δύο επιλογές. Ο χρήστης μπορεί να επιλέξει είτε «This Computer» είτε τη συσκευή «Raspberry Pi Pico». Η ένδειξη "Αυτός ο υπολογιστής" επισημαίνεται.](images/save-on-computer.png)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Δοκιμή:** Το Thonny έχει ένα πράσινο κουμπί αναπαραγωγής με ένα μικρό λευκό τρίγωνο μέσα του. Πατώντας αυτό το κουμπί μπορείς να εκτελέσεις τον κώδικά σου.
+
++ Πάτησε το κουμπί αναπαραγωγής
+
++ Έλεγξε ότι το μικρό LED στο Raspberry Pi Pico ανάβει
+
+![Ένα Raspberry Pi Pico με αναμμένο το ενσωματωμένο LED.](images/led-on.jpg){:width="300px"}
+
+--- /task ---
+
+--- task ---
+
+**Εντοπισμός σφαλμάτων:**
 
 --- collapse ---
 ---
-title: The play button is faded out
+title: Το κουμπί αναπαραγωγής έχει σβήσει
 ---
 
-If you don't see a green play button (it is faded):
-+ Click the red **STOP** button
-+ Check that your Raspberry Pi Pico is connected to your computer with a USB cable
-+ Click on **MicroPython (Raspberry Pi Pico)** at the bottom-right corner of Thonny to reconnect
-+ Unplug your USB cable and then plug it back in
+Εάν δεν βλέπεις ένα πράσινο κουμπί αναπαραγωγής (είναι ξεθωριασμένο):
++ Κάνε κλικ στο κόκκινο κουμπί **STOP**
++ Έλεγξε ότι το Raspberry Pi Pico είναι συνδεδεμένο στον υπολογιστή σου με καλώδιο USB
++ Κάνε κλικ στο **MicroPython (Raspberry Pi Pico)** στην κάτω δεξιά γωνία του Thonny για επανασύνδεση
++ Αποσύνδεσε το καλώδιο USB και μετά σύνδεσέ το ξανά
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Thonny says that there is an error in my code
+title: Το Thonny λέει ότι υπάρχει ένα σφάλμα στον κώδικά μου
 ---
 
-Check your code very carefully and make sure it matches the example.
+Έλεγξε πολύ προσεκτικά τον κωδικά σου και βεβαιώσου ότι ταιριάζει με το παράδειγμα.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: There are no errors in my code but the light doesn't come on
+title: Δεν υπάρχουν σφάλματα στον κώδικά μου, αλλά η λυχνία δεν ανάβει
 ---
 
-Try a different USB cable, making sure that it is a **data** USB cable. As a last resort, try another Raspberry Pi Pico (if you have a spare).
+Δοκίμασε ένα διαφορετικό καλώδιο USB, βεβαιώσου ότι πρόκειται για καλώδιο **δεδομένων** USB. Ως τελευταία λύση, δοκίμασε ένα άλλο Raspberry Pi Pico (αν έχεις επιπλέον).
 
 --- /collapse ---
 
 --- /task ---
 
-The LED will stay on until you write code to turn it off or you unplug the Raspberry Pi Pico.
+Το LED θα παραμείνει αναμμένο μέχρι να γράψεις κώδικα για να το απενεργοποιήσεις ή να αποσυνδέσεις το Raspberry Pi Pico.
 
 --- task ---
 
-Import `sleep` to allow you to pause your code. Add code to the end of your script to sleep for one second and then turn the LED off.
+Κάνε import το `sleep` για να μπορείς να θέσεις σε παύση τον κώδικά σου. Πρόσθεσε κώδικα στο τέλος του script σου ώστε να παύσει για ένα δευτερόλεπτο και, στη συνέχεια, απενεργοποίησε το LED.
 
 --- code ---
 ---
@@ -124,22 +124,22 @@ pico_led.on() sleep(1) pico_led.off() --- /code ---
 
 --- task ---
 
-**Test:** Click the green **play** button. Thonny will save the file on your Raspberry Pi Pico and then run the new code.
+**Δοκιμή:** Κάνε κλικ στο πράσινο κουμπί **αναπαραγωγή**. Το Thonny θα αποθηκεύσει το αρχείο στο Raspberry Pi Pico και στη συνέχεια θα εκτελέσει τον νέο κώδικα.
 
-Check that the LED turns on and then goes off again. The LED will only light for one second so make sure you are watching.
+Έλεγξε ότι το LED ανάβει και μετά σβήνει ξανά. Το LED θα ανάψει μόνο για ένα δευτερόλεπτο, οπότε βεβαιώσου ότι έχεις το νου σου.
 
-Run your code as many times as you like.
+Εκτέλεσε τον κώδικά σου όσες φορές θέλεις.
 
-![A Raspberry Pi Pico with the onboard LED switching on and then off.](images/led-on-off.gif){:width="300px"}
+![Ένα Raspberry Pi Pico με το ενσωματωμένο LED να ανάβει και μετά να σβήνει.](images/led-on-off.gif){:width="300px"}
 
-**Debug:**
+**Εντοπισμός σφαλμάτων:**
 
 --- collapse ---
 ---
-title: Thonny says sleep isn't defined
+title: Το Thonny λέει ότι το sleep δεν είναι καθορισμένο (defined)
 ---
 
-Add the `from time import sleep` line.
+Πρόσθεσε τη γραμμή `from time import sleep`.
 
 --- /collapse ---
 
