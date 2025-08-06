@@ -1,46 +1,46 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-In your project, you connected an LED to the Raspberry Pi Pico. LEDs have to be connected the right way around.
+Στο έργο σου, σύνδεσες ένα LED στο Raspberry Pi Pico. Τα LED πρέπει να συνδεθούν με τον σωστό τρόπο.
 
-The **short leg connected to the flat side of your LED** is ...
+Το **κοντό πόδι που είναι συνδεδεμένο στην επίπεδη πλευρά του LED σου** είναι ...
 
-![An LED with a long leg and a short leg. The long leg is positive and the short leg is negative.](images/pos-neg.png){:width="200px"}
+![Ένα LED με μακρύ πόδι και κοντό πόδι. Το μακρύ πόδι είναι το θετικό και το κοντό είναι το αρνητικό.](images/pos-neg.png){:width="200px"}
 
 --- choices ---
 
-- ( )  Positive and connects to a GP pin
+- ( ) Θετικό και συνδέεται με μία ακίδα GP
 
   --- feedback ---
 
-Try again, while the positive side should be connected to a GP pin, the flat side of the LED is the negative side. (Remember this because the sign for negative is flat: - )
+Δοκίμασε ξανά, ενώ η θετική πλευρά πρέπει να είναι συνδεδεμένη με μια ακίδα GP, η επίπεδη πλευρά του LED είναι η αρνητική πλευρά. (Θυμήσου το με αυτό το τρόπο, το πρόσημο για το αρνητικό είναι επίπεδο: - )
 
   --- /feedback ---
 
-- (x)  Negative and connects to a ground (GND) pin
+- (x) Αρνητικό και συνδέεται με ακίδα γείωσης (GND)
 
   --- feedback ---
 
-Yes! The flat side of an LED is the negative side, which should be connected to a ground (GND) pin.
+Ναι! Η επίπεδη πλευρά ενός LED είναι η αρνητική πλευρά, η οποία θα πρέπει να συνδεθεί σε μία ακίδα γείωσης (GND).
 
   --- /feedback ---
 
-- ( ) Negative and connects to a GP pin
+- ( ) Αρνητικό και συνδέεται σε μία ακίδα GP
 
   --- feedback ---
 
-Try again, while the flat side of the LED is the negative side, it should not be connected to a GP pin.
+Προσπάθησε ξανά, ενώ η επίπεδη πλευρά της λυχνίας LED είναι η αρνητική πλευρά, δεν πρέπει να συνδεθεί σε ακίδα GP.
 
   --- /feedback ---
 
-- ( ) Positive and connects to a ground (GND) pin
+- ( ) Θετικό και συνδέεται με ακίδα γείωσης (GND)
 
   --- feedback ---
 
-Try again, the flat side of the LED is the negative side. (Remember this because the sign for negative is flat: -) The negative side of an LED should be connected to the ground (GND) pin.
+Δοκίμασε ξανά, η επίπεδη πλευρά του LED είναι η αρνητική πλευρά. (Μπορείς να το θυμάσαι με αυτό τον τρόπο, το πρόσημο για το αρνητικό είναι επίπεδο: -) Η αρνητική πλευρά ενός LED θα πρέπει να συνδέεται με την ακίδα γείωσης (GND).
 
   --- /feedback ---
 
