@@ -1,34 +1,34 @@
-## Upgrade your project
+## Αναβάθμισε το έργο σου
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-If you have time, upgrade your firefly project. You could use your project as a room decoration to remind you of nature when you are indoors. 
+Αν έχεις χρόνο, αναβάθμισε το έργο σου με την πυγολαμπίδα. Θα μπορούσες να χρησιμοποιήσεις το έργο σου ως διακόσμηση δωματίου για να σου θυμίζει τη φύση όταν βρίσκεσαι σε εσωτερικό χώρο. 
 </div>
 <div>
-![Animated gif showing an LED firefly set inside a glass jar.](images/firefly-jar.gif){:width="300px"}
+![Κινούμενη εικόνα gif που δείχνει μια πυγολαμπίδα LED μέσα σε ένα γυάλινο βάζο.](images/firefly-jar.gif){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Being in nature</span> is a great way to increase positive feelings and benefit your health. When it isn't possible to get outdoors, you can find ways to bring nature to you; for example, by keeping a houseplant or simulating your own firefly!</p>
+<span style="color: #0faeb0">Το να είσαι στη φύση</span> είναι ένας πολύ καλός τρόπος για να αυξήσεις τα θετικά συναισθήματα και να ωφελήσεις την υγεία σου. Όταν δεν είναι δυνατό να βγεις έξω, μπορείς να βρεις τρόπους να φέρεις τη φύση κοντά σου, για παράδειγμα, συντηρώντας ένα φυτό εσωτερικού χώρου ή προσομοιώνοντας τη δική σου πυγολαμπίδα!</p>
 
 --- task ---
 
-You could upgrade your project by:
-+ Adding another LED firefly and making it flash in the same pattern.
-+ Changing the flash pattern — you could research the flash patterns of fireflies in nature.
-+ Put your LED firefly in a jar. You could even use conductive thread to hang an LED from the lid.
+Μπορείς να αναβαθμίσεις το έργο σου με:
++ Την προσθήκη μιας άλλης πυγολαμπίδας LED και κάνοντας την να αναβοσβήνει στο ίδιο μοτίβο.
++ Την αλλαγή του μοτίβου που αναβοσβήνει — θα μπορούσες να ερευνήσεις τα μοτίβα που αναβοσβήνουν οι πυγολαμπίδες στη φύση.
++ Την τοποθέτηση της πυγολαμπίδας LED σου σε ένα βάζο. Θα μπορούσες ακόμη και να χρησιμοποιήσεις αγώγιμο νήμα για να κρεμάσεις ένα LED από το καπάκι.
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Embedded devices</span> often contain a microcontroller and are designed for a specific task. You might have used one in a games controller, microwave oven, mood light, electronic game or toy, pedometer, voice-controlled home assistant, medical device, or electronic calculator. Can you think of embedded devices that you use?</p>
+<span style="color: #0faeb0">Οι ενσωματωμένες συσκευές</span> συχνά περιέχουν μικροελεγκτή και έχουν σχεδιαστεί για μια συγκεκριμένη εργασία. Μπορεί να έχεις χρησιμοποιήσει μία σε χειριστήριο παιχνιδιών, φούρνο μικροκυμάτων, ατμοσφαιρικό φωτισμό, ηλεκτρονικό παιχνίδι ή απλώς παιχνίδι, μετρητή βημάτων, φωνητικό οικιακό βοηθό, ιατρική συσκευή ή ηλεκτρονική αριθμομηχανή. Μπορείς να σκεφτείς τις ενσωματωμένες συσκευές που χρησιμοποιείς;</p>
 
 --- collapse ---
 ---
-title: Completed project
+title: Ολοκληρωμένο έργο
 ---
 
-You can view the [completed project here](https://rpf.io/p/en/led-firefly-get){:target="_blank"}.
+Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://rpf.io/p/en/led-firefly-get){:target="_blank"}.
 
 --- /collapse ---
