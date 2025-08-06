@@ -1,25 +1,25 @@
-## Light your firefly
+## Άναψε την πυγολαμπίδα σου
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will use jumper wires to connect an LED with a resistor to your Raspberry Pi Pico and write code to light it. 
+Σε αυτό το βήμα, θα χρησιμοποιήσεις καλώδια για να συνδέσεις ένα LED με μια αντίσταση στο Raspberry Pi Pico και να γράψεις κώδικα για να το ανάψεις. 
 </div>
 <div>
-![The Raspberry Pi Pico with two connected jumper wires linking to a yellow LED.](images/firefly-on.jpg){:width="300px"}
+![Το Raspberry Pi Pico με δύο συνδεδεμένα καλώδια που συνδέονται με ένα κίτρινο LED.](εικόνες/firefly-on.jpg){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Make sure that you have an LED connected to a resistor and two socket–socket jumper wires. The colour of the jumper wires does not matter, they all do the same thing.
+Βεβαιώσου ότι έχεις ένα LED συνδεδεμένο σε μια αντίσταση και δύο καλώδια θηλυκό-σε-θηλυκό. Το χρώμα των καλωδίων δεν παίζει ρόλο, όλα έχουν την ίδια λειτουργία.
 
-Fireflies are usually yellow, orange, or green but you can choose any colour you like.
+Οι πυγολαμπίδες είναι συνήθως κίτρινες, πορτοκαλί ή πράσινες, αλλά μπορείς να επιλέξεις όποιο χρώμα θέλεις.
 
-![An LED connected to jumper wires with a resistor on the long, positive leg.](images/led-resistor.jpeg)
+![Ένα LED συνδεδεμένο σε καλώδια με αντίσταση στο μακρύ, θετικό πόδι.](images/led-resistor.jpeg)
 
-A **resistor** controls the current that flows through a circuit. This protects the LED from burning out and will make it last longer.
+Μία **αντίσταση** ελέγχει το ρεύμα που ρέει μέσα από ένα κύκλωμα. Προστατεύει το LED από το να καεί και το κάνει να διαρκέσει περισσότερο.
 
-If your LED does not have jumper wires and a resistor attached, then you can add them:
+Εάν το LED σου δεν έχει καλώδια και συνδεδεμένη αντίσταση, τότε μπορείς να τα προσθέσεις:
 
 [[[led-resistor-electrical-tape]]]
 
@@ -27,33 +27,33 @@ If your LED does not have jumper wires and a resistor attached, then you can add
 
 --- /task ---
 
-A Raspberry Pi Pico has **40 pins** on its board. **Pins** allow you to connect external components to the Raspberry Pi Pico.
+Ένα Raspberry Pi Pico έχει **40 ακίδες** στην πλακέτα του. Οι **ακίδες** σου επιτρέπουν να συνδέσεις εξωτερικά εξαρτήματα στο Raspberry Pi Pico.
 
 --- task ---
 
-Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You will notice that there are labels for each pin on the **underneath** side of the Raspberry Pi Pico.
+Εξερεύνησε το Raspberry Pi Pico και βρες την ακίδα που φέρει την ετικέτα **GP13**. Θα παρατηρήσεις ότι υπάρχουν ετικέτες για κάθε ακίδα στην **κάτω** πλευρά του Raspberry Pi Pico.
 
-![Photo of the Raspberry Pi Pico from underneath with GP13 highlighted.](images/gp13-pico.png)
+![Φωτογραφία του Raspberry Pi Pico από κάτω με τονισμένο το GP13.](images/gp13-pico.png)
 
 --- /task ---
 
 --- task ---
 
-**Connect** the jumper wire that is attached to the positive leg of the LED (the one with the resistor) to pin **GP13**. Push it until the black plastic meets the base of the header.
+**Σύνδεσε** το καλώδιο που είναι συνδεδεμένο στο θετικό πόδι του LED (αυτό με την αντίσταση) στην ακίδα **GP13**. Σπρώξε το μέχρι το μαύρο πλαστικό να συναντήσει τη βάση της ακίδας.
 
-**Connect** the jumper wire that is attached to the negative leg to the **GND** (ground), below **GP13**. This completes the circuit, allowing electrical current to flow when instructed by your code.
+**Σύνδεσε** το καλώδιο που είναι προσαρτημένο στο αρνητικό πόδι στο **GND** (γείωση), κάτω από το **GP13**. Αυτό ολοκληρώνει το κύκλωμα, επιτρέποντας στο ηλεκτρικό ρεύμα να ρέει όταν δίνεται εντολή από τον κώδικά σου.
 
-![A diagram of the Raspberry Pi Pico with a yellow LED connected to GND and to GP13 through a resistor.](images/pico_led_13_bb.png)
+![Ένα διάγραμμα του Raspberry Pi Pico με ένα κίτρινο LED συνδεδεμένο στο GND και στο GP13 μέσω μιας αντίστασης.](images/pico_led_13_bb.png)
 
 --- /task ---
 
 --- task ---
 
-In the last step, you used `pico_led` to light the LED on the Raspberry Pi Pico. To add your own LEDs, you need to `import` `LED` from `picozero`.
+Στο τελευταίο βήμα, χρησιμοποίησες το `pico_led` για να ανάψεις το LED στο Raspberry Pi Pico. Για να προσθέσεις τα δικά σου LED, πρέπει να κάνεις `import` το `LED` από το `picozero`.
 
-Add `, LED` to the end of the import list on **line 1**. Next, set your firefly LED to **GP13** and enter the code to switch it on.
+Πρόσθεσε `, LED` στο τέλος της λίστας του import στη γραμμή **1**. Στη συνέχεια, θέσε το LED της πυγολαμπίδας στο **GP13** και γράψε τον κώδικα για να το ανάψεις.
 
-Enter the code to light your firefly:
+Γράψε τον κώδικα για να ανάψεις την πυγολαμπίδα σου:
 
 --- code ---
 ---
@@ -66,37 +66,37 @@ pico_led.on() sleep(1) pico_led.off()
 
 firefly = LED(13) # Use GP13 firefly.on() --- /code ---
 
-**Tip:** To import multiple items, separate them with commas `,`.
+**Συμβουλή:** Για να κάνεις εισαγωγή (import) πολλών στοιχείων, διαχώρισέ τα με κόμματα `,`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see your LED firefly light up.
+**Δοκιμή:** Εκτέλεσε τον κωδικά σου για να δεις το LED σου να ανάβει.
 
-![Yellow LED attached to GP13 and lit up.](images/firefly-on.jpg)
+![Κίτρινο LED τοποθετημένο στο GP13 και αναμμένο.](images/firefly-on.jpg)
 
-**Debug**:
+**Εντοπισμός σφαλμάτων**:
 
 --- collapse ---
 ---
-title: My code isn't running
+title: Ο κώδικας μου δεν εκτελείται
 ---
 
-If your code isn't running:
-+ Fix any errors in your code. The LED on the Raspberry Pi Pico will flash if your code runs successfully.
+Εάν ο κώδικας σου δεν εκτελείται:
++ Διόρθωσε τυχόν σφάλματα στον κώδικα σου. Το LED στο Raspberry Pi Pico θα αναβοσβήσει εάν ο κώδικας σου εκτελεστεί με επιτυχία.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My LED firefly doesn't light up
+title: Η LED πυγολαμπίδα μου δεν ανάβει
 ---
 
-If your LED firefly does not light up:
-+ Check that your LED has the negative (shorter, flat) side attached to **GND** and the positive (longer, with resistor) side attached to **GP13**
-+ Make sure that all joints make a good connection
-+ Try a different LED
+Εάν η LED πυγολαμπίδα σου δεν ανάβει:
++ Βεβαιώσου ότι το LED σου έχει την αρνητική (κοντή, επίπεδη) πλευρά συνδεδεμένη στο **GND** και τη θετική (μακρύτερη, με αντίσταση) πλευρά συνδεδεμένη στο **GP13**
++ Βεβαιώσου ότι όλοι οι σύνδεσμοι συνδέονται καλά
++ Δοκίμασε ένα διαφορετικό LED
 
 --- /collapse ---
 
@@ -104,8 +104,8 @@ If your LED firefly does not light up:
 
 --- task ---
 
-**Optional:** Cut some wings out of folded over sticky tape and stick them to your LED. Invisible tape works well.
+**Προαιρετικά:** Δημιούργησε φτερά κόβοντας και διπλώνοντας κολλητική ταινία και κόλλησέ τα στο LED σου. Η διαφανής ταινία είναι καλή επιλογή.
 
-![LED firefly with sticky tape wings.](images/firefly-wings.jpg)
+![Πυγολαμπίδα LED με φτερά κολλητικής ταινίας.](images/firefly-wings.jpg)
 
 --- /task ---
