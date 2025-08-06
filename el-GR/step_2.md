@@ -1,125 +1,125 @@
-## Set up your Raspberry Pi Pico
+## Ρύθμισε το Raspberry Pi Pico σου
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Connect your Raspberry Pi Pico and set up MicroPython.
+Σύνδεσε το Raspberry Pi Pico και ρύθμισε την MicroPython.
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">MicroPython</span> is a version of the Python programming language for microcontrollers, such as your Raspberry Pi Pico. MicroPython lets you use your Python knowledge to write code to interact with electronics components.</p>
+Η <span style="color: #0faeb0">MicroPython</span> είναι μια έκδοση της γλώσσας προγραμματισμού Python για μικροελεγκτές, όπως το Raspberry Pi Pico. Η MicroPython σου επιτρέπει να χρησιμοποιήσεις τις γνώσεις σου για την Python για να γράψεις κώδικα για να αλληλεπιδράσεις με ηλεκτρονικά στοιχεία.</p>
 
 --- task ---
 
-**Connect** the small end of your USB cable to the Raspberry Pi Pico.
+**Σύνδεσε** το μικρό άκρο του καλωδίου USB στο Raspberry Pi Pico.
 
-![An image of a Raspberry Pi Pico connected to the small end of a USB cable.](images/pico-top-plug.png)
+![Μια εικόνα ενός Raspberry Pi Pico που συνδέεται στο μικρό άκρο ενός καλωδίου USB.](images/pico-top-plug.png)
 
 --- /task ---
 
 --- task ---
 
-**Connect** the other end to your computer, laptop, or Raspberry Pi.
+**Σύνδεσε** το άλλο άκρο στον υπολογιστή, τον φορητό υπολογιστή ή το Raspberry Pi.
 
-![An image of a Raspberry Pi Pico connected to a laptop with a USB cable.](images/plug-in-pico.png)
+![Μια εικόνα ενός Raspberry Pi Pico συνδεδεμένο σε φορητό υπολογιστή με καλώδιο USB.](images/plug-in-pico.png)
 
 --- /task ---
 
 
 --- task ---
 
-Open the Thonny editor.
+Άνοιξε το πρόγραμμα επεξεργασίας Thonny.
 
 --- /task ---
 
 --- task ---
 
-Look at the text in the bottom-right corner of the Thonny editor. It will show you the version of Python that is being used.
+Κοίταξε το κείμενο στην κάτω δεξιά γωνία του προγράμματος επεξεργασίας Thonny. Θα σου δείξει την έκδοση της Python που χρησιμοποιείται.
 
-If it does not say "MicroPython (Raspberry Pi Pico)", then click on the text and select "MicroPython (Raspberry Pi Pico)".
+Εάν δεν γράφει "MicroPython (Raspberry Pi Pico)", κάνε κλικ στο κείμενο και επίλεξε "MicroPython (Raspberry Pi Pico)".
 
-If you have never used MicroPython on your Raspberry Pi Pico, then Thonny will prompt you to add the MicroPython firmware. Click **Install MicroPython**.
+Εάν δεν έχεις χρησιμοποιήσει ποτέ την MicroPython στο Raspberry Pi Pico, τότε το Thonny θα σου ζητήσει να προσθέσεις το υλικολογισμικό MicroPython. Κάνε κλικ στο **Εγκατάσταση MicroPython**.
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Εντοπισμός σφαλμάτων:**
 
 --- collapse ---
 ---
-title: There was an error installing the firmware
+title: Παρουσιάστηκε σφάλμα κατά την εγκατάσταση του υλικολογισμικού
 ---
 
-If you see an error message during the install then:
-+ Disconnect your Raspberry Pi Pico
-+ Reconnect your Raspberry Pi Pico
-+ Try to install the firmware again (you might need to press the stop button first)
+Εάν δείς ένα μήνυμα σφάλματος κατά την εγκατάσταση, τότε:
++ Αποσύνδεσε το Raspberry Pi Pico
++ Επανασύνδεσε το Raspberry Pi Pico
++ Δοκίμασε να εγκαταστήσεις ξανά το υλικολογισμικό (ίσως χρειαστεί να πατήσεις πρώτα το κουμπί διακοπής)
 
-![A screenshot of an error message showing that the firmware cannot install correctly.](images/pico-firmware-error.PNG)
+![Ένα στιγμιότυπο οθόνης ενός μηνύματος σφάλματος που δείχνει ότι το υλικολογισμικό δεν μπορεί να εγκατασταθεί σωστά.](images/pico-firmware-error.PNG)
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: I don't know if the firmware is installed and cannot connect to my Pico
+title: Δεν ξέρω αν το υλικολογισμικό είναι εγκατεστημένο και δεν μπορώ να συνδεθώ στο Pico μου
 ---
 
-Make sure your Raspberry Pi Pico is connected to your computer with a micro USB cable. Click on the list in the bottom-right corner of your Thonny window. A pop-up menu will appear, which lists the available interpreters.
+Βεβαιώσου ότι το Raspberry Pi Pico είναι συνδεδεμένο στον υπολογιστή σου με καλώδιο micro USB. Κάνε κλικ στη λίστα στην κάτω δεξιά γωνία του παραθύρου Thonny. Θα εμφανιστεί ένα αναδυόμενο μενού, το οποίο παραθέτει τους διαθέσιμους διερμηνείς.
 
-![A pop-up menu that shows an option saying configure interpreter.](images/no-pico-interpreter.png)
+![Ένα αναδυόμενο μενού που εμφανίζει μια επιλογή που λέει διαμόρφωση διερμηνέα.](images/no-pico-interpreter.png)
 
-If you cannot see the Pico in the list (like in the picture), you will need to reconnect your Raspberry Pi Pico while holding the BOOTSEL button to mount it as a storage volume, and reinstall the firmware by following the instructions in the section above.
+Εάν δεν μπορείς να δείτε το Pico στη λίστα (όπως στην εικόνα), θα χρειαστεί να επανασυνδέσεις το Raspberry Pi Pico κρατώντας πατημένο το κουμπί BOOTSEL για να το προσαρτήσεις ως τομέα αποθήκευσης (storage volume) και να εγκαταστήσετε ξανά το υλικολογισμικό ακολουθώντας τις οδηγίες στην παραπάνω ενότητα.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Firmware is installed but I still cannot connect to my Pico
+title: Το υλικολογισμικό είναι εγκατεστημένο αλλά δεν μπορώ ακόμα να συνδεθώ στο Pico μου
 ---
 
-You may be using the wrong kind of micro USB cable. Your current micro USB cable may be damaged, or designed only to carry power to devices and cannot transfer data. Try swapping your cable if nothing else has worked.
+Μπορεί να χρησιμοποιείς λάθος είδος καλωδίου micro USB. Το τρέχον καλώδιο micro USB μπορεί να έχει καταστραφεί ή να έχει σχεδιαστεί μόνο για να μεταφέρει ρεύμα σε συσκευές και να μην μπορεί να μεταφέρει δεδομένα. Δοκίμασε να αλλάξεις το καλώδιό σου εάν δεν έχει λειτουργήσει τίποτα άλλο.
 
-If your Pico still won't connect after trying all these things, it may **itself** be damaged and unable to connect.
+Εάν το Pico σου εξακολουθεί να μην συνδέεται αφού δοκιμάσεις όλα αυτά τα πράγματα, ενδέχεται **το ίδιο** να έχει κάποια ζημιά και να μην μπορεί να συνδεθεί.
 
 --- /collapse ---
 
-You can find further information in the [Raspberry Pi Pico Guide](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"}.
+Μπορείς να βρεις περισσότερες πληροφορίες στον [Οδηγό Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"}.
 
 --- /task ---
 
-`picozero` is a MicroPython library for beginners to the Raspberry Pi Pico.
+Το `picozero` είναι μια βιβλιοθήκη MicroPython για αρχάριους στο Raspberry Pi Pico.
 
 --- task ---
 
-To complete the projects in this path, you will need to install the `picozero` library as a Thonny package.
+Για να ολοκληρώσεις τα έργα σε αυτό το μονοπάτι, θα χρειαστεί να εγκαταστήσεις τη βιβλιοθήκη `picozero` ως πακέτο Thonny.
 
-In Thonny, choose **Tools** > **Manage packages**.
+Στο Thonny, επίλεξε **Tools** > **Manage plug-ins**.
 
-![The Thonny Tools menu with Manage packages highlighted.](images/thonny-manage-packages.jpg)
-
---- /task ---
-
---- task ---
-
-In the pop-up 'Manage packages for Raspberry Pi Pico' window, type `picozero` and click **Search on PyPi**.
-
-![Thonny plugins search results showing picozero.](images/thonny-packages-picozero.jpg)
+![Το μενού Εργαλεία Thonny με επισημασμένη τη Διαχείριση πακέτων.](images/thonny-manage-packages.jpg)
 
 --- /task ---
 
 --- task ---
 
-Click on **picozero** in the search results.
+Στο αναδυόμενο παράθυρο «Manage Plug-Ins», πληκτρολόγησε `picozero` και κάνε κλικ στο **Search on PyPi**.
 
-Click on **Install**.
-
-![The picozero information with 'Install' button highlighted.](images/thonny-install-package.jpg)
-
-When installation has completed, close the package window, then exit and reopen Thonny.
+![Αποτελέσματα αναζήτησης προσθηκών Thonny που εμφανίζουν το picozero.](images/thonny-packages-picozero.jpg)
 
 --- /task ---
 
-If you have difficulties installing the `picozero` library in Thonny, you can download the library file and save it to your Raspberry Pi Pico.
+--- task ---
+
+Κάνε κλικ στο **picozero** στα αποτελέσματα αναζήτησης.
+
+Κάνε κλικ στην **Εγκατάσταση**.
+
+![Οι πληροφορίες του picozero με επισημασμένο το κουμπί 'Εγκατάσταση'.](images/thonny-install-package.jpg)
+
+Όταν ολοκληρωθεί η εγκατάσταση, κλείσε το παράθυρο του plug-in, μετά βγες και άνοιξε ξανά το Thonny.
+
+--- /task ---
+
+Εάν αντιμετωπίζεις δυσκολίες με την εγκατάσταση της βιβλιοθήκης `picozero` στο Thonny, μπορείς να κάνεις λήψη του αρχείου βιβλιοθήκης και να το αποθηκεύσεις στο Raspberry Pi Pico.
 
 [[[picozero-offline-install]]]
