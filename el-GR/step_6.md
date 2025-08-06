@@ -1,45 +1,45 @@
-## Add a switch
+## Πρόσθεσε έναν διακόπτη
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's useful to be able to control when your LED firefly starts blinking and to be able to turn it off from the device. 
+Είναι χρήσιμο να μπορείς να ελέγχεις πότε η LED πυγολαμπίδα σου αρχίζει να αναβοσβήνει και να μπορείς να την απενεργοποιήσεις από τη συσκευή. 
 </div>
 <div>
-![The pin and socket ends of two jumper wires are connected together. This causes the firefly to start blinking.](images/firefly-switch.gif){:width="300px"}
+![Οι ακίδες και οι υποδοχές δύο καλωδίων συνδέονται μεταξύ τους. Αυτό έχει ως αποτέλεσμα η πυγολαμπίδα να αρχίσει να αναβοσβήνει.](images/firefly-switch.gif){:width="300px"}
 </div>
 </div>
 
-The Raspberry Pi Pico can detect when an input is connected between **GND** and one of the GP pins.
+Το Raspberry Pi Pico μπορεί να ανιχνεύσει πότε μια είσοδος είναι συνδεδεμένη μεταξύ του **GND** και μιας ακίδας GP.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">switch</span> is an electrical component that can be **closed** to allow electrical current to flow and **opened** to prevent electrical current from flowing. A <span style="color: #0faeb0">button</span> is also a kind of switch that makes a connection when it is **pressed**.
+Ένας <span style="color: #0faeb0">διακόπτης</span> είναι ένα ηλεκτρικό εξάρτημα που μπορεί να **κλείσει** για να επιτρέψει τη ροή ηλεκτρικού ρεύματος και **να ανοίξει** για να αποτρέψει τη ροή ηλεκτρικού ρεύματος. Ένα <span style="color: #0faeb0">κουμπί</span> είναι επίσης ένα είδος διακόπτη που πραγματοποιεί μία σύνδεση όταν **πατηθεί**.
 </p>
 
-The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch.
+Ο απλούστερος τύπος διακόπτη είναι δύο καλώδια που μπορούν να συνδεθούν μεταξύ τους για να κλείσουν το διακόπτη ή να διαχωριστούν για να ανοίξει ο διακόπτης.
 
 [[[pin-socket-jumper-wires]]]
 
 --- task ---
 
-Find one pin–socket jumper wire and one socket–socket jumper wire — the colours do not matter.
+Βρες ένα καλώδιο αρσενικό-θηλυκό και ένα καλώδιο θηλυκό-θηλυκό - τα χρώματα δεν έχουν σημασία.
 
-![One pin–socket and one socket–socket jumper wire.](images/jumper-wires.jpg)
-
---- /task ---
-
---- task ---
-
-**Connect** one jumper wire to **GP18** and the other to **GND**. It doesn't matter which jumper wire you connect to which pin.
-
-![Two jumper wires are attached to the GP18 and the GND pins of the Raspberry Pi Pico.](images/switch-wiring-diagram.png)
+![Ένα καλώδιο αρσενικό-θηλυκό και ένα καλώδιο θηλυκό-θηλυκό.](images/jumper-wires.jpg)
 
 --- /task ---
 
 --- task ---
 
-To add switches, you need to `import Switch` from the `picozero` library.
+**Σύνδεσε** ένα καλώδιο στο **GP18** και το άλλο στο **GND**. Δεν έχει σημασία ποιο καλώδιο θα συνδέσεις σε ποια ακίδα.
 
-Add `, Switch` to the end of the import list on **line 1**. Next, set your `switch` to **GP18**:
+![Δύο καλώδια είναι προσαρτημένα στις ακίδες GP18 και GND του Raspberry Pi Pico.](images/switch-wiring-diagram.png)
+
+--- /task ---
+
+--- task ---
+
+Για να προσθέσεις διακόπτες, πρέπει να προσθέσεις το `import Switch` από τη βιβλιοθήκη `picozero`.
+
+Πρόσθεσε `, Switch` στο τέλος της λίστας του import στη γραμμή **1**. Στη συνέχεια, ρύθμισε τον `διακόπτη` σου σε **GP18**:
 
 --- code ---
 ---
@@ -56,11 +56,11 @@ firefly = LED(13) # Use GP13 switch = Switch(18) # Use GP18
 
 --- /task ---
 
-When you connect the two jumper wires together, this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed.
+Όταν συνδέεις τα δύο καλώδια μαζί, αυτό κλείνει ένα κύκλωμα και επιτρέπει στο Raspberry Pi Pico να ανιχνεύσει ότι ο διακόπτης είναι κλειστός.
 
 --- task ---
 
-Add code to check `if` your switch `is_closed` (the jumpers are connected) and only blink the firefly if it is closed:
+Πρόσθεσε κώδικα για να ελέγξεις `εάν` ο διακόπτης σου `είναι κλειστός (is_closed)` (τα καλώδια είναι συνδεδεμένα) και αναβοσβήνει η πυγολαμπίδα μόνο αν είναι κλειστός:
 
 --- code ---
 ---
@@ -79,23 +79,23 @@ while True: if switch.is_closed: # Wires are connected firefly.on() sleep(0.5) #
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected, then run your code.
+**Δοκιμή:** Βεβαιώσου ότι τα καλώδια **δεν είναι** συνδεδεμένα και, στη συνέχεια, εκτέλεσε τον κώδικά σου.
 
 --- collapse ---
 
 ---
-title: What do you expect to happen when you run your code?
+title: Τι περιμένεις να συμβεί όταν εκτελείς τον κώδικά σου;
 ---
 
-The jumper wires are **not** closed, so the code in the `else` block will run. This means the firefly LED will stay **off**.
+Ο διακόπτης **δεν** είναι κλειστός, επομένως ο κώδικας στο μπλοκ `else` θα εκτελεστεί. Αυτό σημαίνει ότι το LED της πυγολαμπίδας θα παραμείνει **σβηστό**.
 
 --- /collapse ---
 
-Now connect the jumper wires together. The firefly should start to blink.
+Τώρα σύνδεσε τα καλώδια μεταξύ τους. Η πυγολαμπίδα θα αρχίσει να αναβοσβήνει.
 
-![An animation of the LED firefly turning on when the jumper wires are connected.](images/firefly-switch.gif)
+![Μια κινούμενη εικόνα της LED πυγολαμπίδας που ανάβει όταν συνδέονται τα καλώδια.](images/firefly-switch.gif)
 
-Disconnect the jumper wires and the firefly should stop blinking.
+Αποσύνδεσε τα καλώδια και η πυγολαμπίδα θα σταματήσει να αναβοσβήνει.
 
 --- /task ---
 
@@ -105,34 +105,34 @@ Disconnect the jumper wires and the firefly should stop blinking.
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected, then run your code.
+**Δοκιμή:** Βεβαιώσου ότι τα καλώδια **δεν είναι** συνδεδεμένα και, στη συνέχεια, εκτέλεσε τον κώδικά σου.
 
 --- collapse ---
 
 ---
-title: What do you expect to happen when you run your code?
+title: Τι περιμένεις να συμβεί όταν εκτελείς τον κώδικά σου;
 ---
 
-The jumper wires are **not** closed so the code in the `else` block will run. This means the firefly LED will stay **off**.
+Ο διακόπτης **δεν** είναι κλειστός, επομένως ο κώδικας στο μπλοκ `else` θα εκτελεστεί. Αυτό σημαίνει ότι το LED της πυγολαμπίδας θα παραμείνει **σβηστό**.
 
 --- /collapse ---
 
-Now connect the jumper wires together.
+Τώρα σύνδεσε τα καλώδια μεταξύ τους.
 
-![The pin of one jumper wire connected to the socket of the other jumper wire.](images/connected-wires.jpg)
+![Η ακίδα ενός καλωδίου που συνδέεται με την υποδοχή του άλλου καλωδίου.](images/connected-wires.jpg)
 
-The firefly should start to blink.
+Η πυγολαμπίδα θα αρχίσει να αναβοσβήνει.
 
-Disconnect the jumper wires and the firefly should stop blinking.
+Αποσύνδεσε τα καλώδια και η πυγολαμπίδα θα σταματήσει να αναβοσβήνει.
 
 --- /task ---
 
 --- /print-only ---
 
-**Note:** Disconnecting the jumper wires will not stop power to the firefly LED immediately. The firefly only turns off when the `firefly.off()` code runs.
+**Σημείωση:** Η αποσύνδεση των καλωδίων δεν θα σταματήσει αμέσως την παροχή ρεύματος στο LED της πυγολαμπίδας. Η πυγολαμπίδα σβήνει μόνο όταν εκτελείται ο κώδικας `firefly.off()`.
 
 --- task ---
 
-**Optional:** If you are in a group, then you could try synchronising your fireflies by connecting your jumper wire switches at the same time.
+**Προαιρετικό:** Εάν βρίσκεσαι σε ομάδα, τότε θα μπορούσατε να δοκιμάσετε να συγχρονίσετε τις πυγολαμπίδες σας συνδέοντας ταυτόχρονα τους διακόπτες των καλωδίων.
 
 --- /task ---
