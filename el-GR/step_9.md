@@ -1,15 +1,15 @@
-## What next?
+## Τι υπάρχει στη συνέχεια;
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro) path, you can move on to the [Party popper](https://projects.raspberrypi.org/en/projects/party-popper) project. In this project, you will make a reusable party popper that rewards you with a light and sound display when it is pulled.
+Εάν ακολουθείς το μονοπάτι [Εισαγωγή στο Raspberry Pi Pico](https://projects.raspberrypi.org/en/pathways/pico-intro), μπορείς να προχωρήσεις στο έργο [Κομφετί](https://projects.raspberrypi.org/en/projects/party-popper). Σε αυτό το έργο, θα φτιάξεις ένα επαναχρησιμοποιούμενο popper για πάρτι που σε ανταμείβει με εικόνα και ήχο όταν το τραβάς.
 
 --- print-only ---
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.jpg)
+![Ένα μικρό κομμάτι αλουμινόχαρτο τραβιέται έξω από το διακόπτη popper, ανάβει ένα LED και ακούγεται ένας ήχος.](images/full-popper-test.jpg)
 
 --- /print-only ---
 
 --- no-print ---
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
+![Ένα μικρό κομμάτι αλουμινόχαρτο τραβιέται έξω από το διακόπτη popper, ανάβει ένα LED και ακούγεται ένας ήχος.](images/full-popper-test.gif)
 
 --- /no-print ---
