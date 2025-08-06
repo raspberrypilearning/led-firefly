@@ -1,49 +1,49 @@
-## Quick quiz
+## Γρήγορο κουίζ
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Απάντησε στις τρεις ερωτήσεις. Υπάρχουν συμβουλές που θα σε καθοδηγήσουν στη σωστή απάντηση.
 
-When you have answered each question, click on **Check my answer**.
+Όταν έχεις απαντήσει σε κάθε ερώτηση, πάτησε στο ** Έλεγξε την απάντησή μου**.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
-The Raspberry Pi Pico is a small device that can be programmed to control electronics components. The Raspberry Pi Pico is a:
+Το Raspberry Pi Pico είναι μια μικρή συσκευή που μπορεί να προγραμματιστεί για να ελέγχει ηλεκτρονικά εξαρτήματα. Το Raspberry Pi Pico είναι ένα(ς):
 
 --- choices ---
 
-- ( ) microprocessor
+- ( ) μικροεπεξεργαστής
 
   --- feedback ---
 
-Almost, a The Raspberry Pi Pico isn't a microprocessor — although it has one on it! A microprocessor is the chip that controls the logic on a controller or computer — it's like the brains that does the calculations for a computer to operate.
+Σχεδόν, ένα The Raspberry Pi Pico δεν είναι μικροεπεξεργαστής — αν και έχει έναν πάνω του! Ένας μικροεπεξεργαστής είναι το τσιπ που ελέγχει τη λογική σε έναν ελεγκτή ή έναν υπολογιστή — είναι σαν τον εγκέφαλο που κάνει τους υπολογισμούς για να λειτουργήσει ένας υπολογιστής.
 
   --- /feedback ---
 
-- ( ) microcomputer
+- ( ) μικροϋπολογιστής
 
   --- feedback ---
 
-Not quite. A microcomputer is a small device that runs code and can interact with electronics components, but it uses an operating system for user interaction. The Raspberry Pi Pico doesn't have an operating system.
+Όχι ακριβώς. Ένας μικροϋπολογιστής είναι μια μικρή συσκευή που εκτελεί κώδικα και μπορεί να αλληλεπιδράσει με ηλεκτρονικά στοιχεία, αλλά χρησιμοποιεί ένα λειτουργικό σύστημα για την αλληλεπίδραση με τον χρήστη. Το Raspberry Pi Pico δεν έχει λειτουργικό σύστημα.
 
   --- /feedback ---
 
-- (x) microcontroller
+- (x) μικροελεγκτής
 
   --- feedback ---
 
-Yes! The Raspberry Pi Pico is a **microcontroller** — it runs code and interacts with electronics components, but it doesn't have an operating system.
+Ναι! Το Raspberry Pi Pico είναι ένας μικροελεγκτής **** — εκτελεί κώδικα και αλληλεπιδρά με ηλεκτρονικά στοιχεία, αλλά δεν διαθέτει λειτουργικό σύστημα.
 
   --- /feedback ---
 
-- ( ) microchip
+- ( ) μικροτσίπ
 
   --- feedback ---
 
-Almost, a microchip is a tiny circuit made up of things called transistors that is attached to a single chip. They are very basic circuits, but lots of them together can make a processor.
+Σχεδόν, ένα μικροτσίπ είναι ένα μικροσκοπικό κύκλωμα που αποτελείται από πράγματα που ονομάζονται τρανζίστορ και είναι συνδεδεμένο σε ένα μόνο τσιπ. Είναι πολύ βασικά κυκλώματα, αλλά πολλά από αυτά μαζί μπορούν να δημιουργήσουν έναν επεξεργαστή.
 
   --- /feedback ---
 
