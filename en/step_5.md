@@ -19,7 +19,7 @@ Change your code to make the firefly blink on and off in a `while True:` loop. T
 
 Make sure that the code on lines 11–14 are indented. 
 
-**Tip:** In Thonny you can indent code by going to the beginning of the line and tapping the <kbd>Tab</kbd> key — this will insert four spaces. Thonny will automatically indent code based on the previous line when your press <kbd>Enter</kbd> while typing.
+**Tip:** In Thonny you can indent code by going to the beginning of the line and tapping the <kbd>Tab</kbd> key — this will insert four spaces. Thonny will automatically indent code based on the previous line when you press <kbd>Enter</kbd> while typing.
 
 --- code ---
 ---
