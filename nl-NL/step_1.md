@@ -49,7 +49,7 @@ Om dit project te voltooien heb je het volgende nodig:
 
 **Hardware**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Kitronik webstore.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 + Een Raspberry Pi Pico met daarop gesoldeerde pinkoppen
 + Een **data** USB A naar micro USB-kabel
