@@ -49,7 +49,7 @@
 
 **Υλικό**
 
-Μπορείς να αγοράσεις όλο το απαιτούμενο υλικό για αυτό το έργο και τα άλλα έργα σε αυτό το μονοπάτι από το κατάστημα [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} και το [διαδικτυακό κατάστημα Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+You can purchase all the required hardware for this project and the other projects in this path from the [Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 + Ένα Raspberry Pi Pico με κολλημένες ακίδες
 + Ένα καλώδιο **δεδομένων** USB A σε micro USB
