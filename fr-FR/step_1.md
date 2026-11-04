@@ -49,7 +49,7 @@ Pour mener à bien ce projet, tu auras besoin de :
 
 **Matériel informatique**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+Tu peux acheter tout le matériel requis pour ce projet et les autres projets de ce parcours à partir de la boutique en ligne [Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 + Un Raspberry Pi Pico avec des broches soudées dessus
 + Un câble de **données** USB A vers micro USB
