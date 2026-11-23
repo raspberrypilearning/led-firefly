@@ -1,49 +1,49 @@
-## Quick quiz
+## Examen rápido
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Responde las tres preguntas. Hay pistas para guiarte hacia la respuesta correcta.
 
-When you have answered each question, click on **Check my answer**.
+Cuando hayas respondido a todas las preguntas, haz clic en **Comprobar mi respuesta**.
 
-Have fun!
+¡Diviértete!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Pregunta 1 de 3
 ---
 
-The Raspberry Pi Pico is a small device that can be programmed to control electronics components. The Raspberry Pi Pico is a:
+La Raspberry Pi Pico es un dispositivo pequeño que se puede programar para controlar componentes electrónicos. La Raspberry Pi Pico es:
 
 --- choices ---
 
-- ( ) microprocessor
+- ( ) microprocesador
 
   --- feedback ---
 
-Almost, a The Raspberry Pi Pico isn't a microprocessor — although it has one on it! A microprocessor is the chip that controls the logic on a controller or computer — it's like the brains that does the calculations for a computer to operate.
+Casi, la Raspberry Pi Pico no es un microprocesador — ¡aunque tiene uno! Un microprocesador es el chip que controla la lógica de un controlador o una computadora — es como el cerebro que hace los cálculos para que una computadora funcione.
 
   --- /feedback ---
 
-- ( ) microcomputer
+- ( ) microcomputadora
 
   --- feedback ---
 
-Not quite. A microcomputer is a small device that runs code and can interact with electronics components, but it uses an operating system for user interaction. The Raspberry Pi Pico doesn't have an operating system.
+No exactamente. Una microcomputadora es un dispositivo pequeño que ejecuta código y puede interactuar con componentes electrónicos, pero usa un sistema operativo para interactuar con las personas. La Raspberry Pi Pico no tiene un sistema operativo.
 
   --- /feedback ---
 
-- (x) microcontroller
+- (x) microcontrolador
 
   --- feedback ---
 
-Yes! The Raspberry Pi Pico is a **microcontroller** — it runs code and interacts with electronics components, but it doesn't have an operating system.
+¡Sí! La Raspberry Pi Pico es un **microcontrolador** — ejecuta código e interactúa con componentes electrónicos, pero no tiene un sistema operativo.
 
   --- /feedback ---
 
-- ( ) microchip
+- ( ) circuito integrado
 
   --- feedback ---
 
-Almost, a microchip is a tiny circuit made up of things called transistors that is attached to a single chip. They are very basic circuits, but lots of them together can make a processor.
+Casi, un microchip es un circuito diminuto formado por componentes llamados transistores e integrado en un solo chip. Son circuitos muy básicos, pero muchos de ellos juntos pueden formar un procesador.
 
   --- /feedback ---
 
