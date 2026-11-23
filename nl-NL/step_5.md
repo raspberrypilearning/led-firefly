@@ -19,7 +19,7 @@ Wijzig je code om de vuurvlieg in een `while True:` lus te laten knipperen. De t
 
 Zorg ervoor dat de code op regel 11–14 inspringt.
 
-**Tip:** in Thonny kun je code inspringen door naar het begin van de regel te gaan en op de <kbd>Tab</kbd> toets te tikken — dit voegt vier spaties in. Thonny zal automatisch code inspringen op basis van de vorige regel wanneer je op <kbd>Enter</kbd> drukt tijdens het typen.
+**Tip:** in Thonny kun je code inspringen door naar het begin van de regel te gaan en op de <kbd>Tab</kbd> toets te tikken — dit voegt vier spaties in. Thonny will automatically indent code based on the previous line when you press <kbd>Enter</kbd> while typing.
 
 --- code ---
 ---
