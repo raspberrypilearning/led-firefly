@@ -1,25 +1,25 @@
-## Make your firefly blink
+## Haz que tu luciérnaga parpadee
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Now you will make your firefly blink on and off, like a real firefly. 
+Ahora harás que tu luciérnaga se encienda y se apague, como una luciérnaga real. 
 </div>
 <div>
-![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif){:width="300px"}
+![Una animación del LED de la luciérnaga encendiéndose y apagándose.](images/firefly-blink.gif){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">firefly</span> is a kind of beetle, also called a glow worm or lightning bug. They use bioluminescence to flash to identify themselves to other members of the same species. Different species flash in different patterns. 
+Una <span style="color: #0faeb0">luciérnaga</span> es un tipo de escarabajo, también conocido como gusano de luz o bichito de luz. Las luciérnagas usan la bioluminiscencia para emitir destellos y darse a conocer a otros miembros de su misma especie. Cada especie emite destellos con patrones diferentes. 
 </p>
 
 --- task ---
 
-Change your code to make the firefly blink on and off in a `while True:` loop. The timings represent the light patterns of a real firefly.
+Modifica tu código para que la luciérnaga se encienda y se apague en un bucle `while True:`. Los tiempos representan los patrones de luz de una luciérnaga real.
 
-Make sure that the code on lines 11–14 are indented.
+Asegúrate de que el código de las líneas 11–14 tenga sangría.
 
-**Tip:** In Thonny you can indent code by going to the beginning of the line and tapping the <kbd>Tab</kbd> key — this will insert four spaces. Thonny will automatically indent code based on the previous line when your press <kbd>Enter</kbd> while typing.
+**Consejo:** En Thonny puedes agregar sangría al código colocando el cursor al inicio de la línea y presionando la tecla <kbd>Tab</kbd> — esto insertará cuatro espacios. Thonny agregará sangría automáticamente según la línea anterior cuando presiones <kbd>Enter</kbd> mientras escribes.
 
 --- code ---
 ---
@@ -34,13 +34,13 @@ while True: firefly.on() sleep(0.5) firefly.off() sleep(2.5) --- /code ---
 
 --- task ---
 
-**Test:** Run your code to see the firefly slowly blink on and off.
+**Prueba:** Ejecuta tu código para ver cómo la luciérnaga se enciende y se apaga lentamente.
 
-![An animation of the firefly LED blinking on and off.](images/firefly-blink.gif)
+![Una animación del LED de la luciérnaga encendiéndose y apagándose.](images/firefly-blink.gif)
 
-**Debug:**
+**Depurar:**
 
-+ Fix any errors in your code, including indentation
-+ Check that none of the connections to your LED firefly have come loose
++ Corrige cualquier error en tu código, incluidos los de sangría
++ Revisa que ninguna de las conexiones del LED de tu luciérnaga se haya aflojado
 
 --- /task ---
