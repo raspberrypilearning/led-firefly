@@ -1,45 +1,45 @@
-## Add a switch
+## Agrega un interruptor
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's useful to be able to control when your LED firefly starts blinking and to be able to turn it off from the device. 
+Es útil poder controlar cuándo empieza a parpadear tu luciérnaga LED y poder apagarla desde el dispositivo. 
 </div>
 <div>
-![The pin and socket ends of two jumper wires are connected together. This causes the firefly to start blinking.](images/firefly-switch.gif){:width="300px"}
+![Los extremos de pin y receptáculo de dos cables puente están conectados entre sí. Esto hace que la luciérnaga empiece a parpadear.](images/firefly-switch.gif){:width="300px"}
 </div>
 </div>
 
-The Raspberry Pi Pico can detect when an input is connected between **GND** and one of the GP pins.
+La Raspberry Pi Pico puede detectar cuándo se conecta una entrada entre **GND** y uno de los pines GP.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-A <span style="color: #0faeb0">switch</span> is an electrical component that can be **closed** to allow electrical current to flow and **opened** to prevent electrical current from flowing. A <span style="color: #0faeb0">button</span> is also a kind of switch that makes a connection when it is **pressed**.
+Un <span style="color: #0faeb0">interruptor</span> es un componente eléctrico que se puede **cerrar** para dejar pasar la corriente eléctrica y **abrir** para impedir que pase. Un <span style="color: #0faeb0">botón</span> también es un tipo de interruptor que establece una conexión cuando se **presiona**.
 </p>
 
-The simplest kind of switch is two jumper wires that can be connected together to close the switch, or separated to open the switch.
+El tipo de interruptor más sencillo consiste en dos cables puente que se pueden conectar entre sí para cerrar el interruptor, o separar para abrirlo.
 
 [[[pin-socket-jumper-wires]]]
 
 --- task ---
 
-Find one pin–socket jumper wire and one socket–socket jumper wire — the colours do not matter.
+Busca un cable puente pin–receptáculo y uno receptáculo–receptáculo — los colores no importan.
 
-![One pin–socket and one socket–socket jumper wire.](images/jumper-wires.jpg)
-
---- /task ---
-
---- task ---
-
-**Connect** one jumper wire to **GP18** and the other to **GND**. It doesn't matter which jumper wire you connect to which pin.
-
-![Two jumper wires are attached to the GP18 and the GND pins of the Raspberry Pi Pico.](images/switch-wiring-diagram.png)
+![Un cable puente pin–receptáculo y uno receptáculo–receptáculo.](images/jumper-wires.jpg)
 
 --- /task ---
 
 --- task ---
 
-To add switches, you need to `import Switch` from the `picozero` library.
+**Conecta** un cable puente a **GP18** y el otro a **GND**. No importa qué cable puente conectes a cada pin.
 
-Add `, Switch` to the end of the import list on **line 1**. Next, set your `switch` to **GP18**:
+![Dos cables puente están conectados a los pines GP18 y GND de la Raspberry Pi Pico.](images/switch-wiring-diagram.png)
+
+--- /task ---
+
+--- task ---
+
+Para agregar interruptores, necesitas importar `import Switch` de la biblioteca `picozero`.
+
+Agrega `, Switch` al final de la lista de importación en la **línea 1**. Luego, configura tu `switch` en **GP18**:
 
 --- code ---
 ---
@@ -56,11 +56,11 @@ firefly = LED(13) # Use GP13 switch = Switch(18) # Use GP18
 
 --- /task ---
 
-When you connect the two jumper wires together, this completes a circuit and allows the Raspberry Pi Pico to detect that the switch is closed.
+Cuando conectas los dos cables puente entre sí, se completa un circuito y la Raspberry Pi Pico puede detectar que el interruptor está cerrado.
 
 --- task ---
 
-Add code to check `if` your switch `is_closed` (the jumpers are connected) and only blink the firefly if it is closed:
+Agrega código para comprobar con `if` si tu interruptor está cerrado (`is_closed`, los cables puente están conectados) y hacer que la luciérnaga parpadee solo si está cerrado:
 
 --- code ---
 ---
@@ -79,23 +79,23 @@ while True: if switch.is_closed: # Wires are connected firefly.on() sleep(0.5) #
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected, then run your code.
+**Prueba:** Asegúrate de que los cables puente **no** estén conectados entre sí, luego ejecuta tu código.
 
 --- collapse ---
 
 ---
-title: What do you expect to happen when you run your code?
+title: ¿Qué esperas que pase cuando ejecutes tu código?
 ---
 
-The jumper wires are **not** closed, so the code in the `else` block will run. This means the firefly LED will stay **off**.
+Los cables puente **no** cierran el circuito, así que se ejecutará el código del bloque `else`. Esto significa que el LED de la luciérnaga permanecerá **apagado**.
 
 --- /collapse ---
 
-Now connect the jumper wires together. The firefly should start to blink.
+Ahora conecta los cables puente entre sí. La luciérnaga debería empezar a parpadear.
 
-![An animation of the LED firefly turning on when the jumper wires are connected.](images/firefly-switch.gif)
+![Una animación de la luciérnaga LED que se enciende al conectar los cables puente entre sí.](images/firefly-switch.gif)
 
-Disconnect the jumper wires and the firefly should stop blinking.
+Desconecta los cables puente y la luciérnaga debería dejar de parpadear.
 
 --- /task ---
 
@@ -105,34 +105,34 @@ Disconnect the jumper wires and the firefly should stop blinking.
 
 --- task ---
 
-**Test:** Make sure the jumper wires are **not** connected, then run your code.
+**Prueba:** Asegúrate de que los cables puente **no** estén conectados entre sí, luego ejecuta tu código.
 
 --- collapse ---
 
 ---
-title: What do you expect to happen when you run your code?
+title: ¿Qué esperas que pase cuando ejecutes tu código?
 ---
 
-The jumper wires are **not** closed so the code in the `else` block will run. This means the firefly LED will stay **off**.
+Los cables puente **no** cierran el circuito, así que se ejecutará el código del bloque `else`. Esto significa que el LED de la luciérnaga permanecerá **apagado**.
 
 --- /collapse ---
 
-Now connect the jumper wires together.
+Ahora conecta los cables puente entre sí.
 
-![The pin of one jumper wire connected to the socket of the other jumper wire.](images/connected-wires.jpg)
+![El pin de un cable puente conectado al receptáculo del otro cable puente.](images/connected-wires.jpg)
 
-The firefly should start to blink.
+La luciérnaga debería empezar a parpadear.
 
-Disconnect the jumper wires and the firefly should stop blinking.
+Desconecta los cables puente y la luciérnaga debería dejar de parpadear.
 
 --- /task ---
 
 --- /print-only ---
 
-**Note:** Disconnecting the jumper wires will not stop power to the firefly LED immediately. The firefly only turns off when the `firefly.off()` code runs.
+**Nota:** Desconectar los cables puente no cortará de inmediato la alimentación del LED de la luciérnaga. La luciérnaga solo se apaga cuando se ejecuta el código `firefly.off()`.
 
 --- task ---
 
-**Optional:** If you are in a group, then you could try synchronising your fireflies by connecting your jumper wire switches at the same time.
+**Opcional:** Si estás en un grupo, pueden intentar sincronizar sus luciérnagas conectando sus interruptores de cables puente al mismo tiempo.
 
 --- /task ---
