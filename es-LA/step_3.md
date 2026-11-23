@@ -48,17 +48,17 @@ pico_led.on()
 
 --- task ---
 
-Elige **Archivo**->**Guardar como**. Thonny te preguntará si quieres guardar el archivo en **Esta computadora** o en la **Raspberry Pi Pico**. Elige **Esta computadora** para guardar el código en tu computadora.
+Elige **Archivo** > **Guardar como…**. Thonny te preguntará si quieres guardar el archivo en **Esta computadora** o en la **Raspberry Pi Pico**. Elige **Esta computadora** para guardar el código en tu computadora.
 
 Elige una ubicación en tu computadora, como la carpeta 'Documentos'. Nombra tu archivo `firefly.py`.
 
-![Una captura de pantalla de una ventana con dos opciones. Puedes seleccionar 'Esta computadora' o el dispositivo 'Raspberry Pi Pico'. 'Esta computadora' está resaltada.](images/save-on-computer.png)
+![El cuadro de diálogo de Thonny para elegir dónde guardar, con las opciones Esta computadora y Raspberry Pi Pico.](images/save-on-computer.png)
 
 --- /task ---
 
 --- task ---
 
-**Prueba:** Thonny tiene un botón verde de ejecución con un pequeño triángulo blanco dentro. Presionar este botón te permite ejecutar tu código.
+**Prueba:** Haz clic en el botón verde de ejecución **Ejecutar el programa actual** para ejecutar tu código en la Pico.
 
 + Presiona el botón de ejecución
 
@@ -81,7 +81,7 @@ Si no ves el botón verde de ejecución (está atenuado):
 + Haz clic en el botón rojo **DETENER**
 + Comprueba que tu Raspberry Pi Pico esté conectada a tu computadora con un cable USB
 + Haz clic en **MicroPython (Raspberry Pi Pico)** en la esquina inferior derecha de Thonny para volver a conectarla
-+ Desconecta el cable USB y luego vuelve a conectarlo
++ Desconecta tu cable USB y luego vuelve a conectarlo sin mantener presionado **BOOTSEL**
 
 --- /collapse ---
 
@@ -125,7 +125,7 @@ pico_led.on() sleep(1) pico_led.off()
 
 --- task ---
 
-**Prueba:** Haz clic en el botón verde de **ejecución**. Thonny guardará el archivo en tu Raspberry Pi Pico y luego ejecutará el código nuevo.
+**Prueba:** Haz clic en el botón verde de **ejecución**. Thonny guardará los cambios en el archivo de tu computadora y ejecutará el código en tu Raspberry Pi Pico. Esto no guarda una copia del archivo en la Pico.
 
 Comprueba que el LED se encienda y luego se apague. El LED solo se encenderá durante un segundo, así que asegúrate de estar mirando.
 

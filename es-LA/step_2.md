@@ -11,34 +11,60 @@ Conecta tu Raspberry Pi Pico y configura MicroPython.
 
 --- task ---
 
-**Conecta** el extremo pequeño de tu cable USB a la Raspberry Pi Pico.
+Conecta el extremo pequeño de tu cable USB de datos a la Raspberry Pi Pico y luego abre Thonny en tu computadora.
 
-![Una imagen de una Raspberry Pi Pico conectada al extremo pequeño de un cable USB.](images/pico-top-plug.png)
+![Una Raspberry Pi Pico conectada a un cable micro USB.](images/pico-top-plug.png)
+
+--- /task ---
+
+Las capturas de pantalla muestran Thonny 5 en macOS. Tu ventana puede verse un poco diferente en otro sistema operativo.
+
+Si tu Pico ya ejecuta MicroPython y Thonny muestra el indicador `>>>` al conectarse a ella, omite la instalación del firmware y continúa con las instrucciones de `picozero` que aparecen más abajo.
+
+--- task ---
+
+Para instalar MicroPython, desconecta la Raspberry Pi Pico de tu computadora. Mantén presionado el botón **BOOTSEL** de la Pico mientras vuelves a conectarla con un cable USB de **datos** y luego suelta el botón.
+
+La Pico aparece como una unidad extraíble. En una Raspberry Pi Pico o Pico W, esta unidad se llama **RPI-RP2**.
 
 --- /task ---
 
 --- task ---
 
-**Conecta** el otro extremo a tu computadora, laptop o Raspberry Pi.
+En Thonny, haz clic en el selector de intérprete en la esquina inferior derecha de la ventana y luego elige **Instalar MicroPython…**.
 
-![Una imagen de una Raspberry Pi Pico conectada a una laptop con un cable USB.](images/plug-in-pico.png)
+![El menú de intérpretes de Thonny con las opciones Instalar MicroPython y Configurar intérprete.](images/thonny-interpreter-menu.png)
 
---- /task ---
-
-
---- task ---
-
-Abre el editor Thonny.
+Si no aparece la opción **Instalar MicroPython…**, comprueba que la Pico esté conectada en modo BOOTSEL y que tu computadora detecte su unidad extraíble.
 
 --- /task ---
 
 --- task ---
 
-Observa el texto en la esquina inferior derecha del editor Thonny. Te mostrará la versión de Python que se está usando.
+En la ventana **Instalar o actualizar MicroPython (UF2)**:
 
-Si no dice "MicroPython (Raspberry Pi Pico)", haz clic en el texto y selecciona "MicroPython (Raspberry Pi Pico)".
++ Selecciona la unidad de la Pico en **Volumen de destino**.
++ Selecciona **RP2** en **Familia de MicroPython**.
++ Elige la **variante** que coincida con el modelo impreso en tu placa. Por ejemplo, elige **Raspberry Pi · Pico / Pico H** para una Pico original o **Raspberry Pi · Pico W / Pico WH** para una Pico W.
++ Selecciona la **versión** estable más reciente que tenga un número de versión. Evita las versiones preliminares para este proyecto.
 
-Si nunca has usado MicroPython en tu Raspberry Pi Pico, Thonny te pedirá que agregues el firmware de MicroPython. Haz clic en **Instalar MicroPython**.
+![El instalador de MicroPython de Thonny con el volumen de destino de la Pico, la familia del firmware, la variante de la placa y la versión seleccionados.](images/thonny-install-micropython-pico.png)
+
+Haz clic en **Instalar** y espera a que termine la instalación. Mantén la Pico conectada mientras se escribe el firmware.
+
+--- /task ---
+
+--- task ---
+
+Cierra el instalador cuando termine. La unidad extraíble de la Pico desaparece cuando esta se reinicia con MicroPython.
+
+Vuelve a hacer clic en el selector de intérprete y elige la opción **MicroPython (Raspberry Pi Pico)** correspondiente a la placa que conectaste. El nombre del puerto depende de tu computadora.
+
+Si la placa aún no aparece en la lista, desconéctala y vuelve a conectarla **sin mantener presionado BOOTSEL**. Luego, inténtalo de nuevo. Si necesitas volver a conectarte, haz clic en el botón rojo **Detener/Reiniciar backend**.
+
+La consola debería mostrar un mensaje de MicroPython y el indicador `>>>`.
+
+![La consola de Thonny conectada a una Raspberry Pi Pico que ejecuta MicroPython.](images/repl-connected.png)
 
 --- /task ---
 
@@ -48,43 +74,40 @@ Si nunca has usado MicroPython en tu Raspberry Pi Pico, Thonny te pedirá que ag
 
 --- collapse ---
 ---
-title: Hubo un error al instalar el firmware
+title: La unidad de la Pico no aparece
 ---
 
-Si ves un mensaje de error durante la instalación:
-+ Desconecta tu Raspberry Pi Pico
-+ Vuelve a conectar tu Raspberry Pi Pico
-+ Intenta instalar el firmware de nuevo (quizás debas presionar primero el botón de detener)
+Desconecta la Pico y luego mantén presionado **BOOTSEL** mientras vuelves a conectarla. Suelta el botón después de conectarla.
 
-![Una captura de pantalla de un mensaje de error que indica que el firmware no se puede instalar correctamente.](images/pico-firmware-error.PNG)
+Usa un cable USB que pueda transferir datos. Un cable que solo sirve para cargar suministrará energía a la Pico, pero no permitirá que tu computadora se comunique con ella. Prueba con otro cable de datos o puerto USB.
+
+Si macOS solicita permiso para que Thonny acceda a los volúmenes extraíbles, permite el acceso para que pueda encontrar la unidad de la Pico.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: No sé si el firmware está instalado y no puedo conectarme a mi Pico
+title: La instalación del firmware falla
 ---
 
-Asegúrate de que tu Raspberry Pi Pico esté conectada a tu computadora con un cable micro USB. Haz clic en la lista de la esquina inferior derecha de la ventana de Thonny. Aparecerá un menú emergente con los intérpretes disponibles.
+Comprueba tu conexión a internet: Thonny descarga la lista de versiones de firmware disponibles y el firmware seleccionado.
 
-![Un menú emergente que muestra una opción que dice configurar intérprete.](images/no-pico-interpreter.png)
-
-Si no ves la Pico en la lista (como en la imagen), tendrás que volver a conectar tu Raspberry Pi Pico mientras mantienes presionado el botón BOOTSEL para que aparezca como una unidad de almacenamiento, y reinstalar el firmware siguiendo las instrucciones de la sección anterior.
+Comprueba que el volumen de destino seleccionado corresponda a tu Pico y que la variante coincida con tu placa. Vuelve a conectar la Pico mientras mantienes presionado **BOOTSEL** y luego intenta instalar el firmware de nuevo.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: El firmware está instalado, pero aún no puedo conectarme a mi Pico
+title: El firmware está instalado, pero Thonny no puede conectarse
 ---
 
-Puede que estés usando un tipo de cable micro USB incorrecto. Tu cable micro USB actual puede estar dañado o estar diseñado solo para suministrar energía a los dispositivos, sin poder transferir datos. Prueba con otro cable si nada más ha funcionado.
+Vuelve a conectar la Pico **sin mantener presionado BOOTSEL**. Elige la opción **MicroPython (Raspberry Pi Pico)** correspondiente a tu placa en el selector de intérprete de Thonny y luego haz clic en **Detener/Reiniciar backend**.
 
-Si tu Pico sigue sin conectarse después de probar todo esto, es posible que la **propia Pico** esté dañada y no pueda conectarse.
+Si es necesario, elige **Ejecutar** > **Configurar intérprete…**, selecciona **MicroPython (Raspberry Pi Pico)** y comprueba el puerto de la placa que conectaste. Cierra cualquier otro programa que pueda estar usando ese puerto.
+
+Revisa tu cable USB de datos y prueba con otro puerto USB antes de reinstalar el firmware.
 
 --- /collapse ---
-
-Puedes encontrar más información en la [Guía de Raspberry Pi Pico](https://projects.raspberrypi.org/es-LA/projects/introduction-to-the-pico){:target="_blank"}.
 
 --- /task ---
 
@@ -92,34 +115,49 @@ Puedes encontrar más información en la [Guía de Raspberry Pi Pico](https://pr
 
 --- task ---
 
-Para completar los proyectos de esta ruta de aprendizaje, tendrás que instalar la biblioteca `picozero` como un paquete de Thonny.
+Comprueba que Thonny esté conectado a tu Pico: el selector de intérprete de la esquina inferior derecha debería mostrar **MicroPython (Raspberry Pi Pico)**.
 
-En Thonny, selecciona **Herramientas** > **Administrar paquetes**.
+Elige **Herramientas** > **Administrar paquetes…**. El título de la ventana debería decir **Administrar paquetes para Raspberry Pi Pico**, para que la biblioteca se instale en tu placa.
 
-![El menú Herramientas de Thonny con la opción Administrar paquetes resaltada.](images/thonny-manage-packages.jpg)
-
---- /task ---
-
---- task ---
-
-En la ventana emergente 'Administrar paquetes para Raspberry Pi Pico', escribe `picozero` y haz clic en **Buscar en PyPi**.
-
-![Resultados de búsqueda de complementos de Thonny que muestran picozero.](images/thonny-packages-picozero.jpg)
+![El menú Herramientas de Thonny con la opción Administrar paquetes.](images/thonny-manage-packages.png)
 
 --- /task ---
 
 --- task ---
 
-Haz clic en **picozero** en los resultados de búsqueda.
+Escribe `picozero` en el cuadro de búsqueda y haz clic en **Buscar en micropython-lib y PyPI**.
 
-Haz clic en **Instalar**.
+![El gestor de paquetes de Thonny con el resultado de búsqueda de picozero.](images/thonny-packages-picozero.png)
 
-![La información de picozero con el botón 'Instalar' resaltado.](images/thonny-install-package.jpg)
+--- /task ---
 
-Cuando termine la instalación, cierra la ventana de paquetes y luego cierra y vuelve a abrir Thonny.
+--- task ---
+
+Selecciona **picozero @ PyPI** en los resultados de búsqueda y luego haz clic en **Instalar**. Si ya hay una versión anterior instalada, haz clic en **Actualizar**. Si la versión instalada coincide con la versión estable más reciente, puedes continuar.
+
+Espera a que termine la instalación. La información del paquete mostrará la versión instalada y su ubicación en la Pico, `/lib`.
+
+![El gestor de paquetes de Thonny con picozero instalado en la Raspberry Pi Pico.](images/thonny-picozero-installed.png)
+
+Cierra el gestor de paquetes y luego haz clic en el botón rojo **Detener/Reiniciar backend** de Thonny antes de ejecutar tu código.
 
 --- /task ---
 
 Si tienes dificultades para instalar la biblioteca `picozero` en Thonny, puedes descargar el archivo de la biblioteca y guardarlo en tu Raspberry Pi Pico.
 
-[[[picozero-offline-install]]]
+--- collapse ---
+---
+title: Instala picozero sin el gestor de paquetes
+---
+
+En una computadora con acceso a internet, abre el [archivo de la biblioteca picozero](https://raw.githubusercontent.com/RaspberryPiFoundation/picozero/master/picozero/picozero.py){:target="_blank"} y guárdalo como `picozero.py`. Si es necesario, transfiere el archivo a la computadora que usas para programar mediante una memoria USB.
+
+Conecta la Pico y selecciona su intérprete **MicroPython (Raspberry Pi Pico)** en Thonny.
+
+Elige **Archivo** > **Abrir…**, luego **Esta computadora**, y abre el archivo `picozero.py` que descargaste. Elige **Archivo** > **Guardar como…** y luego **Raspberry Pi Pico**. En la carpeta principal de la Pico, escribe `picozero.py` en **Nombre de archivo** y haz clic en **Aceptar**.
+
+![El cuadro de diálogo de Thonny para guardar en la Raspberry Pi Pico con el campo Nombre de archivo.](images/thonny-save-to-pico.png)
+
+Haz clic en **Detener/Reiniciar backend** antes de ejecutar el código de tu proyecto. Guarda tu propio proyecto en un archivo aparte, como `firefly.py` o `pico_led.py`.
+
+--- /collapse ---
