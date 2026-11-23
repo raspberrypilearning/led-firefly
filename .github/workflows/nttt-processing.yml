@@ -1,0 +1,87 @@
+name: NTTT processing
+
+on:
+  # currently allowing manual trigger only
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch to process translations on'
+        required: false
+        default: 'l10n_crowdin_translations'
+        type: string
+      locale:
+        description: "Locale to process translations for (e.g. fr-FR). Leave blank to run all (except en)."
+        required: false
+        default: ''
+        type: string
+
+permissions: write-all
+
+jobs:
+  nttt-processing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.branch || 'l10n_crowdin_translations'}}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install NTTT from GitHub repository
+        run: |
+          python -m pip install --upgrade pip
+          pip install git+https://github.com/raspberrypilearning/nttt.git
+
+      - name: Run NTTT (single locale or all except 'en')
+        run: |
+          set -euo pipefail
+
+          LOCALE="${{ inputs.locale }}"
+          if [[ -n "$LOCALE" ]]; then
+            # Single-locale mode
+            if [[ "$LOCALE" == "en" ]]; then
+              echo "Skipping 'en' locale by design."
+              exit 0
+            fi
+
+            if [[ ! -d "$LOCALE" ]]; then
+              echo "Locale directory '$LOCALE' does not exist at repo root."
+              echo "Available locale dirs:"
+              ls -1d */ 2>/dev/null | sed 's#/##' || true
+              exit 1
+            fi
+
+            echo "Processing single locale: $LOCALE"
+            pushd "$LOCALE" >/dev/null
+            printf "y\n" | nttt -Y YES || true
+            popd >/dev/null
+          else
+            # All-locales mode (current behaviour)
+            for lang_dir in */; do
+              if [[ -d "$lang_dir" && "$lang_dir" != "en/" ]]; then
+                lang_code="$(basename "$lang_dir")"
+                echo "Processing language: $lang_code"
+                pushd "$lang_dir" >/dev/null
+                printf "y\n" | nttt -Y YES || true
+                popd >/dev/null
+              fi
+            done
+          fi
+
+      - name: Add changes to branch
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action - NTTT Processing"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes after NTTT processing"
+          else
+            git commit -m "Apply NTTT processing to translations"
+            git push origin HEAD:${{ inputs.branch || 'l10n_crowdin_translations'}}
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
