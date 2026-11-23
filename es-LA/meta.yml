@@ -1,34 +1,34 @@
 ---
-title: LED firefly
+title: Luciérnaga LED
 hero_image: images/banner.png
 description:
-  - Use a Raspberry Pi Pico to make an LED firefly that flashes in a particular
-  - pattern, just like fireflies in nature
-meta_title: Raspberry Pi Pico projects | LED firefly
-meta_description: A Raspberry Pi Pico project to make an LED firefly that flashes in a particular pattern, just like fireflies in nature.
+  - Usa una Raspberry Pi Pico para crear una luciérnaga LED que parpadee siguiendo un
+  - patrón específico, como las luciérnagas en la naturaleza
+meta_title: Proyectos con Raspberry Pi Pico | Luciérnaga LED
+meta_description: Un proyecto con Raspberry Pi Pico para crear una luciérnaga LED que parpadee siguiendo un patrón específico, como las luciérnagas en la naturaleza.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: Lo que harás
   - 
-    title: Set up your Raspberry Pi Pico
+    title: Configura tu Raspberry Pi Pico
   - 
-    title: Light the Raspberry Pi Pico LED
+    title: Enciende el LED de la Raspberry Pi Pico
     completion:
       - engaged
   - 
-    title: Light your firefly
+    title: Enciende tu luciérnaga
   - 
-    title: Make your firefly blink
+    title: Haz que tu luciérnaga parpadee
   - 
-    title: Add a switch
+    title: Agrega un interruptor
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Examen rápido
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -37,4 +37,4 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Mejora tu proyecto
