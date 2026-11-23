@@ -1,21 +1,21 @@
-Use GP13
+Usa GP13
 
-Use GP18
+Usa GP18
 
-Wires are connected
+Los cables están conectados
 
-Stay on for half a second
+Mantén el LED encendido durante medio segundo
 
-Stay off for 2.5 seconds
+Mantén el LED apagado durante 2.5 segundos
 
-Wires are not connected
+Los cables no están conectados
 
-Small delay
+Pausa breve
 
 This is a comment
 
-Turn the LED on the Pico board on and off
+Enciende y apaga el LED de la placa Pico
 
-Switch is connected
+El interruptor está conectado
 
-Switch is not connected
+El interruptor no está conectado
