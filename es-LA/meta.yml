@@ -11,24 +11,17 @@ listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
-  - 
-    title: Lo que harás
-  - 
-    title: Configura tu Raspberry Pi Pico
-  - 
-    title: Enciende el LED de la Raspberry Pi Pico
+  - title: Lo que harás
+  - title: Configura tu Raspberry Pi Pico
+  - title: Enciende el LED de la Raspberry Pi Pico
     completion:
       - engaged
-  - 
-    title: Enciende tu luciérnaga
-  - 
-    title: Haz que tu luciérnaga parpadee
-  - 
-    title: Agrega un interruptor
+  - title: Enciende tu luciérnaga
+  - title: Haz que tu luciérnaga parpadee
+  - title: Agrega un interruptor
     completion:
       - internal
-  - 
-    title: Examen rápido
+  - title: Examen rápido
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -36,5 +29,4 @@ steps:
       passing_score: 3
     completion:
       - external
-  - 
-    title: Mejora tu proyecto
+  - title: Mejora tu proyecto

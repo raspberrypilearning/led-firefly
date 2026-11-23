@@ -84,7 +84,7 @@ Si tu Pico sigue sin conectarse después de probar todo esto, es posible que la 
 
 --- /collapse ---
 
-Puedes encontrar más información en la [Guía de Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"}.
+Puedes encontrar más información en la [Guía de Raspberry Pi Pico](https://projects.raspberrypi.org/es-LA/projects/introduction-to-the-pico){:target="_blank"}.
 
 --- /task ---
 

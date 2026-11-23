@@ -118,7 +118,8 @@ line_highlights: 2,5-6
 ---
 from picozero import pico_led from time import sleep
 
-pico_led.on() sleep(1) pico_led.off() --- /code ---
+pico_led.on() sleep(1) pico_led.off()
+--- /code ---
 
 --- /task ---
 

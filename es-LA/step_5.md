@@ -28,7 +28,8 @@ line_highlights: 9-14
 ---
 firefly = LED(13) # Use GP13
 
-while True: firefly.on() sleep(0.5) firefly.off() sleep(2.5) --- /code ---
+while True: firefly.on() sleep(0.5) firefly.off() sleep(2.5)
+--- /code ---
 
 --- /task ---
 

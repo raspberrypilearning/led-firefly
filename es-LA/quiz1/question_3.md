@@ -15,7 +15,9 @@ line_numbers: false
 ---
 firefly = LED(13) switch = Switch(18)
 
-while True: if switch.is_closed: firefly.on() sleep(0.5) firefly.off() sleep(2.5) else: firefly.off() sleep(0.1) --- /code --- --- choices ---
+while True: if switch.is_closed: firefly.on() sleep(0.5) firefly.off() sleep(2.5) else: firefly.off() sleep(0.1)
+--- /code ---
+--- choices ---
 
 - ( ) La luciérnaga LED parpadeará una vez y luego se apagará hasta que vuelvas a conectar el interruptor.
 
