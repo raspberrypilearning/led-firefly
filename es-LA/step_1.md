@@ -67,8 +67,23 @@ Puedes [preparar tu LED](https://projects.raspberrypi.org/en/projects/introducti
 
 + Thonny – puedes completar este proyecto con el editor de Python Thonny, que se puede instalar en una computadora con Linux, Windows o Mac
 
-[[[thonny-install]]]
+Visita [thonny.org](https://thonny.org/){:target="_blank"} y elige la descarga estable más reciente para tu sistema operativo. En macOS, elige el instalador que corresponda al procesador de tu Mac: Apple Silicon (M1, M2 y posteriores) o Intel. En Linux, sigue las instrucciones de instalación del sitio web.
 
-[[[change-theme-thonny]]]
+Ejecuta el instalador y abre Thonny. Si ya tienes Thonny, puedes instalar la versión más reciente para actualizarlo.
+
+En Raspberry Pi OS, es posible que Thonny ya esté instalado. Usa el actualizador de software del sistema para actualizarlo; la versión que proporciona tu sistema operativo puede ser diferente de la versión más reciente del sitio web.
+
+--- collapse ---
+---
+title: Haz que el texto sea más fácil de leer
+---
+
+Elige **Herramientas** > **Opciones…** y luego selecciona **Tema & Fuente**. Ajusta las fuentes del editor y de la consola, sus tamaños o los colores según tus preferencias. La vista previa muestra cómo se verán las opciones que elegiste.
+
+![La configuración de Tema & Fuente de Thonny con las opciones de fuente, tamaño y color.](images/thonny-theme-font.png)
+
+Haz clic en **Aceptar** cuando termines. Algunos cambios de estilo se aplican después de reiniciar Thonny.
+
+--- /collapse ---
 
 ![](http://code.org/api/hour/begin_rp_ledfirefly.png)
