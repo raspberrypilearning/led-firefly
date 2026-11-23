@@ -1,25 +1,25 @@
-## Light your firefly
+## Enciende tu luciérnaga
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will use jumper wires to connect an LED with a resistor to your Raspberry Pi Pico and write code to light it. 
+En este paso, usarás cables puente para conectar un LED con una resistencia a tu Raspberry Pi Pico y escribirás código para encenderlo. 
 </div>
 <div>
-![The Raspberry Pi Pico with two connected jumper wires linking to a yellow LED.](images/firefly-on.jpg){:width="300px"}
+![La Raspberry Pi Pico con dos cables puente conectados a un LED amarillo.](images/firefly-on.jpg){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Make sure that you have an LED connected to a resistor and two socket–socket jumper wires. The colour of the jumper wires does not matter, they all do the same thing.
+Asegúrate de tener un LED conectado a una resistencia y dos cables puente receptáculo–receptáculo. El color de los cables puente no importa, todos hacen lo mismo.
 
-Fireflies are usually yellow, orange, or green but you can choose any colour you like.
+Las luciérnagas suelen ser amarillas, naranjas o verdes, pero puedes elegir el color que quieras.
 
-![An LED connected to jumper wires with a resistor on the long, positive leg.](images/led-resistor.jpeg)
+![Un LED conectado a cables puente con una resistencia en la pata larga y positiva.](images/led-resistor.jpeg)
 
-A **resistor** controls the current that flows through a circuit. This protects the LED from burning out and will make it last longer.
+Una **resistencia** controla la corriente que pasa por un circuito. Esto evita que el LED se queme y hace que dure más.
 
-If your LED does not have jumper wires and a resistor attached, then you can add them:
+Si tu LED no tiene cables puente ni una resistencia conectados, puedes agregarlos:
 
 [[[led-resistor-electrical-tape]]]
 
@@ -27,33 +27,33 @@ If your LED does not have jumper wires and a resistor attached, then you can add
 
 --- /task ---
 
-A Raspberry Pi Pico has **40 pins** on its board. **Pins** allow you to connect external components to the Raspberry Pi Pico.
+Una Raspberry Pi Pico tiene **40 pines** en su placa. Los **pines** te permiten conectar componentes externos a la Raspberry Pi Pico.
 
 --- task ---
 
-Explore your Raspberry Pi Pico and find the pin that is labelled **GP13**. You will notice that there are labels for each pin on the **underneath** side of the Raspberry Pi Pico.
+Explora tu Raspberry Pi Pico y busca el pin que tiene la etiqueta **GP13**. Verás que hay etiquetas para cada pin en la parte **inferior** de la Raspberry Pi Pico.
 
-![Photo of the Raspberry Pi Pico from underneath with GP13 highlighted.](images/gp13-pico.png)
+![Foto de la parte inferior de la Raspberry Pi Pico con GP13 resaltado.](images/gp13-pico.png)
 
 --- /task ---
 
 --- task ---
 
-**Connect** the jumper wire that is attached to the positive leg of the LED (the one with the resistor) to pin **GP13**. Push it until the black plastic meets the base of the header.
+**Conecta** el cable puente unido a la pata positiva del LED (la que tiene la resistencia) al pin **GP13**. Empújalo hasta que el plástico negro toque la base de la hilera de pines.
 
-**Connect** the jumper wire that is attached to the negative leg to the **GND** (ground), below **GP13**. This completes the circuit, allowing electrical current to flow when instructed by your code.
+**Conecta** el cable puente unido a la pata negativa al pin **GND** (tierra), debajo de **GP13**. Esto completa el circuito y permite que la corriente eléctrica fluya cuando tu código lo indique.
 
-![A diagram of the Raspberry Pi Pico with a yellow LED connected to GND and to GP13 through a resistor.](images/pico_led_13_bb.png)
+![Un diagrama de la Raspberry Pi Pico con un LED amarillo conectado a GND y a GP13 a través de una resistencia.](images/pico_led_13_bb.png)
 
 --- /task ---
 
 --- task ---
 
-In the last step, you used `pico_led` to light the LED on the Raspberry Pi Pico. To add your own LEDs, you need to `import` `LED` from `picozero`.
+En el paso anterior, usaste `pico_led` para encender el LED de la Raspberry Pi Pico. Para agregar tus propios LED, necesitas usar `import` para importar `LED` de `picozero`.
 
-Add `, LED` to the end of the import list on **line 1**. Next, set your firefly LED to **GP13** and enter the code to switch it on.
+Agrega `, LED` al final de la lista de importación en la **línea 1**. Luego, configura el LED de tu luciérnaga para usar **GP13** e ingresa el código para encenderlo.
 
-Enter the code to light your firefly:
+Ingresa el código para encender tu luciérnaga:
 
 --- code ---
 ---
@@ -66,37 +66,37 @@ pico_led.on() sleep(1) pico_led.off()
 
 firefly = LED(13) # Use GP13 firefly.on() --- /code ---
 
-**Tip:** To import multiple items, separate them with commas `,`.
+**Consejo:** Para importar varios elementos, sepáralos con comas `,`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see your LED firefly light up.
+**Prueba:** Ejecuta tu código para ver cómo se enciende tu luciérnaga LED.
 
-![Yellow LED attached to GP13 and lit up.](images/firefly-on.jpg)
+![LED amarillo conectado a GP13 y encendido.](images/firefly-on.jpg)
 
-**Debug**:
+**Depurar**:
 
 --- collapse ---
 ---
-title: My code isn't running
+title: Mi código no se ejecuta
 ---
 
-If your code isn't running:
-+ Fix any errors in your code. The LED on the Raspberry Pi Pico will flash if your code runs successfully.
+Si tu código no se ejecuta:
++ Corrige los errores en tu código. El LED de la Raspberry Pi Pico parpadeará si tu código se ejecuta correctamente.
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: My LED firefly doesn't light up
+title: Mi luciérnaga LED no se enciende
 ---
 
-If your LED firefly does not light up:
-+ Check that your LED has the negative (shorter, flat) side attached to **GND** and the positive (longer, with resistor) side attached to **GP13**
-+ Make sure that all joints make a good connection
-+ Try a different LED
+Si tu luciérnaga LED no se enciende:
++ Revisa que tu LED tenga el lado negativo (con la pata más corta y el borde plano) conectado a **GND** y el lado positivo (con la pata más larga y la resistencia) conectado a **GP13**
++ Asegúrate de que todas las uniones hagan buen contacto
++ Prueba con otro LED
 
 --- /collapse ---
 
@@ -104,8 +104,8 @@ If your LED firefly does not light up:
 
 --- task ---
 
-**Optional:** Cut some wings out of folded over sticky tape and stick them to your LED. Invisible tape works well.
+**Opcional:** Recorta unas alas de cinta adhesiva doblada sobre sí misma y pégalas a tu LED. La cinta adhesiva transparente funciona bien.
 
-![LED firefly with sticky tape wings.](images/firefly-wings.jpg)
+![Luciérnaga LED con alas de cinta adhesiva.](images/firefly-wings.jpg)
 
 --- /task ---
