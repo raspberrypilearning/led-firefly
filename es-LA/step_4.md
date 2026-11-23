@@ -64,7 +64,8 @@ from picozero import pico_led, LED from time import sleep
 
 pico_led.on() sleep(1) pico_led.off()
 
-firefly = LED(13) # Use GP13 firefly.on() --- /code ---
+firefly = LED(13) # Use GP13 firefly.on()
+--- /code ---
 
 **Consejo:** Para importar varios elementos, sepáralos con comas `,`.
 
