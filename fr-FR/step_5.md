@@ -19,7 +19,7 @@ Modifie ton code pour faire clignoter la luciole dans une boucle `while True:`. 
 
 Assure-toi que le code des lignes 11 à 14 est indenté.
 
-**Astuce :** Dans Thonny, tu peux indenter le code en allant au début de la ligne et en appuyant sur la touche <kbd>Tab</kbd> — cela insérera quatre espaces. Thonny indentera automatiquement le code en fonction de la ligne précédente lorsque tu appuies sur <kbd>Entrée</kbd> lors de la saisie.
+**Astuce :** Dans Thonny, tu peux indenter le code en allant au début de la ligne et en appuyant sur la touche <kbd>Tab</kbd> — cela insérera quatre espaces. Thonny will automatically indent code based on the previous line when you press <kbd>Enter</kbd> while typing.
 
 --- code ---
 ---
