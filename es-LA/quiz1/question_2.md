@@ -1,46 +1,46 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Pregunta 2 de 3
 ---
 
-In your project, you connected an LED to the Raspberry Pi Pico. LEDs have to be connected the right way around.
+En tu proyecto, conectaste un LED a la Raspberry Pi Pico. Los LED deben conectarse en la orientación correcta.
 
-The **short leg connected to the flat side of your LED** is ...
+La **pata corta junto al lado plano de tu LED** es ...
 
-![An LED with a long leg and a short leg. The long leg is positive and the short leg is negative.](images/pos-neg.png){:width="200px"}
+![Un LED con una pata larga y una pata corta. La pata larga es positiva y la pata corta es negativa.](images/pos-neg.png){:width="200px"}
 
 --- choices ---
 
-- ( )  Positive and connects to a GP pin
+- ( )  Positiva y se conecta a un pin GP
 
   --- feedback ---
 
-Try again, while the positive side should be connected to a GP pin, the flat side of the LED is the negative side. (Remember this because the sign for negative is flat: - )
+Inténtalo de nuevo, aunque el lado positivo debe conectarse a un pin GP, el lado plano del LED es el lado negativo. (Recuerda esto porque el signo negativo es plano: - )
 
   --- /feedback ---
 
-- (x)  Negative and connects to a ground (GND) pin
+- (x)  Negativa y se conecta a un pin de tierra (GND)
 
   --- feedback ---
 
-Yes! The flat side of an LED is the negative side, which should be connected to a ground (GND) pin.
+¡Sí! El lado plano de un LED es el lado negativo, que debe conectarse a un pin de tierra (GND).
 
   --- /feedback ---
 
-- ( ) Negative and connects to a GP pin
+- ( ) Negativa y se conecta a un pin GP
 
   --- feedback ---
 
-Try again, while the flat side of the LED is the negative side, it should not be connected to a GP pin.
+Inténtalo de nuevo, aunque el lado plano del LED es el lado negativo, no debe conectarse a un pin GP.
 
   --- /feedback ---
 
-- ( ) Positive and connects to a ground (GND) pin
+- ( ) Positiva y se conecta a un pin de tierra (GND)
 
   --- feedback ---
 
-Try again, the flat side of the LED is the negative side. (Remember this because the sign for negative is flat: -) The negative side of an LED should be connected to the ground (GND) pin.
+Inténtalo de nuevo, el lado plano del LED es el lado negativo. (Recuerda esto porque el signo negativo es plano: -) El lado negativo de un LED debe conectarse al pin de tierra (GND).
 
   --- /feedback ---
 
