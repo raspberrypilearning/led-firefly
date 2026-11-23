@@ -51,17 +51,17 @@ pico_led.on()
 
 --- task ---
 
-Choose **File**->**Save As**. Thonny will ask whether you want to save the file on **This computer** or the **Raspberry Pi Pico**. Choose **This computer** to save your code to your computer.  
+Choose **File** > **Save as…**. Thonny will ask whether you want to save the file on **This computer** or the **Raspberry Pi Pico**. Choose **This computer** to save your code to your computer.
 
 Choose a location on your computer such as your 'Documents' folder. Name your file `firefly.py`.
 
-![A screenshot of a window with two options. The user can either select 'This computer' or 'Raspberry Pi Pico' device. 'This computer' is highlighted.](images/save-on-computer.png)
+![Thonny's save destination dialog with This computer and Raspberry Pi Pico options.](images/save-on-computer.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Thonny has a green play button with a small white triangle inside it. Pressing this button allows you to run your code. 
+**Test:** Click the green **Run current script** play button to run your code on the Pico.
 
 + Press the play button  
 
@@ -84,7 +84,7 @@ If you don't see a green play button (it is faded):
 + Click the red **STOP** button
 + Check that your Raspberry Pi Pico is connected to your computer with a USB cable
 + Click on **MicroPython (Raspberry Pi Pico)** at the bottom-right corner of Thonny to reconnect
-+ Unplug your USB cable and then plug it back in
++ Unplug your USB cable and then plug it back in without holding **BOOTSEL**
 
 --- /collapse ---
 
@@ -134,7 +134,7 @@ pico_led.off()
 
 --- task ---
 
-**Test:** Click the green **play** button. Thonny will save the file on your Raspberry Pi Pico and then run the new code. 
+**Test:** Click the green **play** button. Thonny will save changes to the file on your computer and run the code on your Raspberry Pi Pico. This does not save a copy of the file on the Pico.
 
 Check that the LED turns on and then goes off again. The LED will only light for one second so make sure you are watching.
 

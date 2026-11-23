@@ -1,0 +1,36 @@
+name: Crowdin Upload Action
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - master
+    paths: ["en/**/*.*"]
+
+  workflow_dispatch:
+
+jobs:
+  crowdin-upload:
+    if: (github.event.pull_request.merged == true) || (github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Make sure CROWDIN_PROJECT_ID is set
+        run: |
+          if [ -z "${{ secrets.CROWDIN_PROJECT_ID }}" ]; then
+            echo "CROWDIN_PROJECT_ID is not set. Please see instructions in CROWDIN.md"
+            exit 1
+          fi
+
+      - name: Crowdin push
+        uses: crowdin/github-action@v2
+        with:
+          crowdin_branch_name: master
+          upload_sources: true
+          upload_translations: false
+          download_translations: false
+        env:
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_API_TOKEN: ${{ secrets.CROWDIN_API_TOKEN }}
