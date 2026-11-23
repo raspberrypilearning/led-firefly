@@ -2,8 +2,8 @@
 title: Luciérnaga LED
 hero_image: images/banner.png
 description:
-  - Usa una Raspberry Pi Pico para crear una luciérnaga LED que parpadee siguiendo un
-  - patrón específico, como las luciérnagas en la naturaleza
+  Usa una Raspberry Pi Pico para crear una luciérnaga LED que parpadee siguiendo un
+  patrón específico, como las luciérnagas en la naturaleza
 meta_title: Proyectos con Raspberry Pi Pico | Luciérnaga LED
 meta_description: Un proyecto con Raspberry Pi Pico para crear una luciérnaga LED que parpadee siguiendo un patrón específico, como las luciérnagas en la naturaleza.
 version: 4
