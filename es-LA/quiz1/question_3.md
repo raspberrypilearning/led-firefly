@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Pregunta 3 de 3
 ---
 
-In your project, you coded a firefly LED and a switch made from two jumper wires.
+En tu proyecto, programaste un LED que representa una luciérnaga y un interruptor hecho con dos cables puente.
 
-What happens when the jumper wires are connected to close the switch?
+¿Qué pasa cuando se conectan los cables puente para cerrar el interruptor?
 
 --- code ---
 ---
@@ -17,29 +17,29 @@ firefly = LED(13) switch = Switch(18)
 
 while True: if switch.is_closed: firefly.on() sleep(0.5) firefly.off() sleep(2.5) else: firefly.off() sleep(0.1) --- /code --- --- choices ---
 
-- ( ) The LED firefly will blink once and then turn off until you connect the switch again.
+- ( ) La luciérnaga LED parpadeará una vez y luego se apagará hasta que vuelvas a conectar el interruptor.
 
   --- feedback ---
 
-Not quite, the code to blink the LED is in a while loop that keeps checking whether the switch is closed.
+No exactamente, el código que hace parpadear el LED está dentro de un bucle while que comprueba una y otra vez si el interruptor está cerrado.
 
   --- /feedback ---
 
-- ( ) The LED firefly will remain off.
+- ( ) La luciérnaga LED permanecerá apagada.
 
 
   --- feedback ---
 
-Try again. If the switch is closed then the `switch.is_closed` condition will be true. This will run the block of code to blink the firefly.
+Inténtalo de nuevo. Si el interruptor está cerrado, la condición `switch.is_closed` será verdadera. Esto ejecutará el bloque de código que hace parpadear la luciérnaga.
 
   --- /feedback ---
 
-- (x) The LED firefly will blink on and off until you disconnect the switch.
+- (x) La luciérnaga LED se encenderá y apagará repetidamente hasta que desconectes el interruptor.
 
 
   --- feedback ---
 
-Well done! Your LED firefly will continue to blink for as long as the switch is closed.
+¡Bien hecho! Tu luciérnaga LED seguirá parpadeando mientras el interruptor esté cerrado.
 
   --- /feedback ---
 
