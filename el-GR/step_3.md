@@ -35,13 +35,10 @@
 
 --- code ---
 ---
-language: python
-filename: 
-line_numbers: true
-line_number_start: 
-line_highlights: 
+language: python filename: line_numbers: true line_number_start:
+line_highlights:
 ---
-from picozero import pico_led 
+from picozero import pico_led
 
 pico_led.on()
 
@@ -51,17 +48,17 @@ pico_led.on()
 
 --- task ---
 
-Επίλεξε **File**->**Save As**. Το Thonny θα σε ρωτήσει εάν θέλεις να αποθηκεύσεις το αρχείο σε **Αυτόν τον υπολογιστή (This Computer)** ή στο **Raspberry Pico**. Επίλεξε **This Computer** για να αποθηκεύσεις τον κωδικά σου στον υπολογιστή σου.
+Choose **File** > **Save as…**. Το Thonny θα σε ρωτήσει εάν θέλεις να αποθηκεύσεις το αρχείο σε **Αυτόν τον υπολογιστή (This Computer)** ή στο **Raspberry Pico**. Επίλεξε **This Computer** για να αποθηκεύσεις τον κωδικά σου στον υπολογιστή σου.
 
 Επίλεξε μια τοποθεσία στον υπολογιστή σου, όπως ο φάκελος "Έγγραφα". Ονόμασε το αρχείο σου `firefly.py`.
 
-![Ένα στιγμιότυπο οθόνης ενός παραθύρου με δύο επιλογές. Ο χρήστης μπορεί να επιλέξει είτε «This Computer» είτε τη συσκευή «Raspberry Pi Pico». Η ένδειξη "Αυτός ο υπολογιστής" επισημαίνεται.](images/save-on-computer.png)
+![Thonny's save destination dialog with This computer and Raspberry Pi Pico options.](images/save-on-computer.png)
 
 --- /task ---
 
 --- task ---
 
-**Δοκιμή:** Το Thonny έχει ένα πράσινο κουμπί αναπαραγωγής με ένα μικρό λευκό τρίγωνο μέσα του. Πατώντας αυτό το κουμπί μπορείς να εκτελέσεις τον κώδικά σου.
+**Test:** Click the green **Run current script** play button to run your code on the Pico.
 
 + Πάτησε το κουμπί αναπαραγωγής
 
@@ -84,7 +81,7 @@ title: Το κουμπί αναπαραγωγής έχει σβήσει
 + Κάνε κλικ στο κόκκινο κουμπί **STOP**
 + Έλεγξε ότι το Raspberry Pi Pico είναι συνδεδεμένο στον υπολογιστή σου με καλώδιο USB
 + Κάνε κλικ στο **MicroPython (Raspberry Pi Pico)** στην κάτω δεξιά γωνία του Thonny για επανασύνδεση
-+ Αποσύνδεσε το καλώδιο USB και μετά σύνδεσέ το ξανά
++ Unplug your USB cable and then plug it back in without holding **BOOTSEL**
 
 --- /collapse ---
 
@@ -116,25 +113,18 @@ title: Δεν υπάρχουν σφάλματα στον κώδικά μου, α
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 2,5-6
 ---
-from picozero import pico_led
-from time import sleep
+from picozero import pico_led from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
---- /code ---
+pico_led.on() sleep(1) pico_led.off() --- /code ---
 
 --- /task ---
 
 --- task ---
 
-**Δοκιμή:** Κάνε κλικ στο πράσινο κουμπί **αναπαραγωγή**. Το Thonny θα αποθηκεύσει το αρχείο στο Raspberry Pi Pico και στη συνέχεια θα εκτελέσει τον νέο κώδικα.
+**Δοκιμή:** Κάνε κλικ στο πράσινο κουμπί **αναπαραγωγή**. Thonny will save changes to the file on your computer and run the code on your Raspberry Pi Pico. This does not save a copy of the file on the Pico.
 
 Έλεγξε ότι το LED ανάβει και μετά σβήνει ξανά. Το LED θα ανάψει μόνο για ένα δευτερόλεπτο, οπότε βεβαιώσου ότι έχεις το νου σου.
 

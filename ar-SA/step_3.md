@@ -5,7 +5,7 @@
 في هذه الخطوة، ستقوم بإشعال مصباح LED الصغير الموجود بالجزء العلوي من Raspberry Pi Pico. سيؤدي ذلك إلى التحقق أنه تم إعداد Raspberry Pi Pico بشكل صحيح.
 </div>
 <div>
-![Raspberry Pi Pico مع LED المدمج به وهو يشتعل وينطفئ.](images/led-on-off.gif){:width="300px"}
+![Raspberry Pi Pico مع LED المدمج به وهو يشتعل وينطفئ.](images/led-on-off.gif) {:width="300px"}
 </div>
 </div>
 
@@ -35,10 +35,7 @@
 
 --- code ---
 ---
-language: python 
-filename: 
-line_numbers: true 
-line_number_start:
+language: python filename: line_numbers: true line_number_start:
 line_highlights:
 ---
 from picozero import pico_led
@@ -51,17 +48,17 @@ pico_led.on()
 
 --- task ---
 
-اختر **File**->**Save As**. سيسألك برنامج Thonny عما إذا كنت تريد حفظ الملف **على هذا الكمبيوتر This computer** أو **Raspberry Pico**. اختر **هذا الكمبيوتر This computer** لحفظ التعليمات البرمجية على جهاز الحاسوب الخاص بك.
+Choose **File** > **Save as…**. سيسألك برنامج Thonny عما إذا كنت تريد حفظ الملف **على هذا الكمبيوتر This computer** أو **Raspberry Pico **. اختر **هذا الكمبيوتر This computer** لحفظ التعليمات البرمجية على جهاز الحاسوب الخاص بك.
 
 اختر موقعا على جهاز الحاسوب الخاص بك مثل مجلد "المستندات Documents". قم بتسمية الملف `firefly.py`.
 
-![لقطة شاشة لنافذة بها خياران. يمكن للمستخدم إما تحديد "هذا الكمبيوتر" أو جهاز "Raspberry Pi Pico". تم تمييز "هذا الكمبيوتر".](images/save-on-computer.png)
+![Thonny's save destination dialog with This computer and Raspberry Pi Pico options.](images/save-on-computer.png)
 
 --- /task ---
 
 --- task ---
 
-**اختبار:** يحتوي برنامج Thonny على زر تشغيل أخضر بداخله مثلث أبيض صغير. يتيح لك الضغط على هذا الزر تشغيل التعليمات البرمجية الخاصة بك.
+**Test:** Click the green **Run current script** play button to run your code on the Pico.
 
 + إضغط على زر التشغيل
 
@@ -84,7 +81,7 @@ title: زر التشغيل منطفئ (باهت)
 + انقر على الزر الأحمر **إيقاف**
 + تحقق من توصيل Raspberry Pi Pico بالحاسوب باستخدام كبل USB
 + انقر على **MicroPython (Raspberry Pi Pico)** في الزاوية السفلية اليمنى من برنامج Thonny لإعادة الاتصال
-+ إفصل كبل USB ثم أعد توصيله مرة أخرى
++ Unplug your USB cable and then plug it back in without holding **BOOTSEL**
 
 --- /collapse ---
 
@@ -116,25 +113,18 @@ title: لا توجد أخطاء في التعليمات البرمجية الخ�
 
 --- code ---
 ---
-language: python 
-filename: firefly.py 
-line_numbers: true 
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 2,5-6
 ---
-from picozero import pico_led 
-from time import sleep
+from picozero import pico_led from time import sleep
 
-pico_led.on() 
-sleep(1) 
-pico_led.off()
---- /code ---
+pico_led.on() sleep(1) pico_led.off() --- /code ---
 
 --- /task ---
 
 --- task ---
 
-**اختبار:** انقر فوق الزر الأخضر **play**. سيقوم Thonny بحفظ الملف على Raspberry Pi Pico ثم تشغيل الكود الجديد.
+**اختبار:** انقر فوق الزر الأخضر ** play **. Thonny will save changes to the file on your computer and run the code on your Raspberry Pi Pico. This does not save a copy of the file on the Pico.
 
 تحقق من أن مؤشر LED يشتغل ثم ينطفئ مرة أخرى. سيضيء مؤشر LED لمدة ثانية واحدة فقط ، لذا تأكد من أنك تشاهدها.
 

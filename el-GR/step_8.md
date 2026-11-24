@@ -29,6 +29,6 @@
 title: Ολοκληρωμένο έργο
 ---
 
-Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://rpf.io/p/el-GR/led-firefly-get){:target="_blank"}.
+Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://rpf.io/p/en/led-firefly-get){:target="_blank"}.
 
 --- /collapse ---

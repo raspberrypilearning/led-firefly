@@ -5,7 +5,7 @@
 In deze stap gebruik je jumperdraden om een LED met een weerstand aan te sluiten op je Raspberry Pi Pico en code te schrijven om het te verlichten. 
 </div>
 <div>
-![De Raspberry Pi Pico met twee aangesloten jumperdraden die verbinden met een gele LED.](images/firefly-on.jpg){:width="300px"}
+![De Raspberry Pi Pico met twee aangesloten jumperdraden die verbinden met een gele LED.](Images/firefly-on.jpg){:width="300px"}
 </div>
 </div>
 
@@ -57,22 +57,14 @@ Voer de code in om je vuurvlieg te verlichten:
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 1,8-9
 ---
-from picozero import pico_led, LED
-from time import sleep
+from picozero import pico_led, LED from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
+pico_led.on() sleep(1) pico_led.off()
 
-vuurvlieg = LED(13) # Gebruik GP13
-vuurvlieg.on()
---- /code ---
+firefly = LED(13) # Use GP13 firefly.on() --- /code ---
 
 **Tip:** om meerdere items te importeren, scheid ze dan met komma's `,`.
 

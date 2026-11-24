@@ -35,13 +35,10 @@ Tape le code suivant dans le volet principal de l'éditeur dans Thonny :
 
 --- code ---
 ---
-language: python
-filename: 
-line_numbers: true
-line_number_start: 
-line_highlights: 
+language: python filename: line_numbers: true line_number_start:
+line_highlights:
 ---
-from picozero import pico_led 
+from picozero import pico_led
 
 pico_led.on()
 
@@ -51,17 +48,17 @@ pico_led.on()
 
 --- task ---
 
-Choisis **Fichier**->**Enregistrer sous**. Thonny te demandera si tu souhaites enregistrer le fichier sur **Cet ordinateur** ou sur le **Raspberry Pi Pico**. Choisis **Cet ordinateur** pour enregistrer ton code sur ton ordinateur.
+Choose **File** > **Save as…**. Thonny te demandera si tu souhaites enregistrer le fichier sur **Cet ordinateur** ou sur le **Raspberry Pi Pico**. Choisis **Cet ordinateur** pour enregistrer ton code sur ton ordinateur.
 
 Choisis un emplacement sur ton ordinateur tel que ton dossier « Documents ». Nomme ton fichier `luciole.py`.
 
-![Une capture d'écran d'une fenêtre avec deux options. L'utilisateur peut sélectionner l'appareil "Cet ordinateur" ou "Raspberry Pi Pico". "Cet ordinateur" est mis en surbrillance.](images/save-on-computer.png)
+![Thonny's save destination dialog with This computer and Raspberry Pi Pico options.](images/save-on-computer.png)
 
 --- /task ---
 
 --- task ---
 
-**Test :** Thonny a un bouton de lecture vert avec un petit triangle blanc à l'intérieur. Appuyer sur ce bouton te permet d'exécuter ton code.
+**Test:** Click the green **Run current script** play button to run your code on the Pico.
 
 + Appuie sur le bouton de lecture
 
@@ -84,7 +81,7 @@ Si tu ne vois pas de bouton exécuter en vert (il est grisé) :
 + Clique sur le bouton rouge **STOP**
 + Vérifie que ton Raspberry Pi Pico est connecté à ton ordinateur avec un câble USB
 + Clique sur **MicroPython (Raspberry Pi Pico)** dans le coin inférieur droit de Thonny pour te reconnecter
-+ Débranche ton câble USB puis rebranche-le
++ Unplug your USB cable and then plug it back in without holding **BOOTSEL**
 
 --- /collapse ---
 
@@ -116,25 +113,18 @@ Importe `sleep` pour te permettre de mettre ton code en pause. Ajoute du code à
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 2,5-6
 ---
-from picozero import pico_led
-from time import sleep
+from picozero import pico_led from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
---- /code ---
+pico_led.on() sleep(1) pico_led.off() --- /code ---
 
 --- /task ---
 
 --- task ---
 
-**Test :** Clique sur le bouton vert **exécuter**. Thonny enregistrera le fichier sur ton Raspberry Pi Pico puis exécutera le nouveau code.
+**Test :** Clique sur le bouton vert **exécuter**. Thonny will save changes to the file on your computer and run the code on your Raspberry Pi Pico. This does not save a copy of the file on the Pico.
 
 Vérifie que la LED s'allume puis s'éteint à nouveau. La LED ne s'allume que pendant une seconde, alors assure-toi de bien regarder.
 

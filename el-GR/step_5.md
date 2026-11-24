@@ -19,24 +19,16 @@
 
 Βεβαιώσου ότι ο κώδικας στις γραμμές 11–14 έχει εσοχές.
 
-**Συμβουλή:** Στο Thonny μπορείς να κάνεις εσοχή πηγαίνοντας στην αρχή της γραμμής και πατώντας το πλήκτρο <kbd>Tab</kbd> — αυτό θα εισάγει τέσσερα κενά. Το Thonny θα κάνει αυτόματα εσοχή στον κώδικα με βάση την προηγούμενη γραμμή όταν πατήσεις <kbd>Enter</kbd> ενώ πληκτρολογείς.
+**Συμβουλή:** Στο Thonny μπορείς να κάνεις εσοχή πηγαίνοντας στην αρχή της γραμμής και πατώντας το πλήκτρο <kbd>Tab</kbd> — αυτό θα εισάγει τέσσερα κενά. Thonny will automatically indent code based on the previous line when you press <kbd>Enter</kbd> while typing.
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 8
+language: python filename: firefly.py line_numbers: true line_number_start: 8
 line_highlights: 9-14
 ---
-firefly = LED(13) # Χρησιμοποίησε το GP13
+firefly = LED(13) # Use GP13
 
-while True:
-    firefly.on()
-    sleep(0.5)
-    firefly.off()
-    sleep(2.5)
---- /code ---
+while True: firefly.on() sleep(0.5) firefly.off() sleep(2.5) --- /code ---
 
 --- /task ---
 

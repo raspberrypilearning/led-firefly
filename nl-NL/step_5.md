@@ -19,24 +19,16 @@ Wijzig je code om de vuurvlieg in een `while True:` lus te laten knipperen. De t
 
 Zorg ervoor dat de code op regel 11–14 inspringt.
 
-**Tip:** in Thonny kun je code inspringen door naar het begin van de regel te gaan en op de <kbd>Tab</kbd> toets te tikken — dit voegt vier spaties in. Thonny zal automatisch code inspringen op basis van de vorige regel wanneer je op <kbd>Enter</kbd> drukt tijdens het typen.
+**Tip:** in Thonny kun je code inspringen door naar het begin van de regel te gaan en op de <kbd>Tab</kbd> toets te tikken — dit voegt vier spaties in. Thonny will automatically indent code based on the previous line when you press <kbd>Enter</kbd> while typing.
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 8
+language: python filename: firefly.py line_numbers: true line_number_start: 8
 line_highlights: 9-14
 ---
-vuurvlieg = LED(13) # Gebruik GP13
+firefly = LED(13) # Use GP13
 
-while True:
-    vuurvlieg.on()
-    sleep(0.5)
-    vuurvlieg.off()
-    sleep(2.5)
---- /code ---
+while True: firefly.on() sleep(0.5) firefly.off() sleep(2.5) --- /code ---
 
 --- /task ---
 

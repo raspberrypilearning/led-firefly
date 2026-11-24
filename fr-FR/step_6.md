@@ -39,25 +39,18 @@ Trouve un fil de liaison broche-prise et un fil de liaison prise-prise, les coul
 
 Pour ajouter des interrupteurs, tu dois `import Switch` à partir de la bibliothèque `picozero`.
 
-Ajoute `, Switch` à la fin de la liste d'importation sur la **ligne 1**. Ensuite, mets ton `interrupteur` sur **GP18** :
+Ajoute `, Switch` à la fin de la liste d'importation sur la **ligne 1**. Ensuite, mets ton `switch` sur **GP18** :
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 1, 9
 ---
-from picozero import pico_led, LED, Switch
-from time import sleep
+from picozero import pico_led, LED, Switch from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
+pico_led.on() sleep(1) pico_led.off()
 
-luciole = LED(13) # Utiliser GP13
-interrupteur = Switch(18) # Utiliser GP18
+firefly = LED(13) # Use GP13 switch = Switch(18) # Use GP18
 
 --- /code ---
 
@@ -67,27 +60,16 @@ Lorsque tu connectes les deux fils de liaison ensemble, cela complète un circui
 
 --- task ---
 
-Ajoute du code pour vérifier `if` ton interrupteur `is_closed` (les fils sont connectés) et ne fais clignoter la luciole que si c'est est fermé :
+Ajoute du code pour vérifier `if` ton switch `is_closed` (les fils sont connectés) et ne fais clignoter la luciole que si c'est est fermé :
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 9
+language: python filename: firefly.py line_numbers: true line_number_start: 9
 line_highlights: 12-19
 ---
-interrupteur = Switch(18) # Utiliser GP18
+switch = Switch(18) # Use GP18
 
-while True:
-    if interrupteur.is_closed: # Les fils sont connectés
-        luciole.on()
-        sleep(0.5) # Reste allumé une demi-seconde
-        luciole.off()
-        sleep(2.5) # Reste éteint pendant 2,5 secondes
-    else: # Les fils ne sont pas connectés
-        luciole.off()
-        sleep(0.1) # Petit délai
+while True: if switch.is_closed: # Wires are connected firefly.on() sleep(0.5) # Stay on for half a second firefly.off() sleep(2.5) # Stay off for 2.5 seconds else: # Wires are not connected firefly.off() sleep(0.1) # Small delay
 
 --- /code ---
 
@@ -147,7 +129,7 @@ Débranche les fils et la luciole devrait cesser de clignoter.
 
 --- /print-only ---
 
-**Remarque :** La déconnexion des fils n'arrêtera pas immédiatement l'alimentation de la LED luciole. La luciole ne s'éteint que lorsque le code `luciole.off()` s'exécute.
+**Remarque :** La déconnexion des fils n'arrêtera pas immédiatement l'alimentation de la LED luciole. La luciole ne s'éteint que lorsque le code `firefly.off()` s'exécute.
 
 --- task ---
 

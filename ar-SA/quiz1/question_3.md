@@ -10,24 +10,12 @@ legend: السؤال 3 من 3
 
 --- code ---
 ---
-language: python
-filename: firefly.py
+language: python filename: firefly.py
 line_numbers: false
 ---
-firefly = LED(13)
-switch = Switch(18)
+firefly = LED(13) switch = Switch(18)
 
-while True:
-    if switch.is_closed:
-        firefly.on()
-        sleep(0.5)
-        firefly.off()
-        sleep(2.5)
-    else:
-        firefly.off()
-        sleep(0.1)
---- /code ---
---- choices ---
+while True: if switch.is_closed: firefly.on() sleep(0.5) firefly.off() sleep(2.5) else: firefly.off() sleep(0.1) --- /code --- --- choices ---
 
 - () سوف يومض مصباح اليراعة مرة واحدة ثم ينطفئ حتى تقوم بتوصيل المفتاح مرة أخرى.
 
@@ -42,7 +30,7 @@ while True:
 
   --- feedback ---
 
-حاول مرة أخرى. إذا كان المفتاح مغلقًا `switch.is_closed` الشرط سيصبح صحيحًا. سيؤدي هذا إلى تشغيل كتلة التعليمات البرمجية لميض اليراع.
+حاول مرة أخرى. إذا كان المفتاح مغلقًا <0>switch.is_closed</0> الشرط سيصبح صحيحًا. سيؤدي هذا إلى تشغيل كتلة التعليمات البرمجية لميض اليراع.
 
   --- /feedback ---
 

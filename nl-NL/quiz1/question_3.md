@@ -10,25 +10,12 @@ Wat gebeurt er als de jumperdraden zijn aangesloten om de schakelaar te sluiten?
 
 --- code ---
 ---
-language: python
-filename: firefly.py
+language: python filename: firefly.py
 line_numbers: false
 ---
-vuurvlieg = LED(13)
-schakelaar = Switch(18)
+firefly = LED(13) switch = Switch(18)
 
-while True:
-    if schakelaar.is_closed:
-        vuurvlieg.on()
-        sleep(0.5)
-        vuurvlieg.off()
-        sleep(2.5)
-    else:
-        vuurvlieg.off()
-        sleep(0.1)
-
---- /code ---
---- choices ---
+while True: if switch.is_closed: firefly.on() sleep(0.5) firefly.off() sleep(2.5) else: firefly.off() sleep(0.1) --- /code --- --- choices ---
 
 - ( ) de LED-vuurvlieg knippert één keer en gaat dan uit totdat je de schakelaar weer aansluit.
 
@@ -43,11 +30,11 @@ Niet helemaal, de code om de LED te laten knipperen is in een while-lus die blij
 
   --- feedback ---
 
-Probeer het nog eens. Als de schakelaar gesloten is dan zal de `schakelaar.is_closed` voorwaarde waar zijn. Hierdoor wordt het codeblok uitgevoerd om de vuurvlieg te laten knipperen.
+Probeer het nog eens. Als de schakelaar gesloten is dan zal de `switch.is_closed` voorwaarde waar zijn. Hierdoor wordt het codeblok uitgevoerd om de vuurvlieg te laten knipperen.
 
   --- /feedback ---
 
-- (x) de LED-vuurvlieg knippert aan en uit totdat je de schakelaar loskoppelt.
+- ( ) de LED-vuurvlieg knippert aan en uit totdat je de schakelaar loskoppelt.
 
 
   --- feedback ---

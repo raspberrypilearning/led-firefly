@@ -19,24 +19,16 @@ Modifie ton code pour faire clignoter la luciole dans une boucle `while True:`. 
 
 Assure-toi que le code des lignes 11 à 14 est indenté.
 
-**Astuce :** Dans Thonny, tu peux indenter le code en allant au début de la ligne et en appuyant sur la touche <kbd>Tab</kbd> — cela insérera quatre espaces. Thonny indentera automatiquement le code en fonction de la ligne précédente lorsque tu appuies sur <kbd>Entrée</kbd> lors de la saisie.
+**Astuce :** Dans Thonny, tu peux indenter le code en allant au début de la ligne et en appuyant sur la touche <kbd>Tab</kbd> — cela insérera quatre espaces. Thonny will automatically indent code based on the previous line when you press <kbd>Enter</kbd> while typing.
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 8
+language: python filename: firefly.py line_numbers: true line_number_start: 8
 line_highlights: 9-14
 ---
-luciole = LED(13) # Utiliser GP13
+firefly = LED(13) # Use GP13
 
-while True:
-    luciole.on()
-    sleep(0.5)
-    luciole.off()
-    sleep(2.5)
---- /code ---
+while True: firefly.on() sleep(0.5) firefly.off() sleep(2.5) --- /code ---
 
 --- /task ---
 

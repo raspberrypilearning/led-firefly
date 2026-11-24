@@ -11,17 +11,24 @@ listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
-  - title: Τι θα φτιάξεις
-  - title: Ρύθμισε το Raspberry Pi Pico σου
-  - title: Άναψε το LED του Raspberry Pi Pico
+  - 
+    title: Τι θα φτιάξεις
+  - 
+    title: Ρύθμισε το Raspberry Pi Pico σου
+  - 
+    title: Άναψε το LED του Raspberry Pi Pico
     completion:
       - engaged
-  - title: Άναψε την πυγολαμπίδα σου
-  - title: Κάνε την πυγολαμπίδα σου να αναβοσβήνει
-  - title: Πρόσθεσε έναν διακόπτη
+  - 
+    title: Άναψε την πυγολαμπίδα σου
+  - 
+    title: Κάνε την πυγολαμπίδα σου να αναβοσβήνει
+  - 
+    title: Πρόσθεσε έναν διακόπτη
     completion:
       - internal
-  - title: Γρήγορο κουίζ
+  - 
+    title: Γρήγορο κουίζ
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -29,4 +36,5 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Αναβάθμιση του έργου σου
+  - 
+    title: Αναβάθμιση του έργου σου
