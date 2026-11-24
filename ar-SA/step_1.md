@@ -10,7 +10,7 @@
 Raspberry Pi Pico هو متحكم دقيق منخفض التكلفة يمكن استخدامه من قبل المبتدئين ويمكن استخدامه أيضا من قبل الخبراء لتطوير المنتجات الإلكترونية.
 </div>
 <div>
-![رسم يد تحمل Raspberry Pi Pico.](images/pico-hand.jpg){:width="300px"}
+! [رسم يد تحمل Raspberry Pi Pico.] (images / pico-hand.png) {: width = "300px"}
 </div>
 </div>
 
@@ -49,7 +49,7 @@ Raspberry Pi Pico هو متحكم دقيق منخفض التكلفة يمكن ا
 
 **الأجهزة**
 
-يمكنك شراء كافة الأجهزة المطلوبة لهذا المشروع والمشاريع الأخرى في هذا المسار من متجر [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+يمكنك شراء كافة الأجهزة المطلوبة لهذا المشروع والمشاريع الأخرى في هذا المسار من [متجر Kitronik الإلكتروني.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 + Raspberry Pi Pico مع رؤوس توصيل ملحومة عليه
 + كابل **data** USB A الى micro USB
@@ -61,12 +61,29 @@ Raspberry Pi Pico هو متحكم دقيق منخفض التكلفة يمكن ا
 
 [[[pin-socket-jumper-wires]]]
 
+[يمكنك إعداد المصباح الخاص بك](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} مسبقا عن طريق توصيله بمقاومة وأسلاك توصيل قبل البدء في المشروع.
+
 **البرمجيات**
 
 + Thonny - يمكن إكمال هذا المشروع باستخدام محرر Thonny Python، والذي يمكن تثبيته على أنظمة Linux, Windows أو Mac
 
-[[[thonny-install]]]
+Visit [thonny.org](https://thonny.org/){:target="_blank"} and choose the latest stable download for your operating system. On macOS, choose the installer for your Mac's processor: Apple Silicon (M1, M2, and newer) or Intel. On Linux, follow the installation instructions on the website.
 
-[[[change-theme-thonny]]]
+Run the installer and open Thonny. If you already have Thonny, you can install the latest version to update it.
+
+On Raspberry Pi OS, Thonny may already be installed. Use the system's software updater to update it; the version supplied by your operating system may differ from the website's latest release.
+
+--- collapse ---
+---
+title: Make the text easier to read
+---
+
+Choose **Tools** > **Options…**, then select **Theme & Font**. Adjust the editor and Shell fonts, their sizes, or the colours to suit you. The preview shows how your choices will look.
+
+![Thonny's Theme & Font settings with font, size, and colour choices.](images/thonny-theme-font.png)
+
+Click **OK** when you are finished. Some style changes take effect after restarting Thonny.
+
+--- /collapse ---
 
 ![](http://code.org/api/hour/begin_rp_ledfirefly.png)

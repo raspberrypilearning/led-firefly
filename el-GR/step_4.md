@@ -5,7 +5,7 @@
 Σε αυτό το βήμα, θα χρησιμοποιήσεις καλώδια για να συνδέσεις ένα LED με μια αντίσταση στο Raspberry Pi Pico και να γράψεις κώδικα για να το ανάψεις. 
 </div>
 <div>
-![Το Raspberry Pi Pico με δύο συνδεδεμένα καλώδια που συνδέονται με ένα κίτρινο LED.](images/firefly-on.jpg){:width="300px"}
+![Το Raspberry Pi Pico με δύο συνδεδεμένα καλώδια που συνδέονται με ένα κίτρινο LED.](εικόνες/firefly-on.jpg){:width="300px"}
 </div>
 </div>
 
@@ -57,22 +57,14 @@
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 1,8-9
 ---
-from picozero import pico_led, LED
-from time import sleep
+from picozero import pico_led, LED from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
+pico_led.on() sleep(1) pico_led.off()
 
-firefly = LED(13) # Χρησιμοποίησε το GP13
-firefly.on()
---- /code ---
+firefly = LED(13) # Use GP13 firefly.on() --- /code ---
 
 **Συμβουλή:** Για να κάνεις εισαγωγή (import) πολλών στοιχείων, διαχώρισέ τα με κόμματα `,`.
 

@@ -5,7 +5,7 @@
 في هذه الخطوة، ستستخدم أسلاك التوصيل لتوصيل مصباح LED بمقاوم وربطها مع جهاز Raspberry Pi Pico الخاص بك وكتابة تعليمات برمجية لإضاءته. 
 </div>
 <div>
-![Raspberry Pi Pico بسلكين توصيل متصلين بمصباح LED أصفر.](images/firefly-on.jpg){:width="300px"}
+! [Raspberry Pi Pico بسلكين توصيل متصلين بمصباح LED أصفر.] (images / firefly-on.jpg) {: width = "300px"}
 </div>
 </div>
 
@@ -57,22 +57,14 @@
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 1,8-9
 ---
-from picozero import pico_led, LED
-from time import sleep
+from picozero import pico_led, LED from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
+pico_led.on() sleep(1) pico_led.off()
 
-firefly = LED(13) # استخدام منفذ GP13
-firefly.on()
---- /code ---
+firefly = LED(13) # Use GP13 firefly.on() --- /code ---
 
 **نصيحة:** لاستيراد عدة عناصر ، افصل بينها بفاصلات`,`.
 

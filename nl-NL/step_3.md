@@ -35,13 +35,10 @@ Typ de volgende code in het hoofdvenster van de editor in Thonny:
 
 --- code ---
 ---
-language: python
-filename: 
-line_numbers: true
-line_number_start: 
-line_highlights: 
+language: python filename: line_numbers: true line_number_start:
+line_highlights:
 ---
-from picozero import pico_led 
+from picozero import pico_led
 
 pico_led.on()
 
@@ -51,17 +48,17 @@ pico_led.on()
 
 --- task ---
 
-Kies **Bestand**->**Opslaan als**. Thonny vraagt of je het bestand wilt opslaan op **deze computer** of op de **Raspberry Pi Pico**. Kies **deze computer** om de code op de computer op te slaan.
+Choose **File** > **Save as…**. Thonny vraagt of je het bestand wilt opslaan op **deze computer** of op de **Raspberry Pi Pico**. Kies **deze computer** om de code op de computer op te slaan.
 
 Kies een locatie op de computer, zoals de map 'Documenten'. Geef je bestand de naam `firefly.py`.
 
-![Een schermafdruk van een venster met twee opties. De gebruiker kan 'Deze computer' of 'Raspberry Pi Pico' selecteren. 'Deze computer' is gemarkeerd.](images/save-on-computer.png)
+![Thonny's save destination dialog with This computer and Raspberry Pi Pico options.](images/save-on-computer.png)
 
 --- /task ---
 
 --- task ---
 
-**Test:** Thonny heeft een groene afspeelknop met een kleine witte driehoek erin. Door op deze knop te drukken kun je je code uitvoeren.
+**Test:** Click the green **Run current script** play button to run your code on the Pico.
 
 + Druk op de afspeelknop
 
@@ -84,7 +81,7 @@ Als je geen groene afspeelknop ziet (deze is vervaagd):
 + Klik op de rode **STOP** knop
 + Controleer of de Raspberry Pi Pico met een USB-kabel op de computer is aangesloten
 + Klik op **MicroPython (Raspberry Pi Pico)** in de rechterbenedenhoek van Thonny om opnieuw verbinding te maken
-+ Koppel de USB-kabel los en sluit deze vervolgens weer aan
++ Unplug your USB cable and then plug it back in without holding **BOOTSEL**
 
 --- /collapse ---
 
@@ -116,25 +113,18 @@ Importeer `sleep` om je code mee te kunnen pauzeren. Voeg code toe aan het einde
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 2,5-6
 ---
-from picozero import pico_led
-from time import sleep
+from picozero import pico_led from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
---- /code ---
+pico_led.on() sleep(1) pico_led.off() --- /code ---
 
 --- /task ---
 
 --- task ---
 
-**Test:** Klik op de groene **afspeel** knop. Thonny zal het bestand opslaan op je Raspberry Pi Pico en vervolgens de nieuwe code uitvoeren.
+**Test:** Klik op de groene **afspeel** knop. Thonny will save changes to the file on your computer and run the code on your Raspberry Pi Pico. This does not save a copy of the file on the Pico.
 
 Controleer of de LED gaat branden en vervolgens weer uit gaat. De LED zal slechts één seconde branden, dus zorg ervoor dat je kijkt.
 

@@ -10,24 +10,12 @@ legend: Ερώτηση 3 από 3
 
 --- code ---
 ---
-language: python
-filename: firefly.py
+language: python filename: firefly.py
 line_numbers: false
 ---
-firefly = LED(13)
-switch = Switch(18)
+firefly = LED(13) switch = Switch(18)
 
-while True:
-    if switch.is_closed:
-        firefly.on()
-        sleep(0.5)
-        firefly.off()
-        sleep(2.5)
-    else:
-        firefly.off()
-        sleep(0.1)
---- /code ---
---- choices ---
+while True: if switch.is_closed: firefly.on() sleep(0.5) firefly.off() sleep(2.5) else: firefly.off() sleep(0.1) --- /code --- --- choices ---
 
 - ( ) Η πυγολαμπίδα LED θα αναβοσβήσει μία φορά και μετά θα σβήσει μέχρι να συνδέσεις ξανά τον διακόπτη.
 

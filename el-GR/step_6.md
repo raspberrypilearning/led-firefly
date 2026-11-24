@@ -43,21 +43,14 @@
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 1, 9
 ---
-from picozero import pico_led, LED, Switch
-from time import sleep
+from picozero import pico_led, LED, Switch from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
+pico_led.on() sleep(1) pico_led.off()
 
-firefly = LED(13) # Χρησιμοποίησε το GP13
-switch = Switch(18) # Χρησιμοποίησε το GP18
+firefly = LED(13) # Use GP13 switch = Switch(18) # Use GP18
 
 --- /code ---
 
@@ -71,23 +64,12 @@ switch = Switch(18) # Χρησιμοποίησε το GP18
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 9
+language: python filename: firefly.py line_numbers: true line_number_start: 9
 line_highlights: 12-19
 ---
-switch = Switch(18) # Χρησιμοποίησε το GP18
+switch = Switch(18) # Use GP18
 
-while True:
-    if switch.is_closed: # Τα καλώδια είναι συνδεδεμένα
-        firefly.on()
-        sleep(0.5) # Μένει αναμμένο για μισό δευτερόλεπτο
-        firefly.off()
-        sleep(2.5) # Μένει σβηστό για 2,5 δευτερόλεπτα
-    else: # Τα καλώδια δεν είναι συνδεδεμένα
-        firefly.off()
-        sleep(0.1) # Μικρή καθυστέρηση
+while True: if switch.is_closed: # Wires are connected firefly.on() sleep(0.5) # Stay on for half a second firefly.off() sleep(2.5) # Stay off for 2.5 seconds else: # Wires are not connected firefly.off() sleep(0.1) # Small delay
 
 --- /code ---
 

@@ -1,0 +1,21 @@
+Usa GP13
+
+Usa GP18
+
+Los cables están conectados
+
+Mantén el LED encendido durante medio segundo
+
+Mantén el LED apagado durante 2.5 segundos
+
+Los cables no están conectados
+
+Pausa breve
+
+This is a comment
+
+Enciende y apaga el LED de la placa Pico
+
+El interruptor está conectado
+
+El interruptor no está conectado

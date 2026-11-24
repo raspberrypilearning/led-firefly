@@ -43,21 +43,14 @@ Voeg `, Switch` toe aan het einde van de importlijst op **regel 1**. Zet vervolg
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 1, 9
 ---
-from picozero import pico_led, LED, Switch
-from time import sleep
+from picozero import pico_led, LED, Switch from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
+pico_led.on() sleep(1) pico_led.off()
 
-vuurvlieg = LED(13) # Gebruik GP13
-schakelaar = Switch(18) # Gebruik GP18
+firefly = LED(13) # Use GP13 switch = Switch(18) # Use GP18
 
 --- /code ---
 
@@ -71,23 +64,12 @@ Voeg code toe om te controleren `of` je schakelaar `is_closed` (de draden zijn a
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 9
+language: python filename: firefly.py line_numbers: true line_number_start: 9
 line_highlights: 12-19
 ---
-schakelaar = Switch(18) # Gebruik GP18
+switch = Switch(18) # Use GP18
 
-while True:
-    if schakelaar.is_closed: # Draden zijn aangesloten
-        vuurvlieg.on()
-        sleep(0.5) # Blijf een halve seconde aan
-        vuurvlieg.off()
-        sleep(2.5) # Blijf 2.5 seconden uit
-    else: # Draden zijn aangesloten
-        vuurvlieg.off()
-        sleep(0.1) # Kleine vertraging
+while True: if switch.is_closed: # Wires are connected firefly.on() sleep(0.5) # Stay on for half a second firefly.off() sleep(2.5) # Stay off for 2.5 seconds else: # Wires are not connected firefly.off() sleep(0.1) # Small delay
 
 --- /code ---
 
@@ -147,7 +129,7 @@ Koppel de jumperdraden los en de vuurvlieg zou moeten stoppen met knipperen.
 
 --- /print-only ---
 
-**Opmerking:** het loskoppelen van de jumperdraden zal de voeding naar de vuurvlieg-LED niet onmiddellijk stoppen. De vuurvlieg wordt alleen uitgeschakeld wanneer de `vuurvlieg.off()` code wordt uitgevoerd.
+**Opmerking:** het loskoppelen van de jumperdraden zal de voeding naar de vuurvlieg-LED niet onmiddellijk stoppen. De vuurvlieg wordt alleen uitgeschakeld wanneer de `firefly.off()` code wordt uitgevoerd.
 
 --- task ---
 
