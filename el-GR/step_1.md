@@ -6,11 +6,11 @@
 
 <div style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;display: flex; flex-wrap: wrap'>
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Ένας <span style="color: #0faeb0">μικροελεγκτής</span> είναι μια μικροσκοπική υπολογιστική συσκευή που μπορεί να εκτελέσει κώδικα και να αλληλεπιδράσει με <span style="color: #0faeb0">ηλεκτρονικά στοιχεία</span> (όπως κουμπιά και φώτα). Συνήθως έχει σχεδιαστεί για την ολοκλήρωση μιας μεμονωμένης εργασίας και δεν διαθέτει <span style="color: #0faeb0">λειτουργικό σύστημα</span>. 
+Ένας <span style="color: #0faeb0">μικροελεγκτής</span> είναι μια μικροσκοπική υπολογιστική συσκευή που μπορεί να εκτελέσει κώδικα και να αλληλεπιδράσει με <span style="color: #0faeb0"> ηλεκτρονικά στοιχεία</span> (όπως κουμπιά και φώτα). Συνήθως έχει σχεδιαστεί για την ολοκλήρωση μιας μεμονωμένης εργασίας και δεν διαθέτει <span style="color: #0faeb0">λειτουργικό σύστημα</span>. 
 Το Raspberry Pi Pico είναι ένας μικροελεγκτής χαμηλού κόστους που μπορεί να χρησιμοποιηθεί από αρχάριους και μπορεί επίσης να χρησιμοποιηθεί και από ειδικούς για την ανάπτυξη ηλεκτρονικών προϊόντων.
 </div>
 <div>
-![Ένα σχέδιο ενός χεριού που κρατά ένα Raspberry Pi Pico.](images/pico-hand.jpg){:width="300px"}
+![Ένα σχέδιο ενός χεριού που κρατά ένα Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
 </div>
 </div>
 
@@ -49,7 +49,7 @@
 
 **Υλικό**
 
-Μπορείς να αγοράσεις όλο το απαιτούμενο υλικό για αυτό το έργο και τα άλλα έργα σε αυτό το μονοπάτι από το κατάστημα [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} και το [διαδικτυακό κατάστημα Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+Μπορείς να αγοράσεις όλο το απαιτούμενο υλικό για αυτό το έργο και τα άλλα έργα σε αυτό το μονοπάτι από το [διαδικτυακό κατάστημα Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 + Ένα Raspberry Pi Pico με κολλημένες ακίδες
 + Ένα καλώδιο **δεδομένων** USB A σε micro USB
@@ -61,14 +61,29 @@
 
 [[[pin-socket-jumper-wires]]]
 
-Μπορείς [να προετοιμάσεις το LED σου](https://projects.raspberrypi.org/el-GR/projects/introduction-to-the-pico){:target="_blank"} εκ των προτέρων, προσαρτώντας το σε μια αντίσταση και σε καλώδια πριν ξεκινήσεις το έργο.
+Μπορείς [να προετοιμάσεις το LED σου](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} εκ των προτέρων, προσαρτώντας το σε μια αντίσταση και σε καλώδια πριν ξεκινήσεις το έργο.
 
 **Λογισμικό**
 
 + Thonny – αυτό το έργο μπορεί να ολοκληρωθεί χρησιμοποιώντας τον επεξεργαστή Thonny Python, ο οποίος μπορεί να εγκατασταθεί σε υπολογιστή Linux, Windows ή Mac
 
-[[[thonny-install]]]
+Visit [thonny.org](https://thonny.org/){:target="_blank"} and choose the latest stable download for your operating system. On macOS, choose the installer for your Mac's processor: Apple Silicon (M1, M2, and newer) or Intel. On Linux, follow the installation instructions on the website.
 
-[[[change-theme-thonny]]]
+Run the installer and open Thonny. If you already have Thonny, you can install the latest version to update it.
+
+On Raspberry Pi OS, Thonny may already be installed. Use the system's software updater to update it; the version supplied by your operating system may differ from the website's latest release.
+
+--- collapse ---
+---
+title: Make the text easier to read
+---
+
+Choose **Tools** > **Options…**, then select **Theme & Font**. Adjust the editor and Shell fonts, their sizes, or the colours to suit you. The preview shows how your choices will look.
+
+![Thonny's Theme & Font settings with font, size, and colour choices.](images/thonny-theme-font.png)
+
+Click **OK** when you are finished. Some style changes take effect after restarting Thonny.
+
+--- /collapse ---
 
 ![](http://code.org/api/hour/begin_rp_ledfirefly.png)

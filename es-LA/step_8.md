@@ -29,6 +29,6 @@ Los <span style="color: #0faeb0">dispositivos integrados</span> suelen contener 
 title: Proyecto terminado
 ---
 
-Puedes ver el [proyecto completo aquí](https://rpf.io/p/es-LA/led-firefly-get){:target="_blank"}.
+Puedes ver el [proyecto completo aquí](https://rpf.io/p/en/led-firefly-get){:target="_blank"}.
 
 --- /collapse ---

@@ -43,21 +43,14 @@ Agrega `, Switch` al final de la lista de importación en la **línea 1**. Luego
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 1, 9
 ---
-from picozero import pico_led, LED, Switch
-from time import sleep
+from picozero import pico_led, LED, Switch from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
+pico_led.on() sleep(1) pico_led.off()
 
-firefly = LED(13) # Usa GP13
-switch = Switch(18) # Usa GP18
+firefly = LED(13) # Use GP13 switch = Switch(18) # Use GP18
 
 --- /code ---
 
@@ -71,23 +64,12 @@ Agrega código para comprobar con `if` si tu interruptor está cerrado (`is_clos
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 9
+language: python filename: firefly.py line_numbers: true line_number_start: 9
 line_highlights: 12-19
 ---
-switch = Switch(18) # Usa GP18
+switch = Switch(18) # Use GP18
 
-while True:
-    if switch.is_closed: # Los cables están conectados
-        firefly.on()
-        sleep(0.5) # Mantén el LED encendido durante medio segundo
-        firefly.off()
-        sleep(2.5) # Mantén el LED apagado durante 2.5 segundos
-    else: # Los cables no están conectados
-        firefly.off()
-        sleep(0.1) # Pausa breve
+while True: if switch.is_closed: # Wires are connected firefly.on() sleep(0.5) # Stay on for half a second firefly.off() sleep(2.5) # Stay off for 2.5 seconds else: # Wires are not connected firefly.off() sleep(0.1) # Small delay
 
 --- /code ---
 

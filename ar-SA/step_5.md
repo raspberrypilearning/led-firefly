@@ -5,7 +5,7 @@
 الآن ستجعل اليراعة تومض وتنطفئ، مثل اليراعة الحقيقية. 
 </div>
 <div>
-![رسم متحرك لمصباح اليراعة يومض ويطفأ.](images/firefly-blink.gif){:width="300px"}
+! [رسم متحرك لمصباح اليراعة يومض ويطفأ.] (images / firefly-blink.gif) {: width = "300px"}
 </div>
 </div>
 
@@ -19,24 +19,16 @@
 
 تأكد من وجود مسافة بادئة للتعليمات البرمجية الموجودة في السطور 11-14.
 
-**نصيحة:** في Thonny ، يمكنك وضع مسافة بادئة للتعليمات البرمجية بالانتقال إلى بداية السطر والضغط على مفتاح <kbd>Tab</kbd> من لوحة المفاتيح - سيؤدي ذلك إلى إدخال أربع مسافات. سيقوم Thonny تلقائيًا بوضع مسافة بادئة للتعليمات البرمجية بناءً على السطر السابق عند الضغط على <kbd>Enter</kbd> أثناء الكتابة.
+**نصيحة:** في Thonny ، يمكنك وضع مسافة بادئة للتعليمات البرمجية بالانتقال إلى بداية السطر والضغط على مفتاح <kbd>Tab</kbd> من لوحة المفاتيح - سيؤدي ذلك إلى إدخال أربع مسافات. Thonny will automatically indent code based on the previous line when you press <kbd>Enter</kbd> while typing.
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 8
+language: python filename: firefly.py line_numbers: true line_number_start: 8
 line_highlights: 9-14
 ---
-firefly = LED(13) # استخدام منفذ GP13
+firefly = LED(13) # Use GP13
 
-while True:
-    firefly.on()
-    sleep(0.5)
-    firefly.off()
-    sleep(2.5)
---- /code ---
+while True: firefly.on() sleep(0.5) firefly.off() sleep(2.5) --- /code ---
 
 --- /task ---
 

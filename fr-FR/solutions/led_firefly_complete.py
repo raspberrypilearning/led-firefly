@@ -1,20 +1,20 @@
 from picozero import pico_led, LED, Switch
 from time import sleep
 
-# Allumer et éteindre la LED sur la carte Pico
+# Turn the LED on the Pico board on and off
 pico_led.on()
 sleep(1)
 pico_led.off()
 
-luciole = LED(13) # Utiliser GP13
-interrupteur = Switch(18) # Utiliser GP18
+firefly = LED(13) # Use GP13
+switch = Switch(18) # Use GP18
 
 while True:
-    if interrupteur.is_closed: # L'interrupteur est connecté
-        luciole.on()
+    if switch.is_closed: # Switch is connected
+        firefly.on()
         sleep(0.5)
-        luciole.off()
+        firefly.off()
         sleep(2.3)
-    else: # L'interrupteur n'est pas connecté
-        luciole.off()
+    else: # Switch is not connected
+        firefly.off()
         sleep(0.1)

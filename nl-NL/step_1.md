@@ -1,4 +1,4 @@
-## Inleiding
+## You will make
 
 In dit project gebruik je een Raspberry Pi Pico om een LED-vuurvlieg te maken die in een bepaald patroon knippert, net zoals vuurvliegen in de natuur, en sluit je een schakelaar aan om het licht te besturen.
 
@@ -10,7 +10,7 @@ Een <span style="color: #0faeb0">microcontroller</span> is een klein computerapp
 De Raspberry Pi Pico is een goedkope microcontroller die door beginners kan worden gebruikt en ook door experts kan worden gebruikt om elektronische producten te ontwikkelen.
 </div>
 <div>
-![Een tekening van een hand met een Raspberry Pi Pico.](images/pico-hand.jpg){:width="300px"}
+![Een tekening van een hand met een Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
 </div>
 </div>
 
@@ -49,7 +49,7 @@ Om dit project te voltooien heb je het volgende nodig:
 
 **Hardware**
 
-Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webstore.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Kitronik webstore.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 + Een Raspberry Pi Pico met daarop gesoldeerde pinkoppen
 + Een **data** USB A naar micro USB-kabel
@@ -61,13 +61,29 @@ Je kunt alle benodigde hardware voor dit project en de andere projecten in dit p
 
 [[[pin-socket-jumper-wires]]]
 
-Je kunt [je LED](https://projects.raspberrypi.org/nl-NL/projects/introduction-to-the-pico){:target="_blank"} van tevoren voorbereiden door deze aan te sluiten op een weerstand en startdraden te bevestigen voordat je met het project begint.
+You can [prepare your LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} in advance by attaching it to a resistor and jumper wires before starting the project.
 
 **Software**
 
 + Thonny – dit project kan worden voltooid met de Thonny Python editor, die kan worden geïnstalleerd op een Linux-, Windows- of Mac-computer
 
-[[[thonny-install]]]
+Visit [thonny.org](https://thonny.org/){:target="_blank"} and choose the latest stable download for your operating system. On macOS, choose the installer for your Mac's processor: Apple Silicon (M1, M2, and newer) or Intel. On Linux, follow the installation instructions on the website.
 
-[[[change-theme-thonny]]]
+Run the installer and open Thonny. If you already have Thonny, you can install the latest version to update it.
 
+On Raspberry Pi OS, Thonny may already be installed. Use the system's software updater to update it; the version supplied by your operating system may differ from the website's latest release.
+
+--- collapse ---
+---
+title: Make the text easier to read
+---
+
+Choose **Tools** > **Options…**, then select **Theme & Font**. Adjust the editor and Shell fonts, their sizes, or the colours to suit you. The preview shows how your choices will look.
+
+![Thonny's Theme & Font settings with font, size, and colour choices.](images/thonny-theme-font.png)
+
+Click **OK** when you are finished. Some style changes take effect after restarting Thonny.
+
+--- /collapse ---
+
+![](http://code.org/api/hour/begin_rp_ledfirefly.png)

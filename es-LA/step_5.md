@@ -23,20 +23,12 @@ Asegúrate de que el código de las líneas 11–14 tenga sangría.
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 8
+language: python filename: firefly.py line_numbers: true line_number_start: 8
 line_highlights: 9-14
 ---
-firefly = LED(13) # Usa GP13
+firefly = LED(13) # Use GP13
 
-while True:
-    firefly.on()
-    sleep(0.5)
-    firefly.off()
-    sleep(2.5)
---- /code ---
+while True: firefly.on() sleep(0.5) firefly.off() sleep(2.5) --- /code ---
 
 --- /task ---
 

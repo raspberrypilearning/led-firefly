@@ -10,7 +10,7 @@ Un <span style="color: #0faeb0">microcontrôleur</span> est un petit dispositif 
 Le Raspberry Pi Pico est un microcontrôleur à faible coût qui peut être utilisé par les débutants et peut également être utilisé par des experts pour développer des produits électroniques.
 </div>
 <div>
-![Un dessin d'une main tenant un Raspberry Pi Pico.](images/pico-hand.jpg){:width="300px"}
+![Un dessin d'une main tenant un Raspberry Pi Pico.](images/pico-hand.png){:width="300px"}
 </div>
 </div>
 
@@ -49,7 +49,7 @@ Pour mener à bien ce projet, tu auras besoin de :
 
 **Matériel informatique**
 
-Tu peux acheter tout le matériel requis pour ce projet et les autres projets de ce parcours à partir de la boutique en ligne [Pimoroni](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} et la boutique en ligne [Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
+Tu peux acheter tout le matériel requis pour ce projet et les autres projets de ce parcours à partir de la boutique en ligne [Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 + Un Raspberry Pi Pico avec des broches soudées dessus
 + Un câble de **données** USB A vers micro USB
@@ -67,8 +67,23 @@ You can [prepare your LED](https://projects.raspberrypi.org/fr-FR/projects/intro
 
 + Thonny : ce projet peut être réalisé à l'aide de l'éditeur Thonny Python, qui peut être installé sur un ordinateur Linux, Windows ou Mac
 
-[[[thonny-install]]]
+Visit [thonny.org](https://thonny.org/){:target="_blank"} and choose the latest stable download for your operating system. On macOS, choose the installer for your Mac's processor: Apple Silicon (M1, M2, and newer) or Intel. On Linux, follow the installation instructions on the website.
 
-[[[change-theme-thonny]]]
+Run the installer and open Thonny. If you already have Thonny, you can install the latest version to update it.
+
+On Raspberry Pi OS, Thonny may already be installed. Use the system's software updater to update it; the version supplied by your operating system may differ from the website's latest release.
+
+--- collapse ---
+---
+title: Make the text easier to read
+---
+
+Choose **Tools** > **Options…**, then select **Theme & Font**. Adjust the editor and Shell fonts, their sizes, or the colours to suit you. The preview shows how your choices will look.
+
+![Thonny's Theme & Font settings with font, size, and colour choices.](images/thonny-theme-font.png)
+
+Click **OK** when you are finished. Some style changes take effect after restarting Thonny.
+
+--- /collapse ---
 
 ![](http://code.org/api/hour/begin_rp_ledfirefly.png)

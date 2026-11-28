@@ -10,24 +10,12 @@ Que se passe-t-il lorsque les fils sont connectés pour fermer l'interrupteur ?
 
 --- code ---
 ---
-language: python 
-filename: firefly.py
+language: python filename: firefly.py
 line_numbers: false
 ---
-luciole = LED(13) 
-interrupteur = Switch(18)
+firefly = LED(13) switch = Switch(18)
 
-while True:
-    if interrupteur.is_closed:
-        luciole.on()
-        sleep(0.5)
-        luciole.off()
-        sleep(2.5)
-    else:
-        luciole.off()
-        sleep(0.1)
---- /code ---
---- choices ---
+while True: if switch.is_closed: firefly.on() sleep(0.5) firefly.off() sleep(2.5) else: firefly.off() sleep(0.1) --- /code --- --- choices ---
 
 - ( ) La luciole LED clignotera une fois puis s'éteindra jusqu'à ce que tu reconnectes l'interrupteur.
 
@@ -42,7 +30,7 @@ Pas tout à fait, le code pour faire clignoter la LED est dans une boucle while 
 
   --- feedback ---
 
-Réessaie. Si l'interrupteur est fermé, la condition `interrupteur.is_closed` sera vraie. Cela exécutera le bloc de code pour faire clignoter la luciole.
+Réessaie. Si l'interrupteur est fermé, la condition `switch.is_closed` sera vraie. Cela exécutera le bloc de code pour faire clignoter la luciole.
 
   --- /feedback ---
 

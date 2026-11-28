@@ -57,22 +57,14 @@ Entre le code pour allumer ta luciole :
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 1,8-9
 ---
-from picozero import pico_led, LED
-from time import sleep
+from picozero import pico_led, LED from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
+pico_led.on() sleep(1) pico_led.off()
 
-luciole = LED(13) # Utiliser GP13
-luciole.on()
---- /code ---
+firefly = LED(13) # Use GP13 firefly.on() --- /code ---
 
 **Astuce :** Pour importer plusieurs éléments, sépare-les par des virgules `,`.
 

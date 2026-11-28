@@ -61,7 +61,7 @@ Puedes comprar todos los componentes físicos necesarios para este proyecto y lo
 
 [[[pin-socket-jumper-wires]]]
 
-Puedes [preparar tu LED](https://projects.raspberrypi.org/es-LA/projects/introduction-to-the-pico){:target="_blank"} con anticipación conectándolo a una resistencia y a cables puente antes de comenzar el proyecto.
+Puedes [preparar tu LED](https://projects.raspberrypi.org/en/projects/introduction-to-the-pico){:target="_blank"} con anticipación conectándolo a una resistencia y a cables puente antes de comenzar el proyecto.
 
 **Programas**
 

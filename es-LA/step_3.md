@@ -35,13 +35,10 @@ Escribe el siguiente código en el panel principal del editor de Thonny:
 
 --- code ---
 ---
-language: python
-filename: 
-line_numbers: true
-line_number_start: 
-line_highlights: 
+language: python filename: line_numbers: true line_number_start:
+line_highlights:
 ---
-from picozero import pico_led 
+from picozero import pico_led
 
 pico_led.on()
 
@@ -116,19 +113,12 @@ Importa `sleep` para poder pausar tu código. Agrega código al final de tu prog
 
 --- code ---
 ---
-language: python
-filename: firefly.py
-line_numbers: true
-line_number_start: 1
+language: python filename: firefly.py line_numbers: true line_number_start: 1
 line_highlights: 2,5-6
 ---
-from picozero import pico_led
-from time import sleep
+from picozero import pico_led from time import sleep
 
-pico_led.on()
-sleep(1)
-pico_led.off()
---- /code ---
+pico_led.on() sleep(1) pico_led.off() --- /code ---
 
 --- /task ---
 
